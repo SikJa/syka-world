@@ -1,0 +1,45 @@
+{
+  "schema": "syka.world.terrain-atlas.v2",
+  "generatedAt": "2026-07-16T13:30:00-03:00",
+  "status": "integration-candidate-p0-terrain-fix",
+  "file": "terrain-tiles-atlas-v2.png",
+  "sourceFile": "terrain-tiles-seamless-source-v2.png",
+  "sourceChromaFile": "terrain-tiles-seamless-source-v2-chroma.png",
+  "atlasSize": [1280, 320],
+  "columns": 4,
+  "rows": 2,
+  "frameSize": [320, 160],
+  "logicalDrawSize": [32, 16],
+  "physicalDrawSizeAtQa2x": [64, 32],
+  "logicalTextureScale": 0.1,
+  "filter": "nearest",
+  "pixelSnapping": true,
+  "alphaPolicy": "binary; 0 or 255 only",
+  "normalization": "tight source alpha crop -> nearest 320x160 -> canonical hard-alpha 2:1 diamond; missing edge pixels filled from nearest opaque color; outer 9 percent radial band replaced from corresponding interior material zone to remove generated perimeter strokes",
+  "frames": [
+    { "id": "grass-plain-a", "frame": [0, 0, 320, 160], "sourceAlphaBbox": [28, 205, 377, 218] },
+    { "id": "grass-subtle-b", "frame": [320, 0, 320, 160], "sourceAlphaBbox": [405, 204, 395, 218] },
+    { "id": "sidewalk-cream", "frame": [640, 0, 320, 160], "sourceAlphaBbox": [816, 202, 398, 223] },
+    { "id": "asphalt-dark", "frame": [960, 0, 320, 160], "sourceAlphaBbox": [1214, 204, 374, 217] },
+    { "id": "grass-subtle-c", "frame": [0, 160, 320, 160], "sourceAlphaBbox": [28, 528, 377, 221] },
+    { "id": "asphalt-lane-dash", "frame": [320, 160, 320, 160], "sourceAlphaBbox": [422, 528, 379, 221] },
+    { "id": "asphalt-curb-edge", "frame": [640, 160, 320, 160], "sourceAlphaBbox": [815, 528, 399, 223] },
+    { "id": "asphalt-crosswalk", "frame": [960, 160, 320, 160], "sourceAlphaBbox": [1214, 528, 374, 220] }
+  ],
+  "validation": {
+    "allFrameAlphaBboxes": [0, 0, 320, 160],
+    "opaquePixelsPerFrame": 25920,
+    "transparentPixelsPerFrame": 25280,
+    "partiallyTransparentPixelsPerFrame": 0,
+    "edgeToInteriorMedianLuminanceRatios": [0.996, 1.002, 0.998, 1.003, 0.980, 0.993, 1.032, 0.962],
+    "darkPerimeterDetected": false,
+    "seamTest": {
+      "logicalFile": "terrain-v2-seam-test-6x6-logical.png",
+      "nearestPreviewFile": "terrain-v2-seam-test-6x6-8x.png",
+      "layout": [6, 6],
+      "tileDrawSize": [32, 16],
+      "tilesUsed": ["grass-plain-a", "grass-subtle-b", "grass-subtle-c"],
+      "result": "no dark diamond lattice or transparent seam observed in normalized patch"
+    }
+  }
+}

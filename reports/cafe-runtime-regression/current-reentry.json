@@ -1,0 +1,925 @@
+{
+  "results": [
+    {
+      "status": "PASS",
+      "viewport": "1008x548",
+      "steps": [
+        {
+          "label": "1008x548-01-first-entry",
+          "screenshot": "current-1008x548-01-first-entry.png",
+          "bodyText": "✦\nSYKA WORLD\n999 Lúmenes\nDía 1 · 17:50\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nINTERIOR AMUEBLADO\nCafé Biblioteca\nAdentro\n\nTodo lo esencial ya está listo. Estos rincones opcionales son sólo para darle tu toque.\n\nHelecho\nDecor window\n9 Lúmenes\nLámpara cálida\nDecor window\n10 Lúmenes\nHelecho\nDecor books\n9 Lúmenes\nTablero comunitario\nDecor books\n15 Lúmenes\nVolver a la ciudad\nSY\nSyka\nEn Café Biblioteca\nEL\nElen\nYendo a Casa comunitaria\nAS\nAstrelis\nYendo a Casa comunitaria\nZE\nZerny\nYendo a Casa comunitaria\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nEntraste al Café Biblioteca.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Entraste al Café Biblioteca."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 828,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1008x548-02-exit",
+          "screenshot": "current-1008x548-02-exit.png",
+          "bodyText": "✦\nSYKA WORLD\n999 Lúmenes\nDía 1 · 17:53\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nTERMINADO\nCafé Biblioteca\nNv. 1\n\nMadera, libros, chimenea y cocina cálida.\n\nListo y amueblado\nAHORA\n1 habitante aquí\nSyka\nPaseando\nEntrar al Café Biblioteca\nAltillo de lectura · 220 Lúmenes\nSY\nSyka\nEn Café Biblioteca\nEL\nElen\nYendo a Casa comunitaria\nAS\nAstrelis\nYendo a Casa comunitaria\nZE\nZerny\nYendo a Casa comunitaria\nB\nConstruir\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nEntraste al Café Biblioteca.\nDe vuelta en la ciudad.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Entraste al Café Biblioteca.",
+            "De vuelta en la ciudad."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 828,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": false,
+            "interiorBuildingId": null,
+            "interiorSceneId": null,
+            "grid": null
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1008x548-03-second-entry",
+          "screenshot": "current-1008x548-03-second-entry.png",
+          "bodyText": "✦\nSYKA WORLD\n999 Lúmenes\nDía 1 · 17:57\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nINTERIOR AMUEBLADO\nCafé Biblioteca\nAdentro\n\nTodo lo esencial ya está listo. Estos rincones opcionales son sólo para darle tu toque.\n\nHelecho\nDecor window\n9 Lúmenes\nLámpara cálida\nDecor window\n10 Lúmenes\nHelecho\nDecor books\n9 Lúmenes\nTablero comunitario\nDecor books\n15 Lúmenes\nVolver a la ciudad\nSY\nSyka\nEn Café Biblioteca\nEL\nElen\nYendo a Casa comunitaria\nAS\nAstrelis\nYendo a Casa comunitaria\nZE\nZerny\nYendo a Casa comunitaria\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nDe vuelta en la ciudad.\nEntraste al Café Biblioteca.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "De vuelta en la ciudad.",
+            "Entraste al Café Biblioteca."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 828,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1008x548-04-second-entry-possessed",
+          "screenshot": "current-1008x548-04-second-entry-possessed.png",
+          "bodyText": "✦\nSYKA WORLD\n999 Lúmenes\nDía 1 · 18:00\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nSY\nRUTINA LOCAL\nSyka\n\nDirección, coordinación y creatividad\n\nEn Café Biblioteca\n\nEn Café Biblioteca\n\nPreparando un café\n\nSin una tarea activa de Hermes.\n\nLiberar\nSalir a la ciudad\nPOSEYENDO\nSyka\nWASD\nmover\nE\nusar\nF\npuerta\nEsc\nliberar\nSY\nSyka\nEn Café Biblioteca\nEL\nElen\nYendo a Casa comunitaria\nAS\nAstrelis\nYendo a Casa comunitaria\nZE\nZerny\nYendo a Casa comunitaria\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nEntraste al Café Biblioteca.\nAhora controlás a Syka.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Entraste al Café Biblioteca.",
+            "Ahora controlás a Syka."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 828,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "true",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1008x548-05-floor-click",
+          "screenshot": "current-1008x548-05-floor-click.png",
+          "bodyText": "✦\nSYKA WORLD\n999 Lúmenes\nDía 1 · 18:08\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nSY\nRUTINA LOCAL\nSyka\n\nDirección, coordinación y creatividad\n\nEn Café Biblioteca\n\nEn Café Biblioteca\n\nPreparando un café\n\nSin una tarea activa de Hermes.\n\nLiberar\nSalir a la ciudad\nPOSEYENDO\nSyka\nWASD\nmover\nE\nusar\nF\npuerta\nEsc\nliberar\nSY\nSyka\nEn Café Biblioteca\nEL\nElen\nYendo a Casa comunitaria\nAS\nAstrelis\nYendo a Casa comunitaria\nZE\nZerny\nYendo a Casa comunitaria\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nUse WASD while an actor is possessed.\nMientras poseés un agente, movelo con WASD.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Use WASD while an actor is possessed.",
+            "Mientras poseés un agente, movelo con WASD."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 828,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "true",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1008x548-06-wasd",
+          "screenshot": "current-1008x548-06-wasd.png",
+          "bodyText": "✦\nSYKA WORLD\n999 Lúmenes\nDía 1 · 18:18\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nSY\nRUTINA LOCAL\nSyka\n\nDirección, coordinación y creatividad\n\nEn Café Biblioteca\n\nEn Café Biblioteca\n\nPreparando un café\n\nSin una tarea activa de Hermes.\n\nLiberar\nSalir a la ciudad\nPOSEYENDO\nSyka\nWASD\nmover\nE\nusar\nF\npuerta\nEsc\nliberar\nSY\nSyka\nEn Café Biblioteca\nEL\nElen\nEn Casa comunitaria\nAS\nAstrelis\nEn Casa comunitaria\nZE\nZerny\nEn Casa comunitaria\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nSpatial destination is reserved.\nSpatial destination is blocked.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Spatial destination is reserved.",
+            "Spatial destination is blocked."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 828,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "true",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            }
+          ]
+        },
+        {
+          "label": "1008x548-07-persisted-reload",
+          "screenshot": "current-1008x548-07-persisted-reload.png",
+          "bodyText": "✦\nSYKA WORLD\n999 Lúmenes\nDía 1 · 18:23\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nINTERIOR AMUEBLADO\nCafé Biblioteca\nAdentro\n\nTodo lo esencial ya está listo. Estos rincones opcionales son sólo para darle tu toque.\n\nHelecho\nDecor window\n9 Lúmenes\nLámpara cálida\nDecor window\n10 Lúmenes\nHelecho\nDecor books\n9 Lúmenes\nTablero comunitario\nDecor books\n15 Lúmenes\nVolver a la ciudad\nSY\nSyka\nEn Café Biblioteca\nEL\nElen\nEn Casa comunitaria\nAS\nAstrelis\nEn Casa comunitaria\nZE\nZerny\nEn Casa comunitaria\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [],
+          "canvas": {
+            "buffer": {
+              "width": 828,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            }
+          ]
+        }
+      ],
+      "consoleMessages": [
+        {
+          "type": "debug",
+          "text": "[vite] connecting..."
+        },
+        {
+          "type": "debug",
+          "text": "[vite] connected."
+        },
+        {
+          "type": "log",
+          "text": "%cPhaser v4.2.1 (WebGL | Web Audio)%c https://phaser.io/v4021 color: #ffffff; background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARBJREFUeNpi/P//P0OHsPB/BiCoePuWkYFEwALSXJElzMBgLwE2CNkQxgWr/yMr/p8QimlBu5DQ//+8vBBco/ofzAe6imH+qv/53/6jYJAYSA4ZoxoANYTPKhiuCQZwGcJU+e4dqpMmvsDq14krV2MPAxDha2CMKvoXoiE/PBQUDgQD8j82UFae9B9bOIC8B9UD9gIjjIMN7Ns6lWHn4XMoYu62RgxO3tkMjIyMII2MYAOAtmFVhA+ADHf2ycGMRhANjUq8YO+WKWCvgAORIV8CkpDCrzIwsLIymC1qAtuAD4Bsh3sBmqAY3qcGwL2AC4DCpKtzHlgzOLWihwEuzTCN0GhDJHeYC4gByBphACDAAH2dDIxdjr+VAAAAAElFTkSuQmCC\"), linear-gradient(to bottom, #000814, #001d3d, #003566); background-repeat: no-repeat; background-position: 4px center, 0 0; padding: 2px 6px 2px 24px; background: transparent"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "debug",
+          "text": "[vite] connecting..."
+        },
+        {
+          "type": "debug",
+          "text": "[vite] connected."
+        },
+        {
+          "type": "log",
+          "text": "%cPhaser v4.2.1 (WebGL | Web Audio)%c https://phaser.io/v4021 color: #ffffff; background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARBJREFUeNpi/P//P0OHsPB/BiCoePuWkYFEwALSXJElzMBgLwE2CNkQxgWr/yMr/p8QimlBu5DQ//+8vBBco/ofzAe6imH+qv/53/6jYJAYSA4ZoxoANYTPKhiuCQZwGcJU+e4dqpMmvsDq14krV2MPAxDha2CMKvoXoiE/PBQUDgQD8j82UFae9B9bOIC8B9UD9gIjjIMN7Ns6lWHn4XMoYu62RgxO3tkMjIyMII2MYAOAtmFVhA+ADHf2ycGMRhANjUq8YO+WKWCvgAORIV8CkpDCrzIwsLIymC1qAtuAD4Bsh3sBmqAY3qcGwL2AC4DCpKtzHlgzOLWihwEuzTCN0GhDJHeYC4gByBphACDAAH2dDIxdjr+VAAAAAElFTkSuQmCC\"), linear-gradient(to bottom, #000814, #001d3d, #003566); background-repeat: no-repeat; background-position: 4px center, 0 0; padding: 2px 6px 2px 24px; background: transparent"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        }
+      ],
+      "pageErrors": []
+    },
+    {
+      "status": "PASS",
+      "viewport": "1440x900",
+      "steps": [
+        {
+          "label": "1440x900-01-first-entry",
+          "screenshot": "current-1440x900-01-first-entry.png",
+          "bodyText": "✦\nSYKA WORLD\nun pequeño mundo en marcha\nLÚMENES\n999 Lúmenes\nTIEMPO\nDía 1 · 17:50\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nINTERIOR AMUEBLADO\nCafé Biblioteca\nAdentro\n\nTodo lo esencial ya está listo. Estos rincones opcionales son sólo para darle tu toque.\n\nHelecho\nDecor window\n9 Lúmenes\nLámpara cálida\nDecor window\n10 Lúmenes\nHelecho\nDecor books\n9 Lúmenes\nTablero comunitario\nDecor books\n15 Lúmenes\nVolver a la ciudad\nSY\nSyka\nEn Café Biblioteca\nRutina local\nEL\nElen\nYendo a Casa comunitaria\nRutina local\nAS\nAstrelis\nYendo a Casa comunitaria\nRutina local\nZE\nZerny\nYendo a Casa comunitaria\nRutina local\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nEntraste al Café Biblioteca.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Entraste al Café Biblioteca."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 720,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1440x900-02-exit",
+          "screenshot": "current-1440x900-02-exit.png",
+          "bodyText": "✦\nSYKA WORLD\nun pequeño mundo en marcha\nLÚMENES\n999 Lúmenes\nTIEMPO\nDía 1 · 17:53\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nTERMINADO\nCafé Biblioteca\nNv. 1\n\nMadera, libros, chimenea y cocina cálida.\n\nListo y amueblado\nAHORA\n1 habitante aquí\nSyka\nPaseando\nEntrar al Café Biblioteca\nAltillo de lectura · 220 Lúmenes\nSY\nSyka\nEn Café Biblioteca\nRutina local\nEL\nElen\nYendo a Casa comunitaria\nRutina local\nAS\nAstrelis\nYendo a Casa comunitaria\nRutina local\nZE\nZerny\nYendo a Casa comunitaria\nRutina local\nB\nConstruir\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nEntraste al Café Biblioteca.\nDe vuelta en la ciudad.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Entraste al Café Biblioteca.",
+            "De vuelta en la ciudad."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 720,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": false,
+            "interiorBuildingId": null,
+            "interiorSceneId": null,
+            "grid": null
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1440x900-03-second-entry",
+          "screenshot": "current-1440x900-03-second-entry.png",
+          "bodyText": "✦\nSYKA WORLD\nun pequeño mundo en marcha\nLÚMENES\n999 Lúmenes\nTIEMPO\nDía 1 · 17:57\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nINTERIOR AMUEBLADO\nCafé Biblioteca\nAdentro\n\nTodo lo esencial ya está listo. Estos rincones opcionales son sólo para darle tu toque.\n\nHelecho\nDecor window\n9 Lúmenes\nLámpara cálida\nDecor window\n10 Lúmenes\nHelecho\nDecor books\n9 Lúmenes\nTablero comunitario\nDecor books\n15 Lúmenes\nVolver a la ciudad\nSY\nSyka\nEn Café Biblioteca\nRutina local\nEL\nElen\nYendo a Casa comunitaria\nRutina local\nAS\nAstrelis\nYendo a Casa comunitaria\nRutina local\nZE\nZerny\nYendo a Casa comunitaria\nRutina local\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nDe vuelta en la ciudad.\nEntraste al Café Biblioteca.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "De vuelta en la ciudad.",
+            "Entraste al Café Biblioteca."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 720,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1440x900-04-second-entry-possessed",
+          "screenshot": "current-1440x900-04-second-entry-possessed.png",
+          "bodyText": "✦\nSYKA WORLD\nun pequeño mundo en marcha\nLÚMENES\n999 Lúmenes\nTIEMPO\nDía 1 · 18:00\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nSY\nRUTINA LOCAL\nSyka\n\nDirección, coordinación y creatividad\n\nEn Café Biblioteca\n\nEn Café Biblioteca\n\nPreparando un café\n\nSin una tarea activa de Hermes.\n\nLiberar\nSalir a la ciudad\nPOSEYENDO\nSyka\nWASD\nmover\nE\nusar\nF\npuerta\nEsc\nliberar\nSY\nSyka\nEn Café Biblioteca\nRutina local\nEL\nElen\nYendo a Casa comunitaria\nRutina local\nAS\nAstrelis\nYendo a Casa comunitaria\nRutina local\nZE\nZerny\nYendo a Casa comunitaria\nRutina local\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nEntraste al Café Biblioteca.\nAhora controlás a Syka.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Entraste al Café Biblioteca.",
+            "Ahora controlás a Syka."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 720,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "true",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1440x900-05-floor-click",
+          "screenshot": "current-1440x900-05-floor-click.png",
+          "bodyText": "✦\nSYKA WORLD\nun pequeño mundo en marcha\nLÚMENES\n999 Lúmenes\nTIEMPO\nDía 1 · 18:09\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nCAFÉ BIBLIOTECA\nMesa junto al fuego\nAcciones\n\nUn espacio para reunirse, descansar y observar la ciudad.\n\nSentarse\nVer decoración\nPOSEYENDO\nSyka\nWASD\nmover\nE\nusar\nF\npuerta\nEsc\nliberar\nSY\nSyka\nEn Café Biblioteca\nRutina local\nEL\nElen\nYendo a Casa comunitaria\nRutina local\nAS\nAstrelis\nYendo a Casa comunitaria\nRutina local\nZE\nZerny\nYendo a Casa comunitaria\nRutina local\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nAhora controlás a Syka.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Ahora controlás a Syka."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 720,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "true",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "true"
+            }
+          ]
+        },
+        {
+          "label": "1440x900-06-wasd",
+          "screenshot": "current-1440x900-06-wasd.png",
+          "bodyText": "✦\nSYKA WORLD\nun pequeño mundo en marcha\nLÚMENES\n999 Lúmenes\nTIEMPO\nDía 1 · 18:19\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nCAFÉ BIBLIOTECA\nMesa junto al fuego\nAcciones\n\nUn espacio para reunirse, descansar y observar la ciudad.\n\nSentarse\nVer decoración\nPOSEYENDO\nSyka\nWASD\nmover\nE\nusar\nF\npuerta\nEsc\nliberar\nSY\nSyka\nEn Café Biblioteca\nRutina local\nEL\nElen\nEn Casa comunitaria\nRutina local\nAS\nAstrelis\nEn Casa comunitaria\nRutina local\nZE\nZerny\nEn Casa comunitaria\nRutina local\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nSpatial destination is reserved.\nSpatial destination is blocked.\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [
+            "Spatial destination is reserved.",
+            "Spatial destination is blocked."
+          ],
+          "canvas": {
+            "buffer": {
+              "width": 720,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "true",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            }
+          ]
+        },
+        {
+          "label": "1440x900-07-persisted-reload",
+          "screenshot": "current-1440x900-07-persisted-reload.png",
+          "bodyText": "✦\nSYKA WORLD\nun pequeño mundo en marcha\nLÚMENES\n999 Lúmenes\nTIEMPO\nDía 1 · 18:24\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nINTERIOR AMUEBLADO\nCafé Biblioteca\nAdentro\n\nTodo lo esencial ya está listo. Estos rincones opcionales son sólo para darle tu toque.\n\nHelecho\nDecor window\n9 Lúmenes\nLámpara cálida\nDecor window\n10 Lúmenes\nHelecho\nDecor books\n9 Lúmenes\nTablero comunitario\nDecor books\n15 Lúmenes\nVolver a la ciudad\nSY\nSyka\nEn Café Biblioteca\nRutina local\nEL\nElen\nEn Casa comunitaria\nRutina local\nAS\nAstrelis\nEn Casa comunitaria\nRutina local\nZE\nZerny\nEn Casa comunitaria\nRutina local\n↩\nVolver a la ciudad\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nSYKA WORLD\nPreparando la ciudad…",
+          "toasts": [],
+          "canvas": {
+            "buffer": {
+              "width": 720,
+              "height": 450
+            },
+            "css": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "imageRendering": "pixelated"
+          },
+          "globals": {
+            "interior": true,
+            "interiorBuildingId": "cafe-main",
+            "interiorSceneId": "cafe:cafe-main",
+            "grid": {
+              "width": 32,
+              "height": 18
+            }
+          },
+          "agents": [
+            {
+              "id": "default",
+              "aria": "Syka. En Café Biblioteca. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "elen",
+              "aria": "Elen. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "astrelis",
+              "aria": "Astrelis. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            },
+            {
+              "id": "zerny",
+              "aria": "Zerny. En Casa comunitaria. Rutina local.",
+              "possessed": "false",
+              "traveling": "false"
+            }
+          ]
+        }
+      ],
+      "consoleMessages": [
+        {
+          "type": "debug",
+          "text": "[vite] connecting..."
+        },
+        {
+          "type": "debug",
+          "text": "[vite] connected."
+        },
+        {
+          "type": "log",
+          "text": "%cPhaser v4.2.1 (WebGL | Web Audio)%c https://phaser.io/v4021 color: #ffffff; background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARBJREFUeNpi/P//P0OHsPB/BiCoePuWkYFEwALSXJElzMBgLwE2CNkQxgWr/yMr/p8QimlBu5DQ//+8vBBco/ofzAe6imH+qv/53/6jYJAYSA4ZoxoANYTPKhiuCQZwGcJU+e4dqpMmvsDq14krV2MPAxDha2CMKvoXoiE/PBQUDgQD8j82UFae9B9bOIC8B9UD9gIjjIMN7Ns6lWHn4XMoYu62RgxO3tkMjIyMII2MYAOAtmFVhA+ADHf2ycGMRhANjUq8YO+WKWCvgAORIV8CkpDCrzIwsLIymC1qAtuAD4Bsh3sBmqAY3qcGwL2AC4DCpKtzHlgzOLWihwEuzTCN0GhDJHeYC4gByBphACDAAH2dDIxdjr+VAAAAAElFTkSuQmCC\"), linear-gradient(to bottom, #000814, #001d3d, #003566); background-repeat: no-repeat; background-position: 4px center, 0 0; padding: 2px 6px 2px 24px; background: transparent"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "debug",
+          "text": "[vite] connecting..."
+        },
+        {
+          "type": "debug",
+          "text": "[vite] connected."
+        },
+        {
+          "type": "log",
+          "text": "%cPhaser v4.2.1 (WebGL | Web Audio)%c https://phaser.io/v4021 color: #ffffff; background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARBJREFUeNpi/P//P0OHsPB/BiCoePuWkYFEwALSXJElzMBgLwE2CNkQxgWr/yMr/p8QimlBu5DQ//+8vBBco/ofzAe6imH+qv/53/6jYJAYSA4ZoxoANYTPKhiuCQZwGcJU+e4dqpMmvsDq14krV2MPAxDha2CMKvoXoiE/PBQUDgQD8j82UFae9B9bOIC8B9UD9gIjjIMN7Ns6lWHn4XMoYu62RgxO3tkMjIyMII2MYAOAtmFVhA+ADHf2ycGMRhANjUq8YO+WKWCvgAORIV8CkpDCrzIwsLIymC1qAtuAD4Bsh3sBmqAY3qcGwL2AC4DCpKtzHlgzOLWihwEuzTCN0GhDJHeYC4gByBphACDAAH2dDIxdjr+VAAAAAElFTkSuQmCC\"), linear-gradient(to bottom, #000814, #001d3d, #003566); background-repeat: no-repeat; background-position: 4px center, 0 0; padding: 2px 6px 2px 24px; background: transparent"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+        }
+      ],
+      "pageErrors": []
+    }
+  ]
+}

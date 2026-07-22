@@ -1,0 +1,276 @@
+{
+  "goal": "habbo-spatial-public-foundation-v1",
+  "executed_at": "2026-07-20T07:27:35Z",
+  "summary": {
+    "total": 13,
+    "passed": 13,
+    "failed": 0
+  },
+  "flows": [
+    {
+      "id": "01",
+      "title": "City loads with English UI",
+      "status": "PASS",
+      "duration_seconds": 0.914,
+      "details": {
+        "lang": "en",
+        "title": "Syka World"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Agent selectable with real profile ID",
+      "status": "PASS",
+      "duration_seconds": 0.946,
+      "details": {
+        "profileId": "default"
+      }
+    },
+    {
+      "id": "03",
+      "title": "Responsive screenshots at 4 resolutions",
+      "status": "PASS",
+      "duration_seconds": 3.461,
+      "details": {
+        "screenshots": 4
+      }
+    },
+    {
+      "id": "04",
+      "title": "FPS measurement in city",
+      "status": "PASS",
+      "duration_seconds": 3.324,
+      "details": {
+        "fps": 60.67
+      }
+    },
+    {
+      "id": "05",
+      "title": "Possess + WASD moves actor in city",
+      "status": "PASS",
+      "duration_seconds": 2.395,
+      "details": {
+        "profileId": "default",
+        "before": {
+          "x": 7,
+          "y": 7
+        },
+        "after": {
+          "x": 7,
+          "y": 6
+        },
+        "moved": true
+      }
+    },
+    {
+      "id": "06",
+      "title": "Enter the cafe interior",
+      "status": "PASS",
+      "duration_seconds": 3.039,
+      "details": {
+        "cafe_id": "cafe-main",
+        "scene_before": "city",
+        "scene_after": "interior"
+      }
+    },
+    {
+      "id": "07",
+      "title": "FPS measurement in cafe",
+      "status": "PASS",
+      "duration_seconds": 3.192,
+      "details": {
+        "fps": 60.33
+      }
+    },
+    {
+      "id": "08",
+      "title": "E key in cafe interior without errors",
+      "status": "PASS",
+      "duration_seconds": 1.813,
+      "details": {
+        "scene": "interior",
+        "interior_actors": 2,
+        "e_pressed": true,
+        "no_errors": true
+      }
+    },
+    {
+      "id": "09",
+      "title": "Exit and re-enter cafe in same game",
+      "status": "PASS",
+      "duration_seconds": 4.758,
+      "details": {
+        "scene_after_exit": "city",
+        "scene_after_reentry": "interior"
+      }
+    },
+    {
+      "id": "10",
+      "title": "Save and reload",
+      "status": "PASS",
+      "duration_seconds": 1.982,
+      "details": {
+        "scene_after_reload": "interior"
+      }
+    },
+    {
+      "id": "11",
+      "title": "Input focus does not trigger game controls",
+      "status": "PASS",
+      "duration_seconds": 0.562,
+      "details": {
+        "input_was_focused": true
+      }
+    },
+    {
+      "id": "12",
+      "title": "Bridge traffic is GET-only with no body",
+      "status": "PASS",
+      "duration_seconds": 0.0,
+      "details": {
+        "total_requests": 7,
+        "all_get": true,
+        "no_body": true
+      }
+    },
+    {
+      "id": "13",
+      "title": "No unexpected page/console/HTTP errors",
+      "status": "PASS",
+      "duration_seconds": 0.0,
+      "details": {
+        "page_errors": 0,
+        "failed_responses": 7,
+        "non_bridge_failures": 0
+      }
+    }
+  ],
+  "notes": [],
+  "metrics": {
+    "city_fps": 60.67,
+    "cafe_fps": 60.33
+  },
+  "audit": {
+    "console": [
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x771c0173c700]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x771c0173c700]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x771c0173c700]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x771c0173c700]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+      }
+    ],
+    "page_errors": [],
+    "bridge_requests": [
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "has_body": false
+      }
+    ],
+    "failed_responses": [
+      {
+        "status": 502,
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "method": "GET"
+      },
+      {
+        "status": 502,
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "method": "GET"
+      },
+      {
+        "status": 502,
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "method": "GET"
+      },
+      {
+        "status": 502,
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "method": "GET"
+      },
+      {
+        "status": 502,
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "method": "GET"
+      },
+      {
+        "status": 502,
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "method": "GET"
+      },
+      {
+        "status": 502,
+        "url": "http://127.0.0.1:5173/bridge/api/world/state",
+        "method": "GET"
+      }
+    ]
+  }
+}

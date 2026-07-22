@@ -1,0 +1,218 @@
+{
+  "schema": "syka.world.cafe-reentry-regression.v1",
+  "overall": "PASS",
+  "samePage": true,
+  "sameContext": true,
+  "viewport": {
+    "width": 1008,
+    "height": 548
+  },
+  "preparedState": {
+    "advancedMinutes": 12,
+    "agents": [
+      "syka"
+    ],
+    "npcs": [
+      "alma-rios",
+      "milo-niebla"
+    ]
+  },
+  "firstEntry": {
+    "room": {
+      "active": true,
+      "visible": true,
+      "frame": "__BASE",
+      "frameWidth": 1774,
+      "frameHeight": 887,
+      "x": 414,
+      "y": 239.5,
+      "displayWidth": 674,
+      "displayHeight": 337,
+      "bounds": {
+        "x": 77,
+        "y": 71,
+        "width": 674,
+        "height": 337,
+        "centerX": 414,
+        "centerY": 239.5
+      }
+    },
+    "agents": [
+      {
+        "id": "syka",
+        "containerActive": true,
+        "containerVisible": true,
+        "containerAlpha": 0.5807029557109398,
+        "spriteActive": true,
+        "spriteVisible": true,
+        "inDisplayList": true,
+        "belongsToScene": true,
+        "x": 427,
+        "y": 351.00588235294117,
+        "frame": "agent-syka-using-tool"
+      }
+    ],
+    "npcs": [
+      {
+        "id": "alma-rios",
+        "containerActive": true,
+        "containerVisible": true,
+        "containerAlpha": 1,
+        "spriteActive": true,
+        "spriteVisible": true,
+        "inDisplayList": true,
+        "belongsToScene": true,
+        "x": 215,
+        "y": 269,
+        "frame": "cafe-npc-alma-rios-working"
+      },
+      {
+        "id": "milo-niebla",
+        "containerActive": true,
+        "containerVisible": true,
+        "containerAlpha": 1,
+        "spriteActive": true,
+        "spriteVisible": true,
+        "inDisplayList": true,
+        "belongsToScene": true,
+        "x": 601,
+        "y": 271,
+        "frame": "cafe-npc-milo-niebla-social"
+      }
+    ],
+    "recreation": null
+  },
+  "screenshots": [
+    "reports/cafe-runtime-regression/01-first-entry-1008x548.png",
+    "reports/cafe-runtime-regression/02-second-entry-1008x548.png",
+    "reports/cafe-runtime-regression/03-second-entry-movement-1008x548.png"
+  ],
+  "afterExit": {
+    "activeScenes": [
+      "city"
+    ],
+    "cameraScene": "city",
+    "firstRoomActive": false,
+    "firstAgentViewsActive": [
+      false
+    ],
+    "firstNpcViewsActive": [
+      false,
+      false
+    ]
+  },
+  "secondEntry": {
+    "room": {
+      "active": true,
+      "visible": true,
+      "frame": "__BASE",
+      "frameWidth": 1774,
+      "frameHeight": 887,
+      "x": 414,
+      "y": 239.5,
+      "displayWidth": 674,
+      "displayHeight": 337,
+      "bounds": {
+        "x": 77,
+        "y": 71,
+        "width": 674,
+        "height": 337,
+        "centerX": 414,
+        "centerY": 239.5
+      }
+    },
+    "agents": [
+      {
+        "id": "syka",
+        "containerActive": true,
+        "containerVisible": true,
+        "containerAlpha": 1,
+        "spriteActive": true,
+        "spriteVisible": true,
+        "inDisplayList": true,
+        "belongsToScene": true,
+        "x": 305,
+        "y": 296,
+        "frame": "agent-syka-using-tool"
+      }
+    ],
+    "npcs": [
+      {
+        "id": "alma-rios",
+        "containerActive": true,
+        "containerVisible": true,
+        "containerAlpha": 1,
+        "spriteActive": true,
+        "spriteVisible": true,
+        "inDisplayList": true,
+        "belongsToScene": true,
+        "x": 215,
+        "y": 269,
+        "frame": "cafe-npc-alma-rios-working"
+      },
+      {
+        "id": "milo-niebla",
+        "containerActive": true,
+        "containerVisible": true,
+        "containerAlpha": 1,
+        "spriteActive": true,
+        "spriteVisible": true,
+        "inDisplayList": true,
+        "belongsToScene": true,
+        "x": 601,
+        "y": 271,
+        "frame": "cafe-npc-milo-niebla-social"
+      }
+    ],
+    "recreation": {
+      "samePhaserGame": true,
+      "roomRecreated": true,
+      "sameAgentIds": true,
+      "sameNpcIds": true,
+      "agentViewsRecreated": true,
+      "npcViewsRecreated": true,
+      "priorRoomInactive": true
+    }
+  },
+  "movement": {
+    "setupCell": {
+      "x": 10,
+      "y": 9
+    },
+    "physicalMoveKey": "w",
+    "movedCell": {
+      "x": 10,
+      "y": 8
+    },
+    "blockedKey": "a",
+    "blockedCell": {
+      "x": 9,
+      "y": 8
+    },
+    "finalCell": {
+      "x": 10,
+      "y": 8
+    }
+  },
+  "durationSeconds": 11.457,
+  "pageErrors": [],
+  "console": [
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x523c007ca200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x523c007ca200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x523c007ca200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x523c007ca200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    }
+  ],
+  "failedResponses": []
+}

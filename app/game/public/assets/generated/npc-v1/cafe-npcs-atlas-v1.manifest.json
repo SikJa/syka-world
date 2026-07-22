@@ -1,0 +1,25 @@
+{
+  "schema": "syka.world.runtime-atlas.cafe-npcs.v1",
+  "runtimeFile": "cafe-npcs-atlas-v1.png",
+  "runtimeSize": [640, 640],
+  "cellSize": [128, 160],
+  "columns": ["alma-rios", "beni-menta", "iara-luz", "milo-niebla", "noa-junco"],
+  "rows": ["idle", "walking", "working", "social"],
+  "pivot": [0.5, 0.975],
+  "sourceFiles": [
+    "cafe-npcs-sheet-v1-chroma.png",
+    "cafe-npcs-sheet-v1.png"
+  ],
+  "sha256": {
+    "cafe-npcs-sheet-v1-chroma.png": "a06593662ef5c45c39c66eea0ef02f09661a65aebfb1f489f45dd040c73ccbb7",
+    "cafe-npcs-sheet-v1.png": "7277c24ea42611552e0a50614f2bc1c33a17b384b068dcd6fe1af5d135471c66",
+    "cafe-npcs-atlas-v1.png": "201069cb5c59fb8b02657fc4cf8957bc2164d255bc32038c2bf10730664f1975"
+  },
+  "normalizer": "scripts/normalize_cafe_npc_atlas.py",
+  "constraints": [
+    "local simulation only",
+    "never mapped to Hermes profiles or sessions",
+    "nearest-neighbour runtime rendering",
+    "fixed five-column four-row contract"
+  ]
+}

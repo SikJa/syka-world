@@ -1,0 +1,663 @@
+{
+  "status": "PASS",
+  "generatedAtEpoch": 1784270039.8439574,
+  "baseUrl": "http://127.0.0.1:5188/",
+  "serverStartedByAudit": false,
+  "main": {
+    "status": "PASS",
+    "viewport": "1440x900",
+    "steps": [
+      {
+        "criterion": "physical-click-and-deterministic-hold",
+        "status": "PASS",
+        "target": {
+          "x": 7,
+          "y": 11
+        },
+        "holdSecondsObserved": 2.98
+      },
+      {
+        "criterion": "possess-button-p-and-wasd",
+        "status": "PASS",
+        "key": "w",
+        "cell": {
+          "x": 7,
+          "y": 10
+        }
+      },
+      {
+        "criterion": "city-key-repeat-collision",
+        "status": "PASS",
+        "key": "a",
+        "cell": {
+          "x": 7,
+          "y": 10
+        }
+      },
+      {
+        "criterion": "object-click-separated-from-ground",
+        "status": "PASS"
+      },
+      {
+        "criterion": "f-portal-city-to-cafe",
+        "status": "PASS",
+        "actors": 3,
+        "cells": [
+          "15,17",
+          "5,6",
+          "25,6"
+        ]
+      },
+      {
+        "criterion": "escape-releases-before-exit",
+        "status": "PASS"
+      },
+      {
+        "criterion": "cafe-click-valid-and-blocked",
+        "status": "PASS",
+        "validTarget": {
+          "x": 16,
+          "y": 14
+        }
+      },
+      {
+        "criterion": "physical-e-contextual-actions",
+        "status": "PASS",
+        "actions": [
+          {
+            "name": "seat",
+            "cell": {
+              "x": 22,
+              "y": 11
+            },
+            "action": "sit"
+          },
+          {
+            "name": "coffee",
+            "cell": {
+              "x": 10,
+              "y": 9
+            },
+            "action": "serve-coffee"
+          },
+          {
+            "name": "read",
+            "cell": {
+              "x": 18,
+              "y": 1
+            },
+            "action": "read"
+          }
+        ]
+      },
+      {
+        "criterion": "cafe-key-repeat-and-depth-pair",
+        "status": "PASS"
+      },
+      {
+        "criterion": "shared-occupancy-rejects-overlap",
+        "status": "PASS",
+        "rejection": {
+          "ok": false,
+          "error": "DESTINATION_OCCUPIED"
+        },
+        "actors": 4,
+        "cells": [
+          "6,13",
+          "7,6",
+          "18,1",
+          "10,9"
+        ]
+      },
+      {
+        "criterion": "editable-focus-guard",
+        "status": "PASS"
+      },
+      {
+        "criterion": "save-load-position-no-possession",
+        "status": "PASS",
+        "cell": {
+          "x": 6,
+          "y": 13
+        }
+      },
+      {
+        "criterion": "two-stage-escape",
+        "status": "PASS"
+      },
+      {
+        "criterion": "physical-f-roundtrip",
+        "status": "PASS"
+      },
+      {
+        "criterion": "console-assets-and-bridge",
+        "status": "PASS"
+      }
+    ],
+    "screenshots": [
+      "reports/interior-entity-possession-v1/independent/screenshots/01-city-physical-click-route-1440x900.png",
+      "reports/interior-entity-possession-v1/independent/screenshots/02-city-possessed-1440x900.png",
+      "reports/interior-entity-possession-v1/independent/screenshots/03-cafe-entry-possessed-1440x900.png",
+      "reports/interior-entity-possession-v1/independent/screenshots/04-cafe-behind-bar-depth-1440x900.png",
+      "reports/interior-entity-possession-v1/independent/screenshots/05-cafe-in-front-of-bar-depth-1440x900.png"
+    ],
+    "performance": {
+      "city": {
+        "samples": [
+          51.75,
+          51.75,
+          53.81,
+          53.81,
+          53.81,
+          55.61,
+          55.61,
+          55.61
+        ],
+        "averageFps": 53.97,
+        "minimumFps": 51.75,
+        "averageFrameMilliseconds": 16.86
+      },
+      "cafe": {
+        "samples": [
+          57.84,
+          56.63,
+          56.63,
+          56.63,
+          57.72,
+          57.72,
+          57.72,
+          58.29
+        ],
+        "averageFps": 57.4,
+        "minimumFps": 56.63,
+        "averageFrameMilliseconds": 16.67
+      }
+    },
+    "bridgeRequests": [
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+        "has_body": false
+      }
+    ],
+    "pageErrors": [],
+    "console": [
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x4794001aff00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x4794001aff00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x4794001aff00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      },
+      {
+        "type": "warning",
+        "text": "[.WebGL-0x4794001aff00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      }
+    ],
+    "failedRequests": [
+      {
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+        "failure": "net::ERR_ABORTED",
+        "resourceType": "fetch"
+      },
+      {
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+        "failure": "net::ERR_ABORTED",
+        "resourceType": "fetch"
+      }
+    ],
+    "badResponses": []
+  },
+  "responsive": [
+    {
+      "status": "PASS",
+      "viewport": "1008x548",
+      "cafe": {
+        "viewport": {
+          "width": 1008,
+          "height": 548
+        },
+        "bodyScrollWidth": 1008,
+        "bodyScrollHeight": 548,
+        "horizontalOverflow": false,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1008,
+          "height": 547.8125,
+          "imageRendering": "pixelated"
+        },
+        "visibleUi": [
+          {
+            "className": "alpha-topbar",
+            "x": 7,
+            "y": 7,
+            "width": 994,
+            "height": 43,
+            "intersectsViewport": true
+          },
+          {
+            "className": "alpha-panel alpha-inspector",
+            "x": 759.9,
+            "y": 58,
+            "width": 238,
+            "height": 283.5,
+            "intersectsViewport": true
+          }
+        ],
+        "everyVisibleUiIntersectsViewport": true
+      },
+      "city": {
+        "viewport": {
+          "width": 1008,
+          "height": 548
+        },
+        "bodyScrollWidth": 1008,
+        "bodyScrollHeight": 548,
+        "horizontalOverflow": false,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 1008,
+          "height": 547.8125,
+          "imageRendering": "pixelated"
+        },
+        "visibleUi": [
+          {
+            "className": "alpha-topbar",
+            "x": 7,
+            "y": 7,
+            "width": 994,
+            "height": 43,
+            "intersectsViewport": true
+          },
+          {
+            "className": "alpha-panel alpha-inspector",
+            "x": 759.9,
+            "y": 58,
+            "width": 238,
+            "height": 245.3,
+            "intersectsViewport": true
+          }
+        ],
+        "everyVisibleUiIntersectsViewport": true
+      },
+      "screenshots": [
+        "reports/interior-entity-possession-v1/independent/screenshots/responsive-cafe-1008x548.png",
+        "reports/interior-entity-possession-v1/independent/screenshots/responsive-city-1008x548.png"
+      ],
+      "console": [],
+      "bridgeRequests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+          "has_body": false
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "2560x1080",
+      "cafe": {
+        "viewport": {
+          "width": 2560,
+          "height": 1080
+        },
+        "bodyScrollWidth": 2560,
+        "bodyScrollHeight": 1080,
+        "horizontalOverflow": false,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 2558.390625,
+          "height": 1080,
+          "imageRendering": "pixelated"
+        },
+        "visibleUi": [
+          {
+            "className": "alpha-topbar",
+            "x": 830,
+            "y": 12,
+            "width": 900,
+            "height": 46,
+            "intersectsViewport": true
+          },
+          {
+            "className": "alpha-panel alpha-inspector",
+            "x": 2306,
+            "y": 66,
+            "width": 238,
+            "height": 289.3,
+            "intersectsViewport": true
+          }
+        ],
+        "everyVisibleUiIntersectsViewport": true
+      },
+      "city": {
+        "viewport": {
+          "width": 2560,
+          "height": 1080
+        },
+        "bodyScrollWidth": 2560,
+        "bodyScrollHeight": 1080,
+        "horizontalOverflow": false,
+        "canvas": {
+          "x": 0,
+          "y": 0,
+          "width": 2558.390625,
+          "height": 1080,
+          "imageRendering": "pixelated"
+        },
+        "visibleUi": [
+          {
+            "className": "alpha-topbar",
+            "x": 830,
+            "y": 12,
+            "width": 900,
+            "height": 46,
+            "intersectsViewport": true
+          },
+          {
+            "className": "alpha-panel alpha-inspector",
+            "x": 2306,
+            "y": 66,
+            "width": 238,
+            "height": 250.1,
+            "intersectsViewport": true
+          }
+        ],
+        "everyVisibleUiIntersectsViewport": true
+      },
+      "screenshots": [
+        "reports/interior-entity-possession-v1/independent/screenshots/responsive-cafe-2560x1080.png",
+        "reports/interior-entity-possession-v1/independent/screenshots/responsive-city-2560x1080.png"
+      ],
+      "console": [],
+      "bridgeRequests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+          "has_body": false
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "640x720",
+      "cafe": {
+        "viewport": {
+          "width": 640,
+          "height": 720
+        },
+        "bodyScrollWidth": 640,
+        "bodyScrollHeight": 720,
+        "horizontalOverflow": false,
+        "canvas": {
+          "x": 0,
+          "y": 160,
+          "width": 640,
+          "height": 400,
+          "imageRendering": "pixelated"
+        },
+        "visibleUi": [
+          {
+            "className": "alpha-topbar",
+            "x": 7,
+            "y": 7,
+            "width": 626,
+            "height": 43,
+            "intersectsViewport": true
+          },
+          {
+            "className": "alpha-panel alpha-inspector",
+            "x": 394,
+            "y": 58,
+            "width": 238,
+            "height": 285.3,
+            "intersectsViewport": true
+          }
+        ],
+        "everyVisibleUiIntersectsViewport": true
+      },
+      "city": {
+        "viewport": {
+          "width": 640,
+          "height": 720
+        },
+        "bodyScrollWidth": 640,
+        "bodyScrollHeight": 720,
+        "horizontalOverflow": false,
+        "canvas": {
+          "x": 0,
+          "y": 160,
+          "width": 640,
+          "height": 400,
+          "imageRendering": "pixelated"
+        },
+        "visibleUi": [
+          {
+            "className": "alpha-topbar",
+            "x": 7,
+            "y": 7,
+            "width": 626,
+            "height": 43,
+            "intersectsViewport": true
+          },
+          {
+            "className": "alpha-panel alpha-inspector",
+            "x": 394,
+            "y": 58,
+            "width": 238,
+            "height": 246.1,
+            "intersectsViewport": true
+          }
+        ],
+        "everyVisibleUiIntersectsViewport": true
+      },
+      "screenshots": [
+        "reports/interior-entity-possession-v1/independent/screenshots/responsive-cafe-640x720.png",
+        "reports/interior-entity-possession-v1/independent/screenshots/responsive-city-640x720.png"
+      ],
+      "console": [],
+      "bridgeRequests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+          "has_body": false
+        }
+      ]
+    }
+  ],
+  "bridgeAudit": {
+    "count": 20,
+    "allGetWithoutBody": true,
+    "requests": [
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/state",
+        "has_body": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+        "has_body": false
+      }
+    ]
+  },
+  "durationSeconds": 53.309
+}

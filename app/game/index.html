@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#263c49" />
+    <meta name="description" content="Syka World — a small living town passively connected to Hermes." />
+    <title>Syka World</title>
+  </head>
+  <body>
+    <div id="app">
+      <main id="game-shell" aria-label="Syka World">
+        <div id="game-canvas" aria-label="Interactive isometric town"></div>
+        <div id="game-ui" aria-label="Syka World interface"></div>
+        <div id="loading-card" role="status" aria-live="polite">
+          <span class="loading-card__eyebrow">SYKA WORLD</span>
+          <strong>Preparing the town…</strong>
+          <span class="loading-card__line"></span>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

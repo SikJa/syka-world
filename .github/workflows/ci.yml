@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/game/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install frontend
+        run: npm ci
+        working-directory: app/game
+      - name: Frontend tests
+        run: npm test
+        working-directory: app/game
+      - name: Typecheck and build
+        run: npm run typecheck && npm run build
+        working-directory: app/game
+      - name: Python tests
+        run: python -m pip install -e . pytest && python -m pytest -q

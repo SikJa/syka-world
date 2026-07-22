@@ -1,0 +1,3948 @@
+{
+  "cases": [
+    {
+      "status": "PASS",
+      "viewport": "1008x548",
+      "results": [
+        {
+          "label": "first-entry",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 828,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1008,
+              "height": 547.8260869565217
+            },
+            "canvasBuffer": {
+              "width": 828,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            }
+          },
+          "camera": {
+            "width": 828,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 77,
+            "y": 71,
+            "width": 674,
+            "height": 337
+          },
+          "room": {
+            "x": 414,
+            "y": 239.5,
+            "displayWidth": 674,
+            "displayHeight": 337,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 215.17000000000002,
+              "y": 282.46750000000003,
+              "displayWidth": 175.24,
+              "displayHeight": 62.345,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 457.80999999999995,
+              "y": 221.80749999999998,
+              "displayWidth": 87.62,
+              "displayHeight": 25.275,
+              "depth": 834,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 408.945,
+              "y": 256.35,
+              "displayWidth": 104.47,
+              "displayHeight": 43.81,
+              "depth": 878,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 609.46,
+              "y": 275.7275,
+              "displayWidth": 148.28,
+              "displayHeight": 48.864999999999995,
+              "depth": 900,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 349.97,
+              "y": 300.16,
+              "displayWidth": 87.62,
+              "displayHeight": 30.33,
+              "depth": 915,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 489.82500000000005,
+              "y": 296.79,
+              "displayWidth": 104.47,
+              "displayHeight": 33.7,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 5,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 25,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 25,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "neighbors": [],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 305,
+              "y": 296,
+              "depth": 896,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 26,
+                "displayHeight": 51
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 215,
+              "y": 269,
+              "depth": 869,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-working",
+                "displayWidth": 38,
+                "displayHeight": 48
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 601,
+              "y": 271,
+              "depth": 871,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-social",
+                "displayWidth": 37,
+                "displayHeight": 46
+              }
+            }
+          ],
+          "toast": [
+            "Entraste al Café Biblioteca."
+          ]
+        },
+        {
+          "label": "after-exit",
+          "activeScenes": [
+            "city"
+          ],
+          "cityStatus": 5,
+          "cafeStatus": 8,
+          "scale": {
+            "gameSize": {
+              "width": 828,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1008,
+              "height": 547.8260869565217
+            },
+            "canvasBuffer": {
+              "width": 828,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            }
+          },
+          "camera": null,
+          "roomBounds": {
+            "x": 77,
+            "y": 71,
+            "width": 674,
+            "height": 337
+          },
+          "room": null,
+          "foreground": [],
+          "actors": [
+            {
+              "actorId": "elen",
+              "profileId": "elen",
+              "cell": {
+                "x": 7,
+                "y": 15
+              },
+              "path": [
+                {
+                  "x": 7,
+                  "y": 15
+                }
+              ],
+              "possessed": false,
+              "sceneId": "city"
+            },
+            {
+              "actorId": "astrelis",
+              "profileId": "astrelis",
+              "cell": {
+                "x": 19,
+                "y": 15
+              },
+              "path": [
+                {
+                  "x": 19,
+                  "y": 15
+                }
+              ],
+              "possessed": false,
+              "sceneId": "city"
+            },
+            {
+              "actorId": "zerny",
+              "profileId": "zerny",
+              "cell": {
+                "x": 19,
+                "y": 14
+              },
+              "path": [
+                {
+                  "x": 19,
+                  "y": 14
+                }
+              ],
+              "possessed": false,
+              "sceneId": "city"
+            }
+          ],
+          "neighbors": [],
+          "agentViews": [],
+          "npcViews": [],
+          "toast": [
+            "Entraste al Café Biblioteca.",
+            "De vuelta en la ciudad."
+          ]
+        },
+        {
+          "label": "second-entry",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 828,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1008,
+              "height": 547.8260869565217
+            },
+            "canvasBuffer": {
+              "width": 828,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            }
+          },
+          "camera": {
+            "width": 828,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 77,
+            "y": 71,
+            "width": 674,
+            "height": 337
+          },
+          "room": {
+            "x": 414,
+            "y": 239.5,
+            "displayWidth": 674,
+            "displayHeight": 337,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 215.17000000000002,
+              "y": 282.46750000000003,
+              "displayWidth": 175.24,
+              "displayHeight": 62.345,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 457.80999999999995,
+              "y": 221.80749999999998,
+              "displayWidth": 87.62,
+              "displayHeight": 25.275,
+              "depth": 834,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 408.945,
+              "y": 256.35,
+              "displayWidth": 104.47,
+              "displayHeight": 43.81,
+              "depth": 878,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 609.46,
+              "y": 275.7275,
+              "displayWidth": 148.28,
+              "displayHeight": 48.864999999999995,
+              "depth": 900,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 349.97,
+              "y": 300.16,
+              "displayWidth": 87.62,
+              "displayHeight": 30.33,
+              "depth": 915,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 489.82500000000005,
+              "y": 296.79,
+              "displayWidth": 104.47,
+              "displayHeight": 33.7,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 5,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 25,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 25,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "neighbors": [],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 305,
+              "y": 296,
+              "depth": 896,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 26,
+                "displayHeight": 51
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 215,
+              "y": 269,
+              "depth": 869,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-working",
+                "displayWidth": 38,
+                "displayHeight": 48
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 601,
+              "y": 271,
+              "depth": 871,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-social",
+                "displayWidth": 37,
+                "displayHeight": 46
+              }
+            }
+          ],
+          "toast": [
+            "De vuelta en la ciudad.",
+            "Entraste al Café Biblioteca."
+          ]
+        },
+        {
+          "label": "possessed",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 828,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1008,
+              "height": 547.8260869565217
+            },
+            "canvasBuffer": {
+              "width": 828,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            }
+          },
+          "camera": {
+            "width": 828,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 77,
+            "y": 71,
+            "width": 674,
+            "height": 337
+          },
+          "room": {
+            "x": 414,
+            "y": 239.5,
+            "displayWidth": 674,
+            "displayHeight": 337,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 215.17000000000002,
+              "y": 282.46750000000003,
+              "displayWidth": 175.24,
+              "displayHeight": 62.345,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 457.80999999999995,
+              "y": 221.80749999999998,
+              "displayWidth": 87.62,
+              "displayHeight": 25.275,
+              "depth": 834,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 408.945,
+              "y": 256.35,
+              "displayWidth": 104.47,
+              "displayHeight": 43.81,
+              "depth": 878,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 609.46,
+              "y": 275.7275,
+              "displayWidth": 148.28,
+              "displayHeight": 48.864999999999995,
+              "depth": 900,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 349.97,
+              "y": 300.16,
+              "displayWidth": 87.62,
+              "displayHeight": 30.33,
+              "depth": 915,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 489.82500000000005,
+              "y": 296.79,
+              "displayWidth": 104.47,
+              "displayHeight": 33.7,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "destination": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 5,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 25,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 25,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 10,
+              "y": 9
+            },
+            "destination": {
+              "x": 10,
+              "y": 9
+            },
+            "path": [
+              {
+                "x": 10,
+                "y": 9
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 10,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 9,
+                "y": 9
+              },
+              "walkable": false,
+              "occupiedBy": null
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 10,
+                "y": 10
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 11,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 305,
+              "y": 296,
+              "depth": 896,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 26,
+                "displayHeight": 51
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 215,
+              "y": 269,
+              "depth": 869,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-working",
+                "displayWidth": 38,
+                "displayHeight": 48
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 601,
+              "y": 271,
+              "depth": 871,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-social",
+                "displayWidth": 37,
+                "displayHeight": 46
+              }
+            }
+          ],
+          "toast": [
+            "Entraste al Café Biblioteca.",
+            "Ahora controlás a Syka."
+          ]
+        },
+        {
+          "label": "after-W",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 828,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1008,
+              "height": 547.8260869565217
+            },
+            "canvasBuffer": {
+              "width": 828,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            }
+          },
+          "camera": {
+            "width": 828,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 77,
+            "y": 71,
+            "width": 674,
+            "height": 337
+          },
+          "room": {
+            "x": 414,
+            "y": 239.5,
+            "displayWidth": 674,
+            "displayHeight": 337,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 215.17000000000002,
+              "y": 282.46750000000003,
+              "displayWidth": 175.24,
+              "displayHeight": 62.345,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 457.80999999999995,
+              "y": 221.80749999999998,
+              "displayWidth": 87.62,
+              "displayHeight": 25.275,
+              "depth": 834,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 408.945,
+              "y": 256.35,
+              "displayWidth": 104.47,
+              "displayHeight": 43.81,
+              "depth": 878,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 609.46,
+              "y": 275.7275,
+              "displayWidth": 148.28,
+              "displayHeight": 48.864999999999995,
+              "depth": 900,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 349.97,
+              "y": 300.16,
+              "displayWidth": 87.62,
+              "displayHeight": 30.33,
+              "depth": 915,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 489.82500000000005,
+              "y": 296.79,
+              "displayWidth": 104.47,
+              "displayHeight": 33.7,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 8
+              },
+              "destination": {
+                "x": 10,
+                "y": 8
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 8
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 7,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 7,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 18,
+                "y": 1
+              },
+              "path": [
+                {
+                  "x": 18,
+                  "y": 1
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 10,
+              "y": 8
+            },
+            "destination": {
+              "x": 10,
+              "y": 8
+            },
+            "path": [
+              {
+                "x": 10,
+                "y": 8
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 10,
+                "y": 7
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 9,
+                "y": 8
+              },
+              "walkable": false,
+              "occupiedBy": null
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 11,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 305,
+              "y": 289.8432518906824,
+              "depth": 890,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 26,
+                "displayHeight": 51
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 220.12044469325573,
+              "y": 269,
+              "depth": 869,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-walking",
+                "displayWidth": 38,
+                "displayHeight": 48
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 583.2131921181643,
+              "y": 264.93631549482876,
+              "depth": 865,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-walking",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            }
+          ],
+          "toast": [
+            "Entraste al Café Biblioteca.",
+            "Ahora controlás a Syka."
+          ]
+        },
+        {
+          "label": "after-A",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 828,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1008,
+              "height": 547.8260869565217
+            },
+            "canvasBuffer": {
+              "width": 828,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            }
+          },
+          "camera": {
+            "width": 828,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 77,
+            "y": 71,
+            "width": 674,
+            "height": 337
+          },
+          "room": {
+            "x": 414,
+            "y": 239.5,
+            "displayWidth": 674,
+            "displayHeight": 337,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 215.17000000000002,
+              "y": 282.46750000000003,
+              "displayWidth": 175.24,
+              "displayHeight": 62.345,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 457.80999999999995,
+              "y": 221.80749999999998,
+              "displayWidth": 87.62,
+              "displayHeight": 25.275,
+              "depth": 834,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 408.945,
+              "y": 256.35,
+              "displayWidth": 104.47,
+              "displayHeight": 43.81,
+              "depth": 878,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 609.46,
+              "y": 275.7275,
+              "displayWidth": 148.28,
+              "displayHeight": 48.864999999999995,
+              "depth": 900,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 349.97,
+              "y": 300.16,
+              "displayWidth": 87.62,
+              "displayHeight": 30.33,
+              "depth": 915,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 489.82500000000005,
+              "y": 296.79,
+              "displayWidth": 104.47,
+              "displayHeight": 33.7,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 8
+              },
+              "destination": {
+                "x": 10,
+                "y": 8
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 8
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 7,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 7,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 18,
+                "y": 1
+              },
+              "path": [
+                {
+                  "x": 18,
+                  "y": 1
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 10,
+              "y": 8
+            },
+            "destination": {
+              "x": 10,
+              "y": 8
+            },
+            "path": [
+              {
+                "x": 10,
+                "y": 8
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 10,
+                "y": 7
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 9,
+                "y": 8
+              },
+              "walkable": false,
+              "occupiedBy": null
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 11,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 305,
+              "y": 287.62871620892696,
+              "depth": 888,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 26,
+                "displayHeight": 51
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 238.2482904636974,
+              "y": 269,
+              "depth": 869,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-walking",
+                "displayWidth": 38,
+                "displayHeight": 48
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 520.2427804945248,
+              "y": 243.46912971404257,
+              "depth": 843,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-walking",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            }
+          ],
+          "toast": [
+            "Ahora controlás a Syka.",
+            "Spatial destination is blocked."
+          ]
+        },
+        {
+          "label": "after-S",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 828,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1008,
+              "height": 547.8260869565217
+            },
+            "canvasBuffer": {
+              "width": 828,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            }
+          },
+          "camera": {
+            "width": 828,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 77,
+            "y": 71,
+            "width": 674,
+            "height": 337
+          },
+          "room": {
+            "x": 414,
+            "y": 239.5,
+            "displayWidth": 674,
+            "displayHeight": 337,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 215.17000000000002,
+              "y": 282.46750000000003,
+              "displayWidth": 175.24,
+              "displayHeight": 62.345,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 457.80999999999995,
+              "y": 221.80749999999998,
+              "displayWidth": 87.62,
+              "displayHeight": 25.275,
+              "depth": 834,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 408.945,
+              "y": 256.35,
+              "displayWidth": 104.47,
+              "displayHeight": 43.81,
+              "depth": 878,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 609.46,
+              "y": 275.7275,
+              "displayWidth": 148.28,
+              "displayHeight": 48.864999999999995,
+              "depth": 900,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 349.97,
+              "y": 300.16,
+              "displayWidth": 87.62,
+              "displayHeight": 30.33,
+              "depth": 915,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 489.82500000000005,
+              "y": 296.79,
+              "displayWidth": 104.47,
+              "displayHeight": 33.7,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "destination": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 7,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 7,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 18,
+                "y": 1
+              },
+              "path": [
+                {
+                  "x": 18,
+                  "y": 1
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:noa-junco",
+              "cell": {
+                "x": 10,
+                "y": 8
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 8
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 10,
+              "y": 9
+            },
+            "destination": {
+              "x": 10,
+              "y": 9
+            },
+            "path": [
+              {
+                "x": 10,
+                "y": 9
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 10,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": "npc:noa-junco"
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 9,
+                "y": 9
+              },
+              "walkable": false,
+              "occupiedBy": null
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 10,
+                "y": 10
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 11,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 305,
+              "y": 294.56533717192906,
+              "depth": 895,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 26,
+                "displayHeight": 51
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 247.5124342514793,
+              "y": 269,
+              "depth": 869,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-walking",
+                "displayWidth": 38,
+                "displayHeight": 48
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 488.0620704948614,
+              "y": 232.49843312324822,
+              "depth": 832,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-walking",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            },
+            {
+              "id": "noa-junco",
+              "x": 320,
+              "y": 294.6484211016864,
+              "depth": 895,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-noa-junco-walking",
+                "displayWidth": 38,
+                "displayHeight": 48
+              }
+            }
+          ],
+          "toast": [
+            "Ahora controlás a Syka.",
+            "Spatial destination is blocked."
+          ]
+        },
+        {
+          "label": "after-D",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 828,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1008,
+              "height": 547.8260869565217
+            },
+            "canvasBuffer": {
+              "width": 828,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1008,
+              "height": 547.8125
+            }
+          },
+          "camera": {
+            "width": 828,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 77,
+            "y": 71,
+            "width": 674,
+            "height": 337
+          },
+          "room": {
+            "x": 414,
+            "y": 239.5,
+            "displayWidth": 674,
+            "displayHeight": 337,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 215.17000000000002,
+              "y": 282.46750000000003,
+              "displayWidth": 175.24,
+              "displayHeight": 62.345,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 457.80999999999995,
+              "y": 221.80749999999998,
+              "displayWidth": 87.62,
+              "displayHeight": 25.275,
+              "depth": 834,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 408.945,
+              "y": 256.35,
+              "displayWidth": 104.47,
+              "displayHeight": 43.81,
+              "depth": 878,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 609.46,
+              "y": 275.7275,
+              "displayWidth": 148.28,
+              "displayHeight": 48.864999999999995,
+              "depth": 900,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 349.97,
+              "y": 300.16,
+              "displayWidth": 87.62,
+              "displayHeight": 30.33,
+              "depth": 915,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 489.82500000000005,
+              "y": 296.79,
+              "displayWidth": 104.47,
+              "displayHeight": 33.7,
+              "depth": 914,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 11,
+                "y": 9
+              },
+              "destination": {
+                "x": 11,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 11,
+                  "y": 9
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 7,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 7,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 18,
+                "y": 1
+              },
+              "path": [
+                {
+                  "x": 18,
+                  "y": 1
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:noa-junco",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 11,
+              "y": 9
+            },
+            "destination": {
+              "x": 11,
+              "y": 9
+            },
+            "path": [
+              {
+                "x": 11,
+                "y": 9
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 11,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": "npc:noa-junco"
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 11,
+                "y": 10
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 12,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 317.26518167257416,
+              "y": 295.5727854179081,
+              "depth": 896,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 26,
+                "displayHeight": 51
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 250.11975612113284,
+              "y": 269,
+              "depth": 869,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-walking",
+                "displayWidth": 38,
+                "displayHeight": 48
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 479.00505768448596,
+              "y": 229.41081511971112,
+              "depth": 829,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-walking",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            },
+            {
+              "id": "noa-junco",
+              "x": 320,
+              "y": 295.760983985198,
+              "depth": 896,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-noa-junco-walking",
+                "displayWidth": 38,
+                "displayHeight": 48
+              }
+            }
+          ],
+          "toast": [
+            "Ahora controlás a Syka.",
+            "Spatial destination is blocked."
+          ]
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "viewport": "1440x900",
+      "results": [
+        {
+          "label": "first-entry",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 720,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1440,
+              "height": 900
+            },
+            "canvasBuffer": {
+              "width": 720,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          "camera": {
+            "width": 720,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 66,
+            "y": 92,
+            "width": 588,
+            "height": 294
+          },
+          "room": {
+            "x": 360,
+            "y": 239,
+            "displayWidth": 588,
+            "displayHeight": 294,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 186.54000000000002,
+              "y": 276.485,
+              "displayWidth": 152.88,
+              "displayHeight": 54.39,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 398.21999999999997,
+              "y": 223.565,
+              "displayWidth": 76.44,
+              "displayHeight": 22.049999999999997,
+              "depth": 835,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 355.59,
+              "y": 253.70000000000002,
+              "displayWidth": 91.14,
+              "displayHeight": 38.22,
+              "depth": 873,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 530.52,
+              "y": 270.605,
+              "displayWidth": 129.36,
+              "displayHeight": 42.629999999999995,
+              "depth": 892,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 304.14,
+              "y": 291.92,
+              "displayWidth": 76.44,
+              "displayHeight": 26.46,
+              "depth": 905,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 426.15000000000003,
+              "y": 288.98,
+              "displayWidth": 91.14,
+              "displayHeight": 29.400000000000002,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 5,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 25,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 25,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "neighbors": [],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 265,
+              "y": 288,
+              "depth": 888,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 24,
+                "displayHeight": 47
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 186,
+              "y": 265,
+              "depth": 865,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-working",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 523,
+              "y": 266,
+              "depth": 866,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-social",
+                "displayWidth": 34,
+                "displayHeight": 43
+              }
+            }
+          ],
+          "toast": [
+            "Entraste al Café Biblioteca."
+          ]
+        },
+        {
+          "label": "after-exit",
+          "activeScenes": [
+            "city"
+          ],
+          "cityStatus": 5,
+          "cafeStatus": 8,
+          "scale": {
+            "gameSize": {
+              "width": 720,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1440,
+              "height": 900
+            },
+            "canvasBuffer": {
+              "width": 720,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          "camera": null,
+          "roomBounds": {
+            "x": 66,
+            "y": 92,
+            "width": 588,
+            "height": 294
+          },
+          "room": null,
+          "foreground": [],
+          "actors": [
+            {
+              "actorId": "elen",
+              "profileId": "elen",
+              "cell": {
+                "x": 7,
+                "y": 15
+              },
+              "path": [
+                {
+                  "x": 7,
+                  "y": 15
+                }
+              ],
+              "possessed": false,
+              "sceneId": "city"
+            },
+            {
+              "actorId": "astrelis",
+              "profileId": "astrelis",
+              "cell": {
+                "x": 19,
+                "y": 15
+              },
+              "path": [
+                {
+                  "x": 19,
+                  "y": 15
+                }
+              ],
+              "possessed": false,
+              "sceneId": "city"
+            },
+            {
+              "actorId": "zerny",
+              "profileId": "zerny",
+              "cell": {
+                "x": 19,
+                "y": 14
+              },
+              "path": [
+                {
+                  "x": 19,
+                  "y": 14
+                }
+              ],
+              "possessed": false,
+              "sceneId": "city"
+            }
+          ],
+          "neighbors": [],
+          "agentViews": [],
+          "npcViews": [],
+          "toast": [
+            "Entraste al Café Biblioteca.",
+            "De vuelta en la ciudad."
+          ]
+        },
+        {
+          "label": "second-entry",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 720,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1440,
+              "height": 900
+            },
+            "canvasBuffer": {
+              "width": 720,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          "camera": {
+            "width": 720,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 66,
+            "y": 92,
+            "width": 588,
+            "height": 294
+          },
+          "room": {
+            "x": 360,
+            "y": 239,
+            "displayWidth": 588,
+            "displayHeight": 294,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 186.54000000000002,
+              "y": 276.485,
+              "displayWidth": 152.88,
+              "displayHeight": 54.39,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 398.21999999999997,
+              "y": 223.565,
+              "displayWidth": 76.44,
+              "displayHeight": 22.049999999999997,
+              "depth": 835,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 355.59,
+              "y": 253.70000000000002,
+              "displayWidth": 91.14,
+              "displayHeight": 38.22,
+              "depth": 873,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 530.52,
+              "y": 270.605,
+              "displayWidth": 129.36,
+              "displayHeight": 42.629999999999995,
+              "depth": 892,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 304.14,
+              "y": 291.92,
+              "displayWidth": 76.44,
+              "displayHeight": 26.46,
+              "depth": 905,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 426.15000000000003,
+              "y": 288.98,
+              "displayWidth": 91.14,
+              "displayHeight": 29.400000000000002,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 5,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 25,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 25,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "neighbors": [],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 265,
+              "y": 288,
+              "depth": 888,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 24,
+                "displayHeight": 47
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 186,
+              "y": 265,
+              "depth": 865,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-working",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 523,
+              "y": 266,
+              "depth": 866,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-social",
+                "displayWidth": 34,
+                "displayHeight": 43
+              }
+            }
+          ],
+          "toast": [
+            "De vuelta en la ciudad.",
+            "Entraste al Café Biblioteca."
+          ]
+        },
+        {
+          "label": "possessed",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 720,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1440,
+              "height": 900
+            },
+            "canvasBuffer": {
+              "width": 720,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          "camera": {
+            "width": 720,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 66,
+            "y": 92,
+            "width": 588,
+            "height": 294
+          },
+          "room": {
+            "x": 360,
+            "y": 239,
+            "displayWidth": 588,
+            "displayHeight": 294,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 186.54000000000002,
+              "y": 276.485,
+              "displayWidth": 152.88,
+              "displayHeight": 54.39,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 398.21999999999997,
+              "y": 223.565,
+              "displayWidth": 76.44,
+              "displayHeight": 22.049999999999997,
+              "depth": 835,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 355.59,
+              "y": 253.70000000000002,
+              "displayWidth": 91.14,
+              "displayHeight": 38.22,
+              "depth": 873,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 530.52,
+              "y": 270.605,
+              "displayWidth": 129.36,
+              "displayHeight": 42.629999999999995,
+              "depth": 892,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 304.14,
+              "y": 291.92,
+              "displayWidth": 76.44,
+              "displayHeight": 26.46,
+              "depth": 905,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 426.15000000000003,
+              "y": 288.98,
+              "displayWidth": 91.14,
+              "displayHeight": 29.400000000000002,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "destination": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 5,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 25,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 25,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 10,
+              "y": 9
+            },
+            "destination": {
+              "x": 10,
+              "y": 9
+            },
+            "path": [
+              {
+                "x": 10,
+                "y": 9
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 10,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 9,
+                "y": 9
+              },
+              "walkable": false,
+              "occupiedBy": null
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 10,
+                "y": 10
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 11,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 265,
+              "y": 288,
+              "depth": 888,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 24,
+                "displayHeight": 47
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 186,
+              "y": 265,
+              "depth": 865,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-working",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 523,
+              "y": 266,
+              "depth": 866,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-social",
+                "displayWidth": 34,
+                "displayHeight": 43
+              }
+            }
+          ],
+          "toast": [
+            "Entraste al Café Biblioteca.",
+            "Ahora controlás a Syka."
+          ]
+        },
+        {
+          "label": "after-W",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 720,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1440,
+              "height": 900
+            },
+            "canvasBuffer": {
+              "width": 720,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          "camera": {
+            "width": 720,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 66,
+            "y": 92,
+            "width": 588,
+            "height": 294
+          },
+          "room": {
+            "x": 360,
+            "y": 239,
+            "displayWidth": 588,
+            "displayHeight": 294,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 186.54000000000002,
+              "y": 276.485,
+              "displayWidth": 152.88,
+              "displayHeight": 54.39,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 398.21999999999997,
+              "y": 223.565,
+              "displayWidth": 76.44,
+              "displayHeight": 22.049999999999997,
+              "depth": 835,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 355.59,
+              "y": 253.70000000000002,
+              "displayWidth": 91.14,
+              "displayHeight": 38.22,
+              "depth": 873,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 530.52,
+              "y": 270.605,
+              "displayWidth": 129.36,
+              "displayHeight": 42.629999999999995,
+              "depth": 892,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 304.14,
+              "y": 291.92,
+              "displayWidth": 76.44,
+              "displayHeight": 26.46,
+              "depth": 905,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 426.15000000000003,
+              "y": 288.98,
+              "displayWidth": 91.14,
+              "displayHeight": 29.400000000000002,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 8
+              },
+              "destination": {
+                "x": 10,
+                "y": 8
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 8
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 5,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 5,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 25,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 25,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 10,
+              "y": 8
+            },
+            "destination": {
+              "x": 10,
+              "y": 8
+            },
+            "path": [
+              {
+                "x": 10,
+                "y": 8
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 10,
+                "y": 7
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 9,
+                "y": 8
+              },
+              "walkable": false,
+              "occupiedBy": null
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 11,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 265,
+              "y": 282.8919590929172,
+              "depth": 883,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 24,
+                "displayHeight": 47
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 186,
+              "y": 265,
+              "depth": 865,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-working",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 523,
+              "y": 266,
+              "depth": 866,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-social",
+                "displayWidth": 34,
+                "displayHeight": 43
+              }
+            }
+          ],
+          "toast": [
+            "Entraste al Café Biblioteca.",
+            "Ahora controlás a Syka."
+          ]
+        },
+        {
+          "label": "after-A",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 720,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1440,
+              "height": 900
+            },
+            "canvasBuffer": {
+              "width": 720,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          "camera": {
+            "width": 720,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 66,
+            "y": 92,
+            "width": 588,
+            "height": 294
+          },
+          "room": {
+            "x": 360,
+            "y": 239,
+            "displayWidth": 588,
+            "displayHeight": 294,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 186.54000000000002,
+              "y": 276.485,
+              "displayWidth": 152.88,
+              "displayHeight": 54.39,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 398.21999999999997,
+              "y": 223.565,
+              "displayWidth": 76.44,
+              "displayHeight": 22.049999999999997,
+              "depth": 835,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 355.59,
+              "y": 253.70000000000002,
+              "displayWidth": 91.14,
+              "displayHeight": 38.22,
+              "depth": 873,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 530.52,
+              "y": 270.605,
+              "displayWidth": 129.36,
+              "displayHeight": 42.629999999999995,
+              "depth": 892,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 304.14,
+              "y": 291.92,
+              "displayWidth": 76.44,
+              "displayHeight": 26.46,
+              "depth": 905,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 426.15000000000003,
+              "y": 288.98,
+              "displayWidth": 91.14,
+              "displayHeight": 29.400000000000002,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 8
+              },
+              "destination": {
+                "x": 10,
+                "y": 8
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 8
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 7,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 7,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 18,
+                "y": 1
+              },
+              "path": [
+                {
+                  "x": 18,
+                  "y": 1
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 10,
+              "y": 8
+            },
+            "destination": {
+              "x": 10,
+              "y": 8
+            },
+            "path": [
+              {
+                "x": 10,
+                "y": 8
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 10,
+                "y": 7
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 9,
+                "y": 8
+              },
+              "walkable": false,
+              "occupiedBy": null
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 11,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 265,
+              "y": 281.3191587299086,
+              "depth": 881,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 24,
+                "displayHeight": 47
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 198.2891226271499,
+              "y": 265,
+              "depth": 865,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-walking",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 480.17426963265945,
+              "y": 251.47649144064104,
+              "depth": 851,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-walking",
+                "displayWidth": 34,
+                "displayHeight": 43
+              }
+            }
+          ],
+          "toast": [
+            "Ahora controlás a Syka.",
+            "Spatial destination is blocked."
+          ]
+        },
+        {
+          "label": "after-S",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 720,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1440,
+              "height": 900
+            },
+            "canvasBuffer": {
+              "width": 720,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          "camera": {
+            "width": 720,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 66,
+            "y": 92,
+            "width": 588,
+            "height": 294
+          },
+          "room": {
+            "x": 360,
+            "y": 239,
+            "displayWidth": 588,
+            "displayHeight": 294,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 186.54000000000002,
+              "y": 276.485,
+              "displayWidth": 152.88,
+              "displayHeight": 54.39,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 398.21999999999997,
+              "y": 223.565,
+              "displayWidth": 76.44,
+              "displayHeight": 22.049999999999997,
+              "depth": 835,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 355.59,
+              "y": 253.70000000000002,
+              "displayWidth": 91.14,
+              "displayHeight": 38.22,
+              "depth": 873,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 530.52,
+              "y": 270.605,
+              "displayWidth": 129.36,
+              "displayHeight": 42.629999999999995,
+              "depth": 892,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 304.14,
+              "y": 291.92,
+              "displayWidth": 76.44,
+              "displayHeight": 26.46,
+              "depth": 905,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 426.15000000000003,
+              "y": 288.98,
+              "displayWidth": 91.14,
+              "displayHeight": 29.400000000000002,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "destination": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 7,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 7,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 18,
+                "y": 1
+              },
+              "path": [
+                {
+                  "x": 18,
+                  "y": 1
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 10,
+              "y": 9
+            },
+            "destination": {
+              "x": 10,
+              "y": 9
+            },
+            "path": [
+              {
+                "x": 10,
+                "y": 9
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 10,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 9,
+                "y": 9
+              },
+              "walkable": false,
+              "occupiedBy": null
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 10,
+                "y": 10
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 11,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 265,
+              "y": 285.74679988346816,
+              "depth": 886,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 24,
+                "displayHeight": 47
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 207.99444083652506,
+              "y": 265,
+              "depth": 865,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-walking",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 446.352706175746,
+              "y": 240.00656992047038,
+              "depth": 840,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-walking",
+                "displayWidth": 34,
+                "displayHeight": 43
+              }
+            }
+          ],
+          "toast": [
+            "Ahora controlás a Syka.",
+            "Spatial destination is blocked."
+          ]
+        },
+        {
+          "label": "after-D",
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "cityStatus": 7,
+          "cafeStatus": 5,
+          "scale": {
+            "gameSize": {
+              "width": 720,
+              "height": 450
+            },
+            "displaySize": {
+              "width": 1440,
+              "height": 900
+            },
+            "canvasBuffer": {
+              "width": 720,
+              "height": 450
+            },
+            "canvasCss": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          "camera": {
+            "width": 720,
+            "height": 450,
+            "zoom": 1,
+            "scrollX": 0,
+            "scrollY": 0,
+            "x": 0,
+            "y": 0
+          },
+          "roomBounds": {
+            "x": 66,
+            "y": 92,
+            "width": 588,
+            "height": 294
+          },
+          "room": {
+            "x": 360,
+            "y": 239,
+            "displayWidth": 588,
+            "displayHeight": 294,
+            "depth": 100,
+            "textureKey": "alpha-cafe-interior",
+            "frameName": "__BASE",
+            "frameWidth": 1774,
+            "frameHeight": 887
+          },
+          "foreground": [
+            {
+              "x": 186.54000000000002,
+              "y": 276.485,
+              "displayWidth": 152.88,
+              "displayHeight": 54.39,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-bar-front",
+              "frameWidth": 461,
+              "frameHeight": 164
+            },
+            {
+              "x": 398.21999999999997,
+              "y": 223.565,
+              "displayWidth": 76.44,
+              "displayHeight": 22.049999999999997,
+              "depth": 835,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-window-table-front",
+              "frameWidth": 231,
+              "frameHeight": 67
+            },
+            {
+              "x": 355.59,
+              "y": 253.70000000000002,
+              "displayWidth": 91.14,
+              "displayHeight": 38.22,
+              "depth": 873,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-round-table-front",
+              "frameWidth": 275,
+              "frameHeight": 115
+            },
+            {
+              "x": 530.52,
+              "y": 270.605,
+              "displayWidth": 129.36,
+              "displayHeight": 42.629999999999995,
+              "depth": 892,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-sofa-front",
+              "frameWidth": 390,
+              "frameHeight": 129
+            },
+            {
+              "x": 304.14,
+              "y": 291.92,
+              "displayWidth": 76.44,
+              "displayHeight": 26.46,
+              "depth": 905,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-left-front",
+              "frameWidth": 231,
+              "frameHeight": 80
+            },
+            {
+              "x": 426.15000000000003,
+              "y": 288.98,
+              "displayWidth": 91.14,
+              "displayHeight": 29.400000000000002,
+              "depth": 904,
+              "textureKey": "alpha-cafe-interior",
+              "frameName": "cafe-foreground-cafe-table-right-front",
+              "frameWidth": 275,
+              "frameHeight": 89
+            }
+          ],
+          "actors": [
+            {
+              "actorId": "default",
+              "profileId": "default",
+              "cell": {
+                "x": 11,
+                "y": 9
+              },
+              "destination": {
+                "x": 11,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 11,
+                  "y": 9
+                }
+              ],
+              "possessed": true,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:alma-rios",
+              "cell": {
+                "x": 7,
+                "y": 6
+              },
+              "path": [
+                {
+                  "x": 7,
+                  "y": 6
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:milo-niebla",
+              "cell": {
+                "x": 18,
+                "y": 1
+              },
+              "path": [
+                {
+                  "x": 18,
+                  "y": 1
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            },
+            {
+              "actorId": "npc:noa-junco",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "path": [
+                {
+                  "x": 10,
+                  "y": 9
+                }
+              ],
+              "possessed": false,
+              "sceneId": "cafe:cafe-main"
+            }
+          ],
+          "possessed": {
+            "actorId": "default",
+            "profileId": "default",
+            "cell": {
+              "x": 11,
+              "y": 9
+            },
+            "destination": {
+              "x": 11,
+              "y": 9
+            },
+            "path": [
+              {
+                "x": 11,
+                "y": 9
+              }
+            ],
+            "possessed": true,
+            "sceneId": "cafe:cafe-main"
+          },
+          "neighbors": [
+            {
+              "key": "W",
+              "cell": {
+                "x": 11,
+                "y": 8
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "A",
+              "cell": {
+                "x": 10,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": "npc:noa-junco"
+            },
+            {
+              "key": "S",
+              "cell": {
+                "x": 11,
+                "y": 10
+              },
+              "walkable": true,
+              "occupiedBy": null
+            },
+            {
+              "key": "D",
+              "cell": {
+                "x": 12,
+                "y": 9
+              },
+              "walkable": true,
+              "occupiedBy": null
+            }
+          ],
+          "agentViews": [
+            {
+              "id": "syka",
+              "x": 275.3674745309593,
+              "y": 287.32383123643234,
+              "depth": 887,
+              "visible": true,
+              "sprite": {
+                "textureKey": "city-alpha-agents-v1",
+                "frameName": "agent-syka-using-tool",
+                "displayWidth": 24,
+                "displayHeight": 47
+              }
+            }
+          ],
+          "npcViews": [
+            {
+              "id": "alma-rios",
+              "x": 213.1935296345185,
+              "y": 265,
+              "depth": 865,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-alma-rios-walking",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            },
+            {
+              "id": "milo-niebla",
+              "x": 428.23466945546573,
+              "y": 233.86219225011445,
+              "depth": 834,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-milo-niebla-walking",
+                "displayWidth": 34,
+                "displayHeight": 43
+              }
+            },
+            {
+              "id": "noa-junco",
+              "x": 278,
+              "y": 290,
+              "depth": 890,
+              "visible": true,
+              "sprite": {
+                "textureKey": "cafe-npcs-atlas-v1",
+                "frameName": "cafe-npc-noa-junco-social",
+                "displayWidth": 36,
+                "displayHeight": 45
+              }
+            }
+          ],
+          "toast": [
+            "Ahora controlás a Syka.",
+            "Spatial destination is blocked."
+          ]
+        }
+      ]
+    }
+  ]
+}

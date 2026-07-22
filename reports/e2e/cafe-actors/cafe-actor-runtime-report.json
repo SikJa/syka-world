@@ -1,0 +1,139 @@
+{
+  "schema": "syka.world.cafe-actor-runtime-e2e.v2",
+  "overall": "PASS",
+  "agent": {
+    "height": 40,
+    "width": 20,
+    "x": 335,
+    "y": 345,
+    "frame": "agent-syka-idle",
+    "hasContactShadow": true
+  },
+  "agents": [
+    {
+      "id": "syka",
+      "height": 40,
+      "width": 20,
+      "x": 335,
+      "y": 345,
+      "frame": "agent-syka-idle",
+      "visible": true,
+      "hasContactShadow": true
+    },
+    {
+      "id": "elen",
+      "height": 37,
+      "width": 19,
+      "x": 247,
+      "y": 269,
+      "frame": "agent-elen-using-tool",
+      "visible": true,
+      "hasContactShadow": true
+    }
+  ],
+  "npcs": [
+    {
+      "id": "alma-rios",
+      "height": 36,
+      "width": 29,
+      "x": 174,
+      "y": 261,
+      "frame": "cafe-npc-alma-rios-working",
+      "hasContactShadow": true
+    },
+    {
+      "id": "milo-niebla",
+      "height": 35,
+      "width": 28,
+      "x": 525,
+      "y": 265,
+      "frame": "cafe-npc-milo-niebla-social",
+      "hasContactShadow": true
+    }
+  ],
+  "activeNpcState": [
+    {
+      "schema": "syka.world.npc.v1",
+      "id": "alma-rios",
+      "name": "Alma Ríos",
+      "role": "Barista anfitriona",
+      "visualKey": "alma-rios",
+      "activity": "working",
+      "routine": "brewing",
+      "location": {
+        "kind": "interior",
+        "buildingId": "cafe-main",
+        "anchorId": "coffee-machine"
+      },
+      "lastRoutineTotalMinute": 2
+    },
+    {
+      "schema": "syka.world.npc.v1",
+      "id": "milo-niebla",
+      "name": "Milo Niebla",
+      "role": "Lector y archivista",
+      "visualKey": "milo-niebla",
+      "activity": "idle",
+      "routine": "reading",
+      "location": {
+        "kind": "interior",
+        "buildingId": "cafe-main",
+        "anchorId": "fireplace"
+      },
+      "lastRoutineTotalMinute": 4
+    }
+  ],
+  "fernPositions": [
+    {
+      "slotId": "decor-window",
+      "x": 0.49,
+      "y": 0.81
+    },
+    {
+      "slotId": "decor-books",
+      "x": 0.78,
+      "y": 0.78
+    }
+  ],
+  "bridgeRequests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/state",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=0",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/state",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=15",
+      "has_body": false
+    }
+  ],
+  "ignoredDriverConsole": [
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x71b4007a3f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x71b4007a3f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x71b4007a3f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x71b4007a3f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    }
+  ],
+  "screenshot": "reports/e2e/cafe-actors/cafe-agent-npcs-1440x900.png"
+}

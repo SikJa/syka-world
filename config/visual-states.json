@@ -1,0 +1,80 @@
+{
+  "schema": "syka.world.visual-states.v1",
+  "terminal_display_seconds": 6,
+  "states": {
+    "idle": {
+      "priority": 10,
+      "loop": true,
+      "animation": "walk",
+      "destination": "town",
+      "label": "Vida libre",
+      "visible_summary": false
+    },
+    "thinking": {
+      "priority": 50,
+      "loop": true,
+      "animation": "thinking",
+      "destination": "workplace",
+      "label": "Pensando",
+      "visible_summary": true
+    },
+    "using-tool": {
+      "priority": 60,
+      "loop": true,
+      "animation": "by-tool-family",
+      "destination": "workplace",
+      "label": "Trabajando",
+      "visible_summary": true
+    },
+    "waiting": {
+      "priority": 80,
+      "loop": true,
+      "animation": "waiting",
+      "destination": "workplace",
+      "label": "Esperando aprobación",
+      "visible_summary": true
+    },
+    "done": {
+      "priority": 70,
+      "loop": false,
+      "animation": "celebrate",
+      "destination": "workplace",
+      "label": "Tarea terminada",
+      "visible_summary": true
+    },
+    "interrupted": {
+      "priority": 85,
+      "loop": false,
+      "animation": "confused",
+      "destination": "workplace",
+      "label": "Tarea interrumpida",
+      "visible_summary": true
+    },
+    "error": {
+      "priority": 90,
+      "loop": false,
+      "animation": "error",
+      "destination": "workplace",
+      "label": "Ocurrió un problema",
+      "visible_summary": true
+    },
+    "offline": {
+      "priority": 100,
+      "loop": true,
+      "animation": "sleep",
+      "destination": "home",
+      "label": "Desconectado",
+      "visible_summary": false
+    }
+  },
+  "tool_animations": {
+    "browser": "using-computer",
+    "code": "typing",
+    "communication": "using-phone",
+    "crm": "organizing",
+    "files": "reading",
+    "research": "thinking",
+    "terminal": "typing",
+    "other": "working"
+  }
+}

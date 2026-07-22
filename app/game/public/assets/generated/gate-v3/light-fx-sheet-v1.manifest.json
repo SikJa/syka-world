@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "syka-world-light-fx-v1",
+  "status": "provisional",
+  "image": "light-fx-sheet-v1.png",
+  "sourceChroma": "light-fx-sheet-v1-chroma.png",
+  "atlasSize": {
+    "width": 192,
+    "height": 64
+  },
+  "pixelDensity": 1,
+  "recommendedSampling": "nearest",
+  "recommendedBlendMode": "additive",
+  "sprites": {
+    "streetlamp_pool_large": {
+      "frame": { "x": 8, "y": 6, "width": 48, "height": 20 },
+      "logicalSize": { "width": 48, "height": 20 },
+      "pivot": { "x": 0.5, "y": 0.5 },
+      "placement": "center beneath the lamp base"
+    },
+    "streetlamp_pool_small": {
+      "frame": { "x": 80, "y": 9, "width": 32, "height": 14 },
+      "logicalSize": { "width": 32, "height": 14 },
+      "pivot": { "x": 0.5, "y": 0.5 },
+      "placement": "center beneath the lamp base"
+    },
+    "doorway_spill": {
+      "frame": { "x": 140, "y": 4, "width": 40, "height": 24 },
+      "logicalSize": { "width": 40, "height": 24 },
+      "pivot": { "x": 0.5, "y": 0.0 },
+      "placement": "top-center at the doorway threshold"
+    },
+    "cafe_spill_wide": {
+      "frame": { "x": 0, "y": 34, "width": 64, "height": 28 },
+      "logicalSize": { "width": 64, "height": 28 },
+      "pivot": { "x": 0.5, "y": 0.0 },
+      "placement": "top-center at the cafe facade opening"
+    },
+    "window_halo": {
+      "frame": { "x": 80, "y": 36, "width": 32, "height": 24 },
+      "logicalSize": { "width": 32, "height": 24 },
+      "pivot": { "x": 0.5, "y": 0.5 },
+      "placement": "center on the emitting window"
+    },
+    "bulb_halo_small": {
+      "frame": { "x": 152, "y": 40, "width": 16, "height": 16 },
+      "logicalSize": { "width": 16, "height": 16 },
+      "pivot": { "x": 0.5, "y": 0.5 },
+      "placement": "center on the emitting bulb"
+    }
+  },
+  "normalization": {
+    "sourceSize": { "width": 1536, "height": 1024 },
+    "sourceComponentBboxes": [
+      { "x": 67, "y": 196, "width": 531, "height": 196 },
+      { "x": 689, "y": 231, "width": 300, "height": 136 },
+      { "x": 1121, "y": 231, "width": 321, "height": 174 },
+      { "x": 68, "y": 641, "width": 563, "height": 165 },
+      { "x": 781, "y": 620, "width": 242, "height": 202 },
+      { "x": 1238, "y": 694, "width": 79, "height": 76 }
+    ],
+    "resampling": "nearest",
+    "alphaTreatment": "chroma removed, then luminance-shaped partial alpha with hard pixel-cluster boundaries"
+  },
+  "validation": {
+    "transparentCorners": true,
+    "nonTransparentPixels": 3693,
+    "partiallyTransparentPixels": 3693,
+    "magentaNonTransparentPixels": 0
+  }
+}

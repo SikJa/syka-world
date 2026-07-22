@@ -1,0 +1,56 @@
+{
+  "$schema": "syka.world.preset.v1",
+  "id": "sikora-world",
+  "name": "Sikora World",
+  "description": "Optional preset that seeds the four legacy Syka World characters. This is the default preset loaded on first run for existing users. A public clone of Syka World can remove or replace this file without code changes.",
+  "characters": [
+    {
+      "profileId": "default",
+      "characterId": "syka",
+      "displayName": "Syka",
+      "role": "Direction, coordination and creativity",
+      "avatarKey": "syka",
+      "homeId": "home-syka",
+      "workplaceId": "community-main",
+      "communityId": "community-main",
+      "cafeId": "cafe-main",
+      "theme": "teal"
+    },
+    {
+      "profileId": "elen",
+      "characterId": "elen",
+      "displayName": "Elen",
+      "role": "Marketing and communication",
+      "avatarKey": "elen",
+      "homeId": "home-elen",
+      "workplaceId": "office-marketing",
+      "communityId": "community-main",
+      "cafeId": "cafe-main",
+      "theme": "coral"
+    },
+    {
+      "profileId": "astrelis",
+      "characterId": "astrelis",
+      "displayName": "Astrelis",
+      "role": "Commerce and relationships",
+      "avatarKey": "astrelis",
+      "homeId": "home-astrelis",
+      "workplaceId": "office-commercial",
+      "communityId": "community-main",
+      "cafeId": "cafe-main",
+      "theme": "amber"
+    },
+    {
+      "profileId": "zerny",
+      "characterId": "zerny",
+      "displayName": "Zerny",
+      "role": "Construction and CRM",
+      "avatarKey": "zerny",
+      "homeId": "home-zerny",
+      "workplaceId": "workshop-crm",
+      "communityId": "community-main",
+      "cafeId": "cafe-main",
+      "theme": "green"
+    }
+  ]
+}

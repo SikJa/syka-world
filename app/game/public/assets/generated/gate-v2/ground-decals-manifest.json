@@ -1,0 +1,43 @@
+{
+  "schema": "syka.world.ground-decals.v1",
+  "generatedAt": "2026-07-16T13:20:00-03:00",
+  "status": "integration-candidate-not-final",
+  "file": "ground-decals-sheet-v1.png",
+  "sourceChromaFile": "ground-decals-sheet-v1-chroma.png",
+  "sourceCanvas": [1536, 1024],
+  "coordinateConvention": "top-left origin; rectangles are x,y,width,height in source pixels",
+  "renderContract": {
+    "filter": "nearest",
+    "pixelSnapping": true,
+    "placement": "overlay on grass; never replace the terrain tile",
+    "densityGuidance": "use sparse seeded distribution; no more than one primary decal group per logical tile"
+  },
+  "grid": {
+    "columns": 4,
+    "rows": 3,
+    "xBoundaries": [0, 384, 768, 1152, 1536],
+    "yBoundaries": [0, 341, 683, 1024]
+  },
+  "frames": [
+    { "id": "grass-two-blade", "cell": [0, 0, 384, 341], "alphaBbox": [197, 206, 70, 46], "crop": [195, 204, 74, 50], "logicalDrawSize": [9, 6], "physicalDrawSizeAtQa2x": [18, 12], "pivot": "bottom-center" },
+    { "id": "grass-three-blade", "cell": [384, 0, 384, 341], "alphaBbox": [535, 184, 83, 72], "crop": [533, 182, 87, 76], "logicalDrawSize": [10, 9], "physicalDrawSizeAtQa2x": [20, 18], "pivot": "bottom-center" },
+    { "id": "grass-fan", "cell": [768, 0, 384, 341], "alphaBbox": [875, 184, 133, 72], "crop": [873, 182, 137, 76], "logicalDrawSize": [15, 8], "physicalDrawSizeAtQa2x": [30, 16], "pivot": "bottom-center" },
+    { "id": "clover-two-leaf", "cell": [1152, 0, 384, 341], "alphaBbox": [1237, 171, 107, 85], "crop": [1235, 169, 111, 89], "logicalDrawSize": [11, 9], "physicalDrawSizeAtQa2x": [22, 18], "pivot": "bottom-center" },
+    { "id": "ground-plant-round", "cell": [0, 341, 384, 342], "alphaBbox": [181, 458, 103, 89], "crop": [179, 456, 107, 93], "logicalDrawSize": [12, 10], "physicalDrawSizeAtQa2x": [24, 20], "pivot": "bottom-center" },
+    { "id": "flowers-coral", "cell": [384, 341, 384, 342], "alphaBbox": [510, 445, 144, 103], "crop": [508, 443, 148, 107], "logicalDrawSize": [15, 11], "physicalDrawSizeAtQa2x": [30, 22], "pivot": "bottom-center" },
+    { "id": "flowers-cream", "cell": [768, 341, 384, 342], "alphaBbox": [870, 436, 125, 117], "crop": [868, 434, 129, 121], "logicalDrawSize": [14, 13], "physicalDrawSizeAtQa2x": [28, 26], "pivot": "bottom-center" },
+    { "id": "stones-two", "cell": [1152, 341, 384, 342], "alphaBbox": [1243, 478, 92, 56], "crop": [1241, 476, 96, 60], "logicalDrawSize": [10, 6], "physicalDrawSizeAtQa2x": [20, 12], "pivot": "center" },
+    { "id": "stones-three", "cell": [0, 683, 384, 341], "alphaBbox": [152, 756, 136, 84], "crop": [150, 754, 140, 88], "logicalDrawSize": [13, 8], "physicalDrawSizeAtQa2x": [26, 16], "pivot": "center" },
+    { "id": "fallen-leaves", "cell": [384, 683, 384, 341], "alphaBbox": [500, 729, 149, 130], "crop": [498, 727, 153, 134], "logicalDrawSize": [15, 13], "physicalDrawSizeAtQa2x": [30, 26], "pivot": "center" },
+    { "id": "bare-earth", "cell": [768, 683, 384, 341], "alphaBbox": [851, 750, 170, 100], "crop": [849, 748, 174, 104], "logicalDrawSize": [17, 10], "physicalDrawSizeAtQa2x": [34, 20], "pivot": "center" },
+    { "id": "mushrooms", "cell": [1152, 683, 384, 341], "alphaBbox": [1237, 746, 137, 99], "crop": [1235, 744, 141, 103], "logicalDrawSize": [15, 11], "physicalDrawSizeAtQa2x": [30, 22], "pivot": "bottom-center" }
+  ],
+  "validation": {
+    "alphaBbox": [152, 171, 1222, 688],
+    "transparentPixels": 1498481,
+    "partiallyTransparentPixels": 7957,
+    "opaquePixels": 66426,
+    "cornerAlpha": [0, 0, 0, 0],
+    "nonTransparentMagentaLikePixels": 0
+  }
+}

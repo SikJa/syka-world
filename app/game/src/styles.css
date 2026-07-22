@@ -1,0 +1,126 @@
+:root {
+  color: #f8edcf;
+  background: #193039;
+  font-family: Candara, "Gill Sans", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  --ink: #1d2828;
+  --cream: #f2ddb0;
+  --amber: #f5bd67;
+  --moss: #5f855c;
+  --night: #263c49;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app,
+#game-shell,
+#game-canvas,
+#game-ui {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+body {
+  background:
+    radial-gradient(circle at 50% 36%, rgba(139, 178, 169, 0.24), transparent 48%),
+    linear-gradient(145deg, #193039 0%, #2f5057 54%, #1e353d 100%);
+}
+
+#game-shell {
+  position: relative;
+  isolation: isolate;
+  background: #91b6c2;
+}
+
+#game-canvas {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 50% 44%, rgba(213, 235, 223, 0.16), transparent 58%),
+    #91b6c2;
+}
+
+#game-ui {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  pointer-events: none;
+}
+
+#game-canvas canvas {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  cursor: grab;
+}
+
+#game-canvas canvas:active {
+  cursor: grabbing;
+}
+
+#loading-card {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  z-index: 50;
+  display: grid;
+  width: 260px;
+  gap: 8px;
+  padding: 22px 24px;
+  color: var(--cream);
+  border: 2px solid #795a42;
+  background: #263c49;
+  box-shadow: 0 14px 0 #14252a, 0 22px 42px rgba(10, 18, 20, 0.45);
+  transform: translate(-50%, -50%);
+  transition: opacity 180ms steps(3, end), transform 180ms steps(3, end);
+}
+
+#loading-card.is-hidden {
+  pointer-events: none;
+  opacity: 0;
+  transform: translate(-50%, calc(-50% + 8px));
+}
+
+.loading-card__eyebrow {
+  color: var(--amber);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+}
+
+#loading-card strong {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.loading-card__line {
+  width: 84px;
+  height: 4px;
+  margin-top: 4px;
+  background: repeating-linear-gradient(90deg, var(--amber) 0 8px, transparent 8px 12px);
+  animation: loading-step 700ms steps(4, end) infinite;
+}
+
+@keyframes loading-step {
+  to {
+    transform: translateX(12px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loading-card__line {
+    animation: none;
+  }
+}

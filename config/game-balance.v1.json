@@ -1,0 +1,40 @@
+{
+  "schema": "syka.world.balance.v1",
+  "currency": {
+    "name": "Lúmenes",
+    "symbol": "L",
+    "starting_balance": 40,
+    "daily_living_cost": 5,
+    "town_upkeep_per_character": 1,
+    "local_practice_reward": 1,
+    "community_reward": 1,
+    "hermes_completion_reward": 5,
+    "daily_mission_reward": 1,
+    "weekly_mission_reward": 6,
+    "weekly_decor_cost": 12,
+    "spending_reserve": 30,
+    "hermes_daily_full_reward_limit": 4,
+    "hermes_reduced_reward": 1
+  },
+  "progression": {
+    "local_practice_xp": 6,
+    "hermes_completion_xp": 10,
+    "social_xp": 2,
+    "xp_per_level": 100
+  },
+  "needs": {
+    "minimum": 0,
+    "maximum": 100,
+    "critical_threshold": 20,
+    "energy_decay_awake_per_hour": 3.0,
+    "focus_decay_active_per_hour": 4.0,
+    "mood_decay_per_hour": 1.0,
+    "social_decay_per_hour": 1.5,
+    "comfort_decay_per_hour": 0.75
+  },
+  "simulation": {
+    "tick_minutes": 15,
+    "action_reward_interval_minutes": 60,
+    "day_start_hour": 7
+  }
+}

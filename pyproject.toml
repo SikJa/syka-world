@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "syka-world-bridge"
+version = "0.1.0"
+description = "Passive bridge between Hermes profiles and Syka World"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["playwright==1.58.0"]
+
+[project.scripts]
+syka-world-bridge = "syka_world_bridge.cli:main"
+syka-world-sim = "syka_world_sim.cli:main"
+syka-world-spool = "syka_world_bridge.retention:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

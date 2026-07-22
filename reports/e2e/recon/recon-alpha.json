@@ -1,0 +1,818 @@
+{
+  "status": 200,
+  "title": "Syka World",
+  "url": "http://127.0.0.1:5173/?qa=1",
+  "body_text": "✦\nSYKA WORLD\nun pequeño mundo en marcha\nLÚMENES\n999 Lúmenes\nTIEMPO\nDía 1 · 17:33\nTipo de partida\nMuestra\nNueva partida\nHermes conectado\nⅡ\n1×\n2×\n4×\nConstruir\n\nElegí un lugar y marcá su terreno\n\n⌂\nCasa acogedora\n110 Lúmenes\n☕\nCafé Biblioteca\n240 Lúmenes\n✦\nEstudio de Elen\n190 Lúmenes\n◇\nOficina de Astrelis\n190 Lúmenes\n⚒\nTaller de Zerny\n210 Lúmenes\n❖\nCasa comunitaria\n170 Lúmenes\n✓\nTodos los sectores visibles están abiertos\n✦\nMirá de cerca\n\nElegí un edificio o un habitante para conocer qué está pasando.\n\nSY\nSyka\nYendo a Casa comunitaria\nPresente\nEL\nElen\nYendo a Casa comunitaria\nPresente\nAS\nAstrelis\nYendo a Casa comunitaria\nPresente\nZE\nZerny\nYendo a Casa comunitaria\nPresente\nE\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nQA LOCAL\nSólo pruebas · nunca Hermes\n+1 hora\nTerminar obras\n+500 L\nSYKA WORLD\nPreparando la ciudad…",
+  "canvas": {
+    "width": 720,
+    "height": 450,
+    "x": 0,
+    "y": 0,
+    "cssWidth": 1440,
+    "cssHeight": 900
+  },
+  "buttons": [
+    {
+      "index": 0,
+      "text": "Ⅱ",
+      "aria": "Pausar el tiempo",
+      "title": "Pausar",
+      "disabled": false,
+      "data": {},
+      "rect": {
+        "x": 1120,
+        "y": 18,
+        "width": 27,
+        "height": 36
+      }
+    },
+    {
+      "index": 1,
+      "text": "1×",
+      "aria": "Velocidad 1",
+      "title": "Velocidad 1",
+      "disabled": false,
+      "data": {},
+      "rect": {
+        "x": 1149,
+        "y": 18,
+        "width": 27,
+        "height": 36
+      }
+    },
+    {
+      "index": 2,
+      "text": "2×",
+      "aria": "Velocidad 2",
+      "title": "Velocidad 2",
+      "disabled": false,
+      "data": {},
+      "rect": {
+        "x": 1178,
+        "y": 18,
+        "width": 27,
+        "height": 36
+      }
+    },
+    {
+      "index": 3,
+      "text": "4×",
+      "aria": "Velocidad 4",
+      "title": "Velocidad 4",
+      "disabled": false,
+      "data": {},
+      "rect": {
+        "x": 1207,
+        "y": 18,
+        "width": 27,
+        "height": 36
+      }
+    },
+    {
+      "index": 4,
+      "text": "⌂Casa acogedora110 Lúmenes",
+      "aria": null,
+      "title": null,
+      "disabled": false,
+      "data": {
+        "kind": "home"
+      },
+      "rect": {
+        "x": 25.390625,
+        "y": 135.140625,
+        "width": 93.5,
+        "height": 42
+      }
+    },
+    {
+      "index": 5,
+      "text": "☕Café Biblioteca240 Lúmenes",
+      "aria": null,
+      "title": null,
+      "disabled": false,
+      "data": {
+        "kind": "cafe"
+      },
+      "rect": {
+        "x": 123.890625,
+        "y": 135.140625,
+        "width": 93.5,
+        "height": 42
+      }
+    },
+    {
+      "index": 6,
+      "text": "✦Estudio de Elen190 Lúmenes",
+      "aria": null,
+      "title": null,
+      "disabled": false,
+      "data": {
+        "kind": "marketing-office"
+      },
+      "rect": {
+        "x": 25.390625,
+        "y": 182.140625,
+        "width": 93.5,
+        "height": 42
+      }
+    },
+    {
+      "index": 7,
+      "text": "◇Oficina de Astrelis190 Lúmenes",
+      "aria": null,
+      "title": null,
+      "disabled": false,
+      "data": {
+        "kind": "commercial-office"
+      },
+      "rect": {
+        "x": 123.890625,
+        "y": 182.140625,
+        "width": 93.5,
+        "height": 42
+      }
+    },
+    {
+      "index": 8,
+      "text": "⚒Taller de Zerny210 Lúmenes",
+      "aria": null,
+      "title": null,
+      "disabled": false,
+      "data": {
+        "kind": "crm-workshop"
+      },
+      "rect": {
+        "x": 25.390625,
+        "y": 229.140625,
+        "width": 93.5,
+        "height": 42
+      }
+    },
+    {
+      "index": 9,
+      "text": "❖Casa comunitaria170 Lúmenes",
+      "aria": null,
+      "title": null,
+      "disabled": false,
+      "data": {
+        "kind": "community-hall"
+      },
+      "rect": {
+        "x": 123.890625,
+        "y": 229.140625,
+        "width": 93.5,
+        "height": 42
+      }
+    },
+    {
+      "index": 10,
+      "text": "SYSykaYendo a Casa comunitariaPresente",
+      "aria": "Syka. Yendo a Casa comunitaria. Presente.",
+      "title": null,
+      "disabled": false,
+      "data": {
+        "profileId": "default",
+        "presence": "online",
+        "traveling": "true"
+      },
+      "rect": {
+        "x": 465,
+        "y": 845,
+        "width": 125.25,
+        "height": 40
+      }
+    },
+    {
+      "index": 11,
+      "text": "ELElenYendo a Casa comunitariaPresente",
+      "aria": "Elen. Yendo a Casa comunitaria. Presente.",
+      "title": null,
+      "disabled": false,
+      "data": {
+        "profileId": "elen",
+        "presence": "online",
+        "traveling": "true"
+      },
+      "rect": {
+        "x": 593.25,
+        "y": 845,
+        "width": 125.25,
+        "height": 40
+      }
+    },
+    {
+      "index": 12,
+      "text": "ASAstrelisYendo a Casa comunitariaPresente",
+      "aria": "Astrelis. Yendo a Casa comunitaria. Presente.",
+      "title": null,
+      "disabled": false,
+      "data": {
+        "profileId": "astrelis",
+        "presence": "online",
+        "traveling": "true"
+      },
+      "rect": {
+        "x": 721.5,
+        "y": 845,
+        "width": 125.25,
+        "height": 40
+      }
+    },
+    {
+      "index": 13,
+      "text": "ZEZernyYendo a Casa comunitariaPresente",
+      "aria": "Zerny. Yendo a Casa comunitaria. Presente.",
+      "title": null,
+      "disabled": false,
+      "data": {
+        "profileId": "zerny",
+        "presence": "online",
+        "traveling": "true"
+      },
+      "rect": {
+        "x": 849.75,
+        "y": 845,
+        "width": 125.25,
+        "height": 40
+      }
+    },
+    {
+      "index": 14,
+      "text": "EExplorar",
+      "aria": "Volver a explorar",
+      "title": null,
+      "disabled": false,
+      "data": {},
+      "rect": {
+        "x": 1192.609375,
+        "y": 855,
+        "width": 30,
+        "height": 30
+      }
+    },
+    {
+      "index": 15,
+      "text": "RVista fija",
+      "aria": "La perspectiva de los edificios es fija",
+      "title": "Vista isométrica fija: mantiene puertas, sombras y accesos alineados.",
+      "disabled": true,
+      "data": {},
+      "rect": {
+        "x": 1225.609375,
+        "y": 855,
+        "width": 30,
+        "height": 30
+      }
+    },
+    {
+      "index": 16,
+      "text": "EscCancelar",
+      "aria": "Cancelar construcción",
+      "title": null,
+      "disabled": true,
+      "data": {},
+      "rect": {
+        "x": 1258.609375,
+        "y": 855,
+        "width": 30,
+        "height": 30
+      }
+    },
+    {
+      "index": 17,
+      "text": "HOcultar",
+      "aria": "Ocultar habitantes",
+      "title": null,
+      "disabled": false,
+      "data": {},
+      "rect": {
+        "x": 1291.609375,
+        "y": 855,
+        "width": 30,
+        "height": 30
+      }
+    },
+    {
+      "index": 18,
+      "text": "⌘SGuardar",
+      "aria": "Guardar partida",
+      "title": null,
+      "disabled": false,
+      "data": {},
+      "rect": {
+        "x": 1324.609375,
+        "y": 855,
+        "width": 30,
+        "height": 30
+      }
+    },
+    {
+      "index": 19,
+      "text": "↻Cargar",
+      "aria": "Cargar partida",
+      "title": null,
+      "disabled": false,
+      "data": {},
+      "rect": {
+        "x": 1357.609375,
+        "y": 855,
+        "width": 30,
+        "height": 30
+      }
+    },
+    {
+      "index": 20,
+      "text": "!Reiniciar",
+      "aria": "Reiniciar partida",
+      "title": null,
+      "disabled": false,
+      "data": {},
+      "rect": {
+        "x": 1390.609375,
+        "y": 855,
+        "width": 30,
+        "height": 30
+      }
+    },
+    {
+      "index": 21,
+      "text": "+1 hora",
+      "aria": null,
+      "title": null,
+      "disabled": false,
+      "data": {
+        "qaAction": "advance-time"
+      },
+      "rect": {
+        "x": 714.140625,
+        "y": 72,
+        "width": 50.203125,
+        "height": 24
+      }
+    },
+    {
+      "index": 22,
+      "text": "Terminar obras",
+      "aria": null,
+      "title": null,
+      "disabled": false,
+      "data": {
+        "qaAction": "finish-construction"
+      },
+      "rect": {
+        "x": 767.34375,
+        "y": 72,
+        "width": 90.046875,
+        "height": 24
+      }
+    },
+    {
+      "index": 23,
+      "text": "+500 L",
+      "aria": null,
+      "title": null,
+      "disabled": false,
+      "data": {
+        "qaAction": "add-lumenes"
+      },
+      "rect": {
+        "x": 860.390625,
+        "y": 72,
+        "width": 47.609375,
+        "height": 24
+      }
+    }
+  ],
+  "selects": [
+    {
+      "aria": "Tipo de partida",
+      "value": "showcase",
+      "options": [
+        {
+          "value": "showcase",
+          "text": "Muestra"
+        },
+        {
+          "value": "progressive",
+          "text": "Nueva partida"
+        }
+      ]
+    }
+  ],
+  "globals": {
+    "Phaser": "undefined",
+    "games": null,
+    "qa": [
+      "__SYKA_ALPHA_QA__"
+    ],
+    "storage": []
+  },
+  "console": [
+    {
+      "type": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "type": "log",
+      "text": "%cPhaser v4.2.1 (WebGL | Web Audio)%c https://phaser.io/v4021 color: #ffffff; background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARBJREFUeNpi/P//P0OHsPB/BiCoePuWkYFEwALSXJElzMBgLwE2CNkQxgWr/yMr/p8QimlBu5DQ//+8vBBco/ofzAe6imH+qv/53/6jYJAYSA4ZoxoANYTPKhiuCQZwGcJU+e4dqpMmvsDq14krV2MPAxDha2CMKvoXoiE/PBQUDgQD8j82UFae9B9bOIC8B9UD9gIjjIMN7Ns6lWHn4XMoYu62RgxO3tkMjIyMII2MYAOAtmFVhA+ADHf2ycGMRhANjUq8YO+WKWCvgAORIV8CkpDCrzIwsLIymC1qAtuAD4Bsh3sBmqAY3qcGwL2AC4DCpKtzHlgzOLWihwEuzTCN0GhDJHeYC4gByBphACDAAH2dDIxdjr+VAAAAAElFTkSuQmCC\"), linear-gradient(to bottom, #000814, #001d3d, #003566); background-repeat: no-repeat; background-position: 4px center, 0 0; padding: 2px 6px 2px 24px; background: transparent"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x677400115500]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x677400115500]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x677400115500]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x677400115500]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    }
+  ],
+  "page_errors": [],
+  "requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/?qa=1",
+      "resource": "document"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/@vite/client",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/main.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/styles.css",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/alpha-styles.css",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/application/AlphaRuntime.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/createSykaGame.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/city/types.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/qa/alphaQaApi.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/ui/index.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/node_modules/.vite/deps/phaser.js?v=999d18b9",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/index.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/application/GameController.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/scenes/CafeInteriorScene.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/scenes/CityScene.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/scenes/VisualGateScene.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/logicalViewport.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/ui/createAlphaUi.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/ui/model.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/ui/types.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/node_modules/vite/dist/client/env.mjs",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/interior/interiorModel.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/contracts.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/catalog.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/map.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/economy.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/construction.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/pathfinding.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/agents.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/navigation.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/state.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/simulation.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/storage.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/core/save.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/city/assets.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/city/decor.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/city/placement.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/city/projection.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/city/terrain.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/integrations/index.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/art/pixelShapes.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/art/iso.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/presentation/art/palette.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/integrations/bridgeClient.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/integrations/coreAdapter.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/integrations/eventReducer.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/integrations/mapping.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/integrations/profiles.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/integrations/sanitization.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/integrations/simulated.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/src/integrations/types.ts",
+      "resource": "script"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/gate-v2/terrain-tiles-atlas-v2.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/gate-v2/environment-props-sheet-v1.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/gate-v2/ground-decals-sheet-v1.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/alpha-v1/environment-corrections-sheet-v1.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/gate-v3/light-fx-sheet-v1.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/gate-v2/house-exterior-v1.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/gate-v2/cafe-exterior-v1.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/alpha-v1/buildings-sheet-v1.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/alpha-v1/construction-sheet-v1.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/assets/generated/alpha-v1/agents-sheet-v1.png",
+      "resource": "xhr"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/state",
+      "resource": "fetch"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/80e24452-596b-44a8-88f0-e63a9bff2348",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=0",
+      "resource": "fetch"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/89c30ef7-4547-4900-9826-a35d97025181",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/c7189180-d0d2-4a54-825a-e186504c5881",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/b53f509e-0ca5-4286-b5d7-c4b1f5aa2d28",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/fd436d53-8f99-4c1d-b2d6-880811f910a6",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/ac63c8e6-c306-4d95-a850-d4ce381530b4",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/695f876a-b710-464d-834b-84aebc404622",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/432dfdc3-f458-46d5-95f0-2a3b801bfaee",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/2001f6b3-d97f-4b10-8021-d7dcab50240b",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "blob:http://127.0.0.1:5173/b5cb307a-e146-46e5-b8c7-d9f3fb8cb7e6",
+      "resource": "image"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/state",
+      "resource": "fetch"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/events?after=bridge-3a51dbd3-8a18-4db6-96af-44328c89dfd8&wait=15",
+      "resource": "fetch"
+    }
+  ]
+}

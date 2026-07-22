@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#17282f" />
+    <link rel="icon" href="data:," />
+    <title>Syka World · Geometry First Lab</title>
+  </head>
+  <body>
+    <main class="lab-shell">
+      <section id="stage" class="stage" aria-label="Laboratorio tridimensional con estética pixel-art">
+        <canvas
+          id="geometry-canvas"
+          tabindex="0"
+          aria-label="Escena 3D isométrica. Usa WASD o haz clic para mover a Iara."
+        ></canvas>
+
+        <div class="atmosphere" aria-hidden="true"></div>
+
+        <header class="scene-heading">
+          <p class="eyebrow"><span>LAB 02</span> GEOMETRY FIRST</p>
+          <h1>Un espacio real.<br /><em>Una imagen pixelada.</em></h1>
+        </header>
+
+        <aside class="runtime-card" aria-live="polite">
+          <span class="live-dot" aria-hidden="true"></span>
+          <div>
+            <small>CONTRATO ACTIVO</small>
+            <strong id="runtime-status">iniciando geometría…</strong>
+          </div>
+        </aside>
+
+        <div class="proof-strip" aria-label="Pruebas del laboratorio">
+          <span id="proof-geometry" class="proof"><i></i>volúmenes</span>
+          <span id="proof-depth" class="proof"><i></i>relieve + z-buffer</span>
+          <span id="proof-movement" class="proof"><i></i>movimiento</span>
+        </div>
+
+        <div id="toast" class="toast" role="status"></div>
+
+        <aside class="movement-note">
+          <span class="keys" aria-hidden="true"><b>W</b><b>A</b><b>S</b><b>D</b></span>
+          <p><strong id="activity-status">observación</strong><small id="coordinates">x 2.62 · z 2.30</small></p>
+        </aside>
+
+        <nav class="command-dock" aria-label="Acciones del laboratorio">
+          <button id="tour-button" class="command command--accent" type="button">
+            <span class="command-icon">↝</span>
+            <span><strong>Prueba muebles</strong><small>sofá · mesa · estantería</small></span>
+          </button>
+          <button id="seat-button" class="command" type="button">
+            <span class="command-icon">E</span>
+            <span><strong>Sentarse</strong><small>sofá físico</small></span>
+          </button>
+          <button id="technical-button" class="command" type="button" aria-pressed="false">
+            <span class="command-icon">◇</span>
+            <span><strong>Ver física</strong><small>sin cuadrícula</small></span>
+          </button>
+          <button id="contract-button" class="command command--quiet" type="button">
+            <span class="command-icon">?</span>
+            <span><strong>Contrato</strong><small>cómo funciona</small></span>
+          </button>
+          <button id="reset-button" class="command command--quiet" type="button">
+            <span class="command-icon">↺</span>
+            <span><strong>Reiniciar</strong><small>posición inicial</small></span>
+          </button>
+        </nav>
+
+        <div class="camera-seal" aria-hidden="true">
+          <span>45°</span>
+          <small>ORTHO<br />LOCK</small>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="contract-dialog" class="contract-dialog">
+      <div class="dialog-heading">
+        <p>GEOMETRY FIRST · CONTRATO 01</p>
+        <button id="close-contract" type="button" aria-label="Cerrar">×</button>
+      </div>
+      <h2>La física no se deduce de una ilustración.</h2>
+      <p>
+        El piso, las paredes, el sofá, la mesa y cada silla son objetos tridimensionales independientes.
+        El personaje conserva su arte 2D, pero cada píxel visible recibe profundidad a partir de un relieve
+        espacial. La estantería, el sofá y la mesa prueban el pipeline híbrido: cada piel pixel-art detallada
+        y su huella física nacen de una única definición espacial. La cámara ortográfica nunca rota y el
+        render respeta la densidad del atlas original.
+      </p>
+      <dl>
+        <div><dt>Colisión</dt><dd>volúmenes continuos expandidos por el radio del personaje</dd></div>
+        <div><dt>Rutas</dt><dd>grafo de visibilidad alrededor de rectángulos físicos; ninguna grilla</dd></div>
+        <div><dt>Profundidad</dt><dd>relieve de 128 × 160 muestras y z-buffer real de WebGL; no es una lámina plana</dd></div>
+        <div><dt>Piel 2D</dt><dd>el RGBA del atlas no cambia: solamente obtiene una coordenada Z oculta por píxel</dd></div>
+        <div><dt>Margen</dt><dd>cuerpo físico más una separación visual para que abrigo y bolso no rocen muebles</dd></div>
+        <div><dt>Assets híbridos</dt><dd>posición, base física, pivote de suelo y piel detallada comparten una fuente</dd></div>
+        <div><dt>Estética</dt><dd>cámara fija, madera cálida, luz escalonada y raster nearest-neighbor a densidad nativa</dd></div>
+      </dl>
+      <p class="dialog-footnote">Este laboratorio está aislado y no modifica la cafetería principal.</p>
+    </dialog>
+
+    <script type="module" src="/src/geometry-first-lab/main.ts"></script>
+  </body>
+</html>

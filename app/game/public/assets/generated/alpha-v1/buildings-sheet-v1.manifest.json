@@ -1,0 +1,22 @@
+{
+  "schema": "syka.world.alpha-buildings.v1",
+  "status": "provisional-integration-candidate",
+  "file": "buildings-sheet-v1.png",
+  "chromaSource": "buildings-sheet-v1-chroma.png",
+  "size": [3072, 512],
+  "grid": { "columns": 6, "rows": 1, "frameSize": [512, 512] },
+  "runtimeContract": {
+    "filter": "nearest",
+    "pixelSnapping": true,
+    "frameOrigin": [0.5, 1.0],
+    "note": "Internal sprites are precompensated for the current per-kind setDisplaySize aspect so runtime silhouettes retain their source proportions."
+  },
+  "frames": [
+    { "id": "home", "frameName": "building-home", "frame": [0, 0, 512, 512], "alphaBboxInFrame": [5, 6, 502, 501], "internalPlacement": [4, 5, 504, 503], "pivotInFrame": [256, 512], "draw": [92, 98], "footprintTiles": [4, 3], "source": "../gate-v2/house-exterior-v1.png", "sourceCrop": [339, 78, 853, 905] },
+    { "id": "cafe", "frameName": "building-cafe", "frame": [512, 0, 512, 512], "alphaBboxInFrame": [5, 7, 502, 500], "internalPlacement": [4, 6, 504, 502], "pivotInFrame": [256, 512], "draw": [118, 116], "footprintTiles": [5, 4], "source": "../gate-v2/cafe-exterior-v1.png", "sourceCrop": [330, 87, 894, 878] },
+    { "id": "marketing-office", "frameName": "building-marketing-office", "frame": [1024, 0, 512, 512], "alphaBboxInFrame": [5, 23, 502, 484], "internalPlacement": [4, 22, 504, 486], "pivotInFrame": [256, 512], "draw": [112, 110], "footprintTiles": [4, 4], "source": "marketing-exterior-v1.png", "sourceCrop": [279, 82, 888, 844] },
+    { "id": "commercial-office", "frameName": "building-commercial-office", "frame": [1536, 0, 512, 512], "alphaBboxInFrame": [5, 37, 502, 470], "internalPlacement": [4, 36, 504, 472], "pivotInFrame": [256, 512], "draw": [108, 106], "footprintTiles": [4, 4], "source": "commercial-office-exterior-v1.png", "sourceCrop": [270, 53, 955, 882] },
+    { "id": "crm-workshop", "frameName": "building-crm-workshop", "frame": [2048, 0, 512, 512], "alphaBboxInFrame": [5, 109, 502, 398], "internalPlacement": [4, 108, 504, 400], "pivotInFrame": [256, 512], "draw": [118, 106], "footprintTiles": [5, 4], "source": "crm-workshop-exterior-v1.png", "sourceCrop": [100, 70, 1233, 889] },
+    { "id": "community-hall", "frameName": "building-community-hall", "frame": [2560, 0, 512, 512], "alphaBboxInFrame": [5, 89, 502, 418], "internalPlacement": [4, 88, 504, 420], "pivotInFrame": [256, 512], "draw": [117, 108], "footprintTiles": [5, 4], "source": "community-house-exterior-v1.png", "sourceCrop": [103, 86, 1228, 940], "normalization": "Generated readable sign removed locally and replaced with three abstract color swatches; no text remains." }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "syka.world.alpha-environment-corrections.v1",
+  "status": "provisional-correction-candidates",
+  "file": "environment-corrections-sheet-v1.png",
+  "chromaSource": "environment-corrections-sheet-v1-chroma.png",
+  "size": [1611, 976],
+  "grid": { "columns": 4, "rows": 2, "xBoundaries": [0, 403, 806, 1208, 1611], "yBoundaries": [0, 488, 976] },
+  "frames": [
+    { "id": "streetlamp-left", "cell": [0, 0, 403, 488], "alphaBbox": [186, 128, 86, 292], "crop": [184, 126, 90, 296], "draw": [7, 24], "pivotInCrop": [45, 296], "origin": [0.5, 1.0], "placement": "sidewalk-edge-or-corner-only" },
+    { "id": "streetlamp-right", "cell": [403, 0, 403, 488], "alphaBbox": [569, 128, 86, 292], "crop": [567, 126, 90, 296], "draw": [7, 24], "pivotInCrop": [45, 296], "origin": [0.5, 1.0], "placement": "sidewalk-edge-or-corner-only" },
+    { "id": "bench-axis-a", "cell": [806, 0, 402, 488], "alphaBbox": [883, 240, 176, 146], "crop": [881, 238, 180, 150], "draw": [16, 10], "pivotInCrop": [90, 150], "origin": [0.5, 1.0], "placement": "pedestrian-sidewalk-edge-only" },
+    { "id": "bench-axis-b", "cell": [1208, 0, 403, 488], "alphaBbox": [1288, 244, 167, 144], "crop": [1286, 242, 171, 148], "draw": [16, 10], "pivotInCrop": [85.5, 148], "origin": [0.5, 1.0], "placement": "pedestrian-sidewalk-edge-only" },
+    { "id": "grass-motes", "cell": [0, 488, 403, 488], "alphaBbox": [111, 634, 222, 169], "crop": [109, 632, 226, 173], "draw": [12, 9], "pivotInCrop": [113, 173], "origin": [0.5, 1.0], "placement": "grass-only-seeded-sparse" },
+    { "id": "grass-leaves", "cell": [403, 488, 403, 488], "alphaBbox": [506, 637, 208, 158], "crop": [504, 635, 212, 162], "draw": [12, 9], "pivotInCrop": [106, 162], "origin": [0.5, 1.0], "placement": "grass-only-seeded-sparse" },
+    { "id": "grass-flowers", "cell": [806, 488, 402, 488], "alphaBbox": [878, 662, 182, 130], "crop": [876, 660, 186, 134], "draw": [11, 8], "pivotInCrop": [93, 134], "origin": [0.5, 1.0], "placement": "grass-only-near-gardens" },
+    { "id": "grass-tonal", "cell": [1208, 488, 403, 488], "alphaBbox": [1262, 647, 219, 140], "crop": [1260, 645, 223, 144], "draw": [14, 9], "pivotInCrop": [111.5, 144], "origin": [0.5, 1.0], "placement": "grass-only-seeded-sparse" }
+  ],
+  "rules": [
+    "Never place streetlamps in asphalt or the center of a road.",
+    "Use the two lamp variants on sidewalk edges/corners with a one-tile clear pedestrian path.",
+    "Benches are intentionally smaller than the Gate v2 bench and must align with their declared isometric axis.",
+    "Grass overlays add subtle motes, leaves, flowers and tonal variation; keep density low enough to avoid noise or visible seams.",
+    "No fountain or water feature is part of this sheet."
+  ]
+}

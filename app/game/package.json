@@ -1,0 +1,26 @@
+{
+  "name": "syka-world-game",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "typecheck": "tsc -b --pretty false",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "phaser": "4.2.1",
+    "three": "^0.185.1"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/three": "^0.185.1",
+    "happy-dom": "^20.10.6",
+    "typescript": "7.0.2",
+    "vite": "8.1.5",
+    "vitest": "4.1.10"
+  }
+}

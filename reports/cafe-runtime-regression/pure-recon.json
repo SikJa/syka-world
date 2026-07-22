@@ -1,0 +1,484 @@
+{
+  "url": "http://127.0.0.1:5173/?mode=showcase",
+  "viewport": {
+    "width": 1008,
+    "height": 548
+  },
+  "body": "✦\nSYKA WORLD\n999 Lúmenes\nDía 1 · 17:32\nTipo de partida\nCiudad de muestra\nNueva partida\nVida local\nⅡ\n1×\n2×\n4×\nSY\nSyka\nYendo a Casa comunitaria\nEL\nElen\nYendo a Casa comunitaria\nAS\nAstrelis\nYendo a Casa comunitaria\nZE\nZerny\nYendo a Casa comunitaria\nB\nConstruir\nReferencias\n⌁\nExplorar\nR\nVista fija\nEsc\nCancelar\nH\nOcultar\n⌘S\nGuardar\n↻\nCargar\n!\nReiniciar\nSYKA WORLD\nPreparando la ciudad…",
+  "buttons": [
+    {
+      "index": 0,
+      "text": "Ⅱ",
+      "aria": "Pausar el tiempo",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 894,
+        "y": 12,
+        "width": 24,
+        "height": 33
+      }
+    },
+    {
+      "index": 1,
+      "text": "1×",
+      "aria": "Velocidad 1",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 920,
+        "y": 12,
+        "width": 24,
+        "height": 33
+      }
+    },
+    {
+      "index": 2,
+      "text": "2×",
+      "aria": "Velocidad 2",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 946,
+        "y": 12,
+        "width": 24,
+        "height": 33
+      }
+    },
+    {
+      "index": 3,
+      "text": "4×",
+      "aria": "Velocidad 4",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 972,
+        "y": 12,
+        "width": 24,
+        "height": 33
+      }
+    },
+    {
+      "index": 4,
+      "text": "×",
+      "aria": "Cerrar catálogo de construcción",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 5,
+      "text": "Edificios",
+      "aria": null,
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 6,
+      "text": "Exterior",
+      "aria": null,
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 7,
+      "text": "⌂Casa acogedora110 Lúmenes",
+      "aria": null,
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "kind": "home"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 8,
+      "text": "☕Café Biblioteca240 Lúmenes",
+      "aria": null,
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "kind": "cafe"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 9,
+      "text": "✦Estudio de Elen190 Lúmenes",
+      "aria": null,
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "kind": "marketing-office"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 10,
+      "text": "◇Oficina de Astrelis190 Lúmenes",
+      "aria": null,
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "kind": "commercial-office"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 11,
+      "text": "⚒Taller de Zerny210 Lúmenes",
+      "aria": null,
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "kind": "crm-workshop"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 12,
+      "text": "❖Casa comunitaria170 Lúmenes",
+      "aria": null,
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "kind": "community-hall"
+      },
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 13,
+      "text": "SYSykaYendo a Casa comunitariaRutina local",
+      "aria": "Syka. Yendo a Casa comunitaria. Rutina local.",
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "profileId": "default",
+        "presence": "unknown",
+        "traveling": "true",
+        "possessed": "false"
+      },
+      "rect": {
+        "x": 285,
+        "y": 497,
+        "width": 107.25,
+        "height": 38
+      }
+    },
+    {
+      "index": 14,
+      "text": "ELElenYendo a Casa comunitariaRutina local",
+      "aria": "Elen. Yendo a Casa comunitaria. Rutina local.",
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "profileId": "elen",
+        "presence": "unknown",
+        "traveling": "true",
+        "possessed": "false"
+      },
+      "rect": {
+        "x": 395.25,
+        "y": 497,
+        "width": 107.25,
+        "height": 38
+      }
+    },
+    {
+      "index": 15,
+      "text": "ASAstrelisYendo a Casa comunitariaRutina local",
+      "aria": "Astrelis. Yendo a Casa comunitaria. Rutina local.",
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "profileId": "astrelis",
+        "presence": "unknown",
+        "traveling": "true",
+        "possessed": "false"
+      },
+      "rect": {
+        "x": 505.5,
+        "y": 497,
+        "width": 107.25,
+        "height": 38
+      }
+    },
+    {
+      "index": 16,
+      "text": "ZEZernyYendo a Casa comunitariaRutina local",
+      "aria": "Zerny. Yendo a Casa comunitaria. Rutina local.",
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "profileId": "zerny",
+        "presence": "unknown",
+        "traveling": "true",
+        "possessed": "false"
+      },
+      "rect": {
+        "x": 615.75,
+        "y": 497,
+        "width": 107.25,
+        "height": 38
+      }
+    },
+    {
+      "index": 17,
+      "text": "BConstruir",
+      "aria": "Abrir catálogo de construcción",
+      "disabled": false,
+      "hidden": false,
+      "data": {
+        "action": "build-or-return"
+      },
+      "rect": {
+        "x": 891,
+        "y": 462,
+        "width": 108,
+        "height": 34
+      }
+    },
+    {
+      "index": 18,
+      "text": "Referencias",
+      "aria": null,
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 795,
+        "y": 462,
+        "width": 88,
+        "height": 34
+      }
+    },
+    {
+      "index": 19,
+      "text": "⌁Explorar",
+      "aria": "Volver a explorar",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 781,
+        "y": 505,
+        "width": 28,
+        "height": 30
+      }
+    },
+    {
+      "index": 20,
+      "text": "RVista fija",
+      "aria": "La perspectiva de los edificios es fija",
+      "disabled": true,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 812,
+        "y": 505,
+        "width": 28,
+        "height": 30
+      }
+    },
+    {
+      "index": 21,
+      "text": "EscCancelar",
+      "aria": "Cancelar construcción",
+      "disabled": true,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 843,
+        "y": 505,
+        "width": 28,
+        "height": 30
+      }
+    },
+    {
+      "index": 22,
+      "text": "HOcultar",
+      "aria": "Ocultar habitantes",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 874,
+        "y": 505,
+        "width": 28,
+        "height": 30
+      }
+    },
+    {
+      "index": 23,
+      "text": "⌘SGuardar",
+      "aria": "Guardar partida",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 905,
+        "y": 505,
+        "width": 28,
+        "height": 30
+      }
+    },
+    {
+      "index": 24,
+      "text": "↻Cargar",
+      "aria": "Cargar partida",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 936,
+        "y": 505,
+        "width": 28,
+        "height": 30
+      }
+    },
+    {
+      "index": 25,
+      "text": "!Reiniciar",
+      "aria": "Reiniciar partida",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 967,
+        "y": 505,
+        "width": 28,
+        "height": 30
+      }
+    },
+    {
+      "index": 26,
+      "text": "×",
+      "aria": "Cerrar referencias visuales",
+      "disabled": false,
+      "hidden": false,
+      "data": {},
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "canvas": {
+    "width": 828,
+    "height": 450,
+    "cssWidth": 1008,
+    "cssHeight": 547.8125,
+    "x": 0,
+    "y": 0,
+    "imageRendering": "pixelated"
+  },
+  "globals": {
+    "syka": [],
+    "storage": [],
+    "devicePixelRatio": 1
+  },
+  "console": [
+    {
+      "type": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "type": "log",
+      "text": "%cPhaser v4.2.1 (WebGL | Web Audio)%c https://phaser.io/v4021 color: #ffffff; background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAOCAYAAAAmL5yKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARBJREFUeNpi/P//P0OHsPB/BiCoePuWkYFEwALSXJElzMBgLwE2CNkQxgWr/yMr/p8QimlBu5DQ//+8vBBco/ofzAe6imH+qv/53/6jYJAYSA4ZoxoANYTPKhiuCQZwGcJU+e4dqpMmvsDq14krV2MPAxDha2CMKvoXoiE/PBQUDgQD8j82UFae9B9bOIC8B9UD9gIjjIMN7Ns6lWHn4XMoYu62RgxO3tkMjIyMII2MYAOAtmFVhA+ADHf2ycGMRhANjUq8YO+WKWCvgAORIV8CkpDCrzIwsLIymC1qAtuAD4Bsh3sBmqAY3qcGwL2AC4DCpKtzHlgzOLWihwEuzTCN0GhDJHeYC4gByBphACDAAH2dDIxdjr+VAAAAAElFTkSuQmCC\"), linear-gradient(to bottom, #000814, #001d3d, #003566); background-repeat: no-repeat; background-position: 4px center, 0 0; padding: 2px 6px 2px 24px; background: transparent"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 502 (Bad Gateway)"
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "url": "http://127.0.0.1:5173/bridge/api/world/state",
+      "method": "GET",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bridge/api/world/state",
+      "method": "GET",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://127.0.0.1:5173/bridge/api/world/state",
+      "method": "GET",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

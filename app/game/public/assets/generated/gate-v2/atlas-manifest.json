@@ -1,0 +1,89 @@
+{
+  "schema": "syka.world.asset-atlas.v1",
+  "generatedAt": "2026-07-16T13:15:00-03:00",
+  "status": "integration-candidate-not-final",
+  "coordinateConvention": "top-left origin; rectangles are x,y,width,height in source pixels",
+  "renderContract": {
+    "logicalTile": [32, 16],
+    "physicalTileAtQa2x": [64, 32],
+    "filter": "nearest",
+    "pixelSnapping": true,
+    "rotation": false
+  },
+  "buildings": {
+    "house": {
+      "file": "house-exterior-v1.png",
+      "sourceCanvas": [1484, 1060],
+      "alphaBbox": [341, 80, 849, 901],
+      "crop": [339, 78, 853, 905],
+      "pivotInCrop": [427, 903],
+      "logicalDrawSize": [112, 119],
+      "physicalDrawSizeAtQa2x": [224, 238],
+      "footprintTiles": [4, 3]
+    },
+    "cafe": {
+      "file": "cafe-exterior-v1.png",
+      "sourceCanvas": [1536, 1024],
+      "alphaBbox": [332, 89, 890, 874],
+      "crop": [330, 87, 894, 878],
+      "pivotInCrop": [447, 876],
+      "logicalDrawSize": [144, 142],
+      "physicalDrawSizeAtQa2x": [288, 283],
+      "footprintTiles": [5, 4]
+    }
+  },
+  "props": {
+    "file": "environment-props-sheet-v1.png",
+    "sourceCanvas": [1619, 972],
+    "grid": {
+      "columns": 4,
+      "rows": 3,
+      "xBoundaries": [0, 405, 810, 1214, 1619],
+      "yBoundaries": [0, 324, 648, 972]
+    },
+    "frames": [
+      { "id": "tree-round", "cell": [0, 0, 405, 324], "alphaBbox": [110, 33, 243, 271], "crop": [108, 31, 247, 275], "physicalDrawSizeAtQa2x": [90, 100], "logicalDrawSize": [45, 50], "pivot": "bottom-center" },
+      { "id": "tree-narrow", "cell": [405, 0, 405, 324], "alphaBbox": [541, 33, 134, 271], "crop": [539, 31, 138, 275], "physicalDrawSizeAtQa2x": [49, 100], "logicalDrawSize": [25, 50], "pivot": "bottom-center" },
+      { "id": "shrub-round", "cell": [810, 0, 404, 324], "alphaBbox": [882, 136, 183, 165], "crop": [880, 134, 187, 169], "physicalDrawSizeAtQa2x": [44, 40], "logicalDrawSize": [22, 20], "pivot": "bottom-center" },
+      { "id": "shrub-flowering", "cell": [1214, 0, 405, 324], "alphaBbox": [1266, 162, 199, 139], "crop": [1264, 160, 203, 143], "physicalDrawSizeAtQa2x": [57, 40], "logicalDrawSize": [29, 20], "pivot": "bottom-center" },
+      { "id": "hedge-two-segment", "cell": [0, 324, 405, 324], "alphaBbox": [117, 451, 244, 114], "crop": [115, 449, 248, 118], "physicalDrawSizeAtQa2x": [86, 40], "logicalDrawSize": [43, 20], "pivot": "bottom-center" },
+      { "id": "planter-wood", "cell": [405, 324, 405, 324], "alphaBbox": [521, 393, 193, 186], "crop": [519, 391, 197, 190], "physicalDrawSizeAtQa2x": [52, 50], "logicalDrawSize": [26, 25], "pivot": "bottom-center" },
+      { "id": "flower-patch", "cell": [810, 324, 404, 324], "alphaBbox": [882, 457, 184, 112], "crop": [880, 455, 188, 116], "physicalDrawSizeAtQa2x": [52, 32], "logicalDrawSize": [26, 16], "pivot": "bottom-center" },
+      { "id": "streetlamp", "cell": [1214, 324, 405, 324], "alphaBbox": [1325, 324, 78, 251], "crop": [1323, 322, 82, 255], "physicalDrawSizeAtQa2x": [25, 80], "logicalDrawSize": [13, 40], "pivot": "bottom-center" },
+      { "id": "bench", "cell": [0, 648, 405, 324], "alphaBbox": [113, 693, 254, 196], "crop": [111, 691, 258, 200], "physicalDrawSizeAtQa2x": [78, 60], "logicalDrawSize": [39, 30], "pivot": "bottom-center" },
+      { "id": "potted-plant", "cell": [405, 648, 405, 324], "alphaBbox": [539, 717, 130, 150], "crop": [537, 715, 134, 154], "physicalDrawSizeAtQa2x": [35, 40], "logicalDrawSize": [18, 20], "pivot": "bottom-center" },
+      { "id": "mailbox", "cell": [810, 648, 404, 324], "alphaBbox": [917, 697, 107, 183], "crop": [915, 695, 111, 187], "physicalDrawSizeAtQa2x": [23, 40], "logicalDrawSize": [12, 20], "pivot": "bottom-center" },
+      { "id": "trellis", "cell": [1214, 648, 405, 324], "alphaBbox": [1271, 682, 191, 207], "crop": [1269, 680, 195, 211], "physicalDrawSizeAtQa2x": [55, 60], "logicalDrawSize": [28, 30], "pivot": "bottom-center" }
+    ]
+  },
+  "terrain": {
+    "file": "terrain-tiles-atlas-v1.png",
+    "sourceFile": "terrain-tiles-sheet-v4.png",
+    "atlasSize": [1280, 320],
+    "columns": 4,
+    "rows": 2,
+    "frameSize": [320, 160],
+    "logicalDrawSize": [32, 16],
+    "physicalDrawSizeAtQa2x": [64, 32],
+    "logicalTextureScale": 0.1,
+    "physicalTextureScaleAtQa2x": 0.2,
+    "normalization": "tight alpha crop -> nearest 320x160 -> exact canonical 2:1 hard-alpha mask; missing edge pixels filled from nearest opaque source edge",
+    "alphaPolicy": "binary; 0 or 255 only",
+    "frames": [
+      { "id": "grass-plain", "frame": [0, 0, 320, 160], "sourceAlphaBbox": [69, 195, 362, 179] },
+      { "id": "grass-varied", "frame": [320, 0, 320, 160], "sourceAlphaBbox": [489, 195, 364, 179] },
+      { "id": "sidewalk-cream", "frame": [640, 0, 320, 160], "sourceAlphaBbox": [920, 195, 363, 179] },
+      { "id": "asphalt-dark", "frame": [960, 0, 320, 160], "sourceAlphaBbox": [1343, 195, 362, 179] },
+      { "id": "grass-earth-edge", "frame": [0, 160, 320, 160], "sourceAlphaBbox": [69, 515, 362, 180] },
+      { "id": "asphalt-lane-dash", "frame": [320, 160, 320, 160], "sourceAlphaBbox": [490, 515, 363, 181] },
+      { "id": "asphalt-curb-edge", "frame": [640, 160, 320, 160], "sourceAlphaBbox": [920, 515, 363, 181] },
+      { "id": "asphalt-crosswalk", "frame": [960, 160, 320, 160], "sourceAlphaBbox": [1343, 515, 362, 181] }
+    ],
+    "validation": {
+      "allFrameAlphaBboxes": [0, 0, 320, 160],
+      "opaquePixelsPerFrame": 25920,
+      "transparentPixelsPerFrame": 25280,
+      "partiallyTransparentPixelsPerFrame": 0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "syka.world.alpha-cafe-decor.v1",
+  "status": "provisional-integration-candidate",
+  "file": "cafe-optional-decor-sheet-v1.png",
+  "chromaSource": "cafe-optional-decor-sheet-v1-chroma.png",
+  "size": [1536, 1024],
+  "grid": { "columns": 3, "rows": 2, "cellSize": [512, 512] },
+  "frames": [
+    { "id": "lamp-table", "semanticAliases": ["warm-lamp"], "cell": [0, 0, 512, 512], "alphaBbox": [194, 121, 224, 365], "crop": [192, 119, 228, 369], "draw": [30, 49], "pivot": [0.5, 1.0] },
+    { "id": "plant-tall", "semanticAliases": ["fern"], "cell": [512, 0, 512, 512], "alphaBbox": [611, 61, 243, 426], "crop": [609, 59, 247, 430], "draw": [28, 49], "pivot": [0.5, 1.0] },
+    { "id": "books-mug", "semanticAliases": ["bookcase"], "cell": [1024, 0, 512, 512], "alphaBbox": [1048, 149, 297, 334], "crop": [1046, 147, 301, 338], "draw": [38, 42], "pivot": [0.5, 1.0] },
+    { "id": "rug-woven", "cell": [0, 512, 512, 512], "alphaBbox": [77, 620, 435, 268], "crop": [75, 618, 437, 272], "draw": [52, 32], "pivot": [0.5, 0.5] },
+    { "id": "abstract-print", "semanticAliases": ["notice-board"], "cell": [512, 512, 512, 512], "alphaBbox": [671, 577, 353, 366], "crop": [669, 575, 355, 370], "draw": [34, 36], "pivot": [0.5, 1.0] },
+    { "id": "tea-service", "cell": [1024, 512, 512, 512], "alphaBbox": [1024, 691, 355, 269], "crop": [1024, 689, 357, 273], "draw": [44, 34], "pivot": [0.5, 1.0] }
+  ],
+  "semanticMapping": { "warm-lamp": "lamp-table", "fern": "plant-tall", "notice-board": "abstract-print", "bookcase": "books-mug" }
+}

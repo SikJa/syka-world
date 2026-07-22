@@ -1,0 +1,58 @@
+{
+  "schema": "syka.world.asset-concept.npc-cafe.v1",
+  "version": "0.1",
+  "status": "concept-only-not-runtime",
+  "generatedAt": "2026-07-16",
+  "generator": {
+    "tool": "Codex built-in ImageGen",
+    "mode": "built-in",
+    "postprocessing": "none-copy-only"
+  },
+  "runtimeIntegrated": false,
+  "hermesBound": false,
+  "order": [
+    "npc-alma-rios",
+    "npc-beni-menta",
+    "npc-iara-luz",
+    "npc-milo-niebla",
+    "npc-noa-junco"
+  ],
+  "characters": [
+    { "id": "npc-alma-rios", "name": "Alma Ríos", "role": "bartender-barista" },
+    { "id": "npc-beni-menta", "name": "Beni Menta", "role": "pastry-baker" },
+    { "id": "npc-iara-luz", "name": "Iara Luz", "role": "student-illustrator" },
+    { "id": "npc-milo-niebla", "name": "Milo Niebla", "role": "night-archivist-reader" },
+    { "id": "npc-noa-junco", "name": "Noa Junco", "role": "bicycle-courier-plant-supplier" }
+  ],
+  "images": [
+    {
+      "file": "cafe-npc-cast-concept-v1.png",
+      "purpose": "identity-turnaround-role-concept",
+      "size": [1659, 948],
+      "sha256": "d849e981aed0d9c218018aaf7e6706d4b1f8c24bf007710732a7096d2962e5f7"
+    },
+    {
+      "file": "cafe-npc-pose-matrix-v1.png",
+      "purpose": "pose-and-readability-concept",
+      "size": [1660, 948],
+      "sha256": "c2106458c81d948bb753daddac869508c7b753ab19e200164edff4fa163a4a4c"
+    },
+    {
+      "file": "cafe-npc-microlife-scene-v1.png",
+      "purpose": "cafe-microlife-environment-concept",
+      "size": [1584, 993],
+      "sha256": "a5c723f2e72cc4f09541f3559f2a774a429528c4d6b529cf20075ee32f3baffa"
+    }
+  ],
+  "referenceAssets": [
+    "research/visual-concepts/approved-direction-v1/city-layout-a-twilight.png",
+    "research/visual-concepts/approved-direction-v1/cafe-interior-library.png",
+    "app/game/public/assets/generated/alpha-v1/agents-sheet-v1.png"
+  ],
+  "constraints": [
+    "not imported by app/game",
+    "not bound to Hermes profiles or sessions",
+    "not a production sprite atlas",
+    "requires visual approval and manual pixel normalization before integration"
+  ]
+}

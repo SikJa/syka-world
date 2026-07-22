@@ -1,0 +1,168 @@
+{
+  "status": "PASS",
+  "generated_at_epoch": 1784301480.1277368,
+  "duration_seconds": 25.755,
+  "viewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "steps": [
+    {
+      "step": "select-agent",
+      "status": "PASS"
+    },
+    {
+      "step": "physical-click-city",
+      "status": "PASS",
+      "target": {
+        "x": 9,
+        "y": 7
+      }
+    },
+    {
+      "step": "building-click-not-ground",
+      "status": "PASS"
+    },
+    {
+      "step": "possess-and-wasd",
+      "status": "PASS",
+      "key": "d",
+      "cell": {
+        "x": 10,
+        "y": 7
+      }
+    },
+    {
+      "step": "city-collision-key-repeat",
+      "status": "PASS",
+      "key": "w"
+    },
+    {
+      "step": "portal-f-city-to-cafe",
+      "status": "PASS",
+      "actors": 3,
+      "unique_cells": 3
+    },
+    {
+      "step": "physical-click-cafe-floor",
+      "status": "PASS",
+      "target": {
+        "x": 16,
+        "y": 14
+      }
+    },
+    {
+      "step": "physical-click-cafe-and-e",
+      "status": "PASS",
+      "anchor": "table-seat-3"
+    },
+    {
+      "step": "cafe-e-coffee-station",
+      "status": "PASS",
+      "anchor": "counter"
+    },
+    {
+      "step": "cafe-collision-and-depth-frame",
+      "status": "PASS",
+      "key": "a"
+    },
+    {
+      "step": "typing-focus-guard",
+      "status": "PASS"
+    },
+    {
+      "step": "save-reload-position-no-possession",
+      "status": "PASS",
+      "cell": {
+        "x": 10,
+        "y": 9
+      }
+    },
+    {
+      "step": "portal-f-cafe-to-city",
+      "status": "PASS"
+    },
+    {
+      "step": "runtime-and-bridge-audit",
+      "status": "PASS",
+      "metrics": {
+        "actualFps": 55.75,
+        "frameMilliseconds": 19.99,
+        "activeScenes": [
+          "city"
+        ],
+        "displayObjects": 898,
+        "imageObjects": 837,
+        "textureCount": 16,
+        "renderer": "webgl",
+        "rendererDrawCount": 97,
+        "heapUsedBytes": 68000000
+      }
+    }
+  ],
+  "screenshots": [
+    "reports/interior-entity-possession-v1/screenshots/01-city-possession-1440x900.png",
+    "reports/interior-entity-possession-v1/screenshots/02-cafe-interaction-1440x900.png"
+  ],
+  "bridge_requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5188/bridge/api/world/state",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5188/bridge/api/world/state",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5188/bridge/api/world/state",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=0",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5188/bridge/api/world/state",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5188/bridge/api/world/events?wait=15",
+      "has_body": false
+    }
+  ],
+  "page_errors": [],
+  "console": [
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x678402d82a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x678402d82a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x678402d82a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x678402d82a00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    }
+  ]
+}

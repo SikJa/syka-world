@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#182b31" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%23d2874f%22/><text x=%2232%22 y=%2241%22 text-anchor=%22middle%22 font-size=%2224%22 fill=%22white%22>H1</text></svg>" />
+    <meta name="description" content="Prueba mínima del contrato espacial estilo Habbo para Syka World." />
+    <title>Syka World · Habbo Contract Lab</title>
+  </head>
+  <body>
+    <main class="workbench">
+      <header class="masthead">
+        <div>
+          <p class="kicker">SYKA WORLD · PRUEBA DE ARQUITECTURA</p>
+          <h1>Habbo Contract Lab</h1>
+          <p class="lede">Tiles lógicos. Movimiento suave. Sprites con profundidad propia.</p>
+        </div>
+        <div class="runtime-seal" id="runtime-seal">
+          <span class="runtime-seal__light"></span>
+          <span><strong>Gate A</strong><small id="runtime-status">Preparando renderer…</small></span>
+        </div>
+      </header>
+
+      <section class="lab-grid">
+        <div class="scene-card">
+          <div class="scene-toolbar">
+            <button id="demo-button" class="tool-button tool-button--primary" type="button">Recorrido delante/detrás</button>
+            <button id="seat-button" class="tool-button" type="button">Probar asiento</button>
+            <button id="debug-button" class="tool-button" type="button" aria-pressed="false">Mostrar contrato</button>
+            <button id="reset-button" class="tool-button tool-button--quiet" type="button">Reiniciar</button>
+          </div>
+
+          <div class="canvas-wrap">
+            <canvas
+              id="habbo-canvas"
+              width="960"
+              height="640"
+              tabindex="0"
+              aria-label="Habitación isométrica por tiles. Haz clic en un tile libre para mover a la habitante."
+            ></canvas>
+            <div id="toast" class="toast" role="status" aria-live="polite"></div>
+            <div class="canvas-note"><strong>Clic</strong> mover · <strong>WASD</strong> tile vecino · <strong>E</strong> sentarse</div>
+          </div>
+        </div>
+
+        <aside class="contract-panel">
+          <div class="contract-panel__heading">
+            <p class="kicker">CONTRATO ACTIVO</p>
+            <h2>El arte ya no decide la física.</h2>
+            <p>El sofá ocupa dos tiles, pero se dibuja como tres capas independientes.</p>
+          </div>
+
+          <dl class="readout">
+            <div><dt>Tile autoritativo</dt><dd id="logical-tile">—</dd></div>
+            <div><dt>Posición visual</dt><dd id="visual-position">—</dd></div>
+            <div><dt>Relación con sofá</dt><dd id="depth-relation">—</dd></div>
+            <div><dt>Estado</dt><dd id="actor-state">—</dd></div>
+          </dl>
+
+          <section class="stack-inspector">
+            <div class="section-title"><span>Orden render actual</span><small>atrás → adelante</small></div>
+            <ol id="render-stack"></ol>
+          </section>
+
+          <section class="proof-list">
+            <div class="section-title"><span>Gate técnico</span><small id="gate-score">0 / 5</small></div>
+            <label><input id="check-tiles" type="checkbox" disabled /> Tiles ocupados nunca son destino</label>
+            <label><input id="check-smooth" type="checkbox" disabled /> Interpolación sin teletransporte</label>
+            <label><input id="check-behind" type="checkbox" disabled /> Personaje completamente detrás</label>
+            <label><input id="check-between" type="checkbox" disabled /> Personaje entre back y front</label>
+            <label><input id="check-front" type="checkbox" disabled /> Personaje completamente delante</label>
+          </section>
+
+          <div class="architecture-note">
+            <span class="architecture-note__index">01</span>
+            <p><strong>Sofá:</strong> back · seat · front</p>
+            <span class="architecture-note__index">02</span>
+            <p><strong>Movimiento:</strong> A* por tiles + tween</p>
+            <span class="architecture-note__index">03</span>
+            <p><strong>Asiento:</strong> actor insertado entre capas</p>
+          </div>
+        </aside>
+      </section>
+    </main>
+    <script type="module" src="/src/habbo-lab/main.ts"></script>
+  </body>
+</html>

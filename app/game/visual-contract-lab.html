@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111a1b" />
+    <meta
+      name="description"
+      content="Laboratorio visual aislado de Syka World: arte detallado, navegación invisible y movimiento continuo."
+    />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2214%22 fill=%22%235f3927%22/><path d=%22M16 42 32 14l16 28Z%22 fill=%22%23e6b36d%22/><circle cx=%2232%22 cy=%2235%22 r=%226%22 fill=%22%23152122%22/></svg>" />
+    <title>Syka World · Visual Contract Lab</title>
+  </head>
+  <body>
+    <main class="studio-shell">
+      <header class="studio-header">
+        <div class="studio-title">
+          <span class="edition-mark" aria-hidden="true">SW<br /><small>02</small></span>
+          <div>
+            <p class="eyebrow">PRUEBA AISLADA · CAFÉ MODULAR</p>
+            <h1>Visual Contract Lab</h1>
+            <p class="subtitle">La grilla organiza. El personaje se mueve libre.</p>
+          </div>
+        </div>
+        <div class="live-verdict" id="live-verdict">
+          <i></i>
+          <span><strong>Contrato visual</strong><small id="runtime-status">Cargando assets…</small></span>
+        </div>
+      </header>
+
+      <section class="stage-shell" aria-label="Laboratorio visual interactivo">
+        <div class="stage-toolbar">
+          <div class="toolbar-group">
+            <button id="route-button" class="studio-button studio-button--primary" type="button">Recorrido suave</button>
+            <button id="seat-button" class="studio-button" type="button">Sentarse</button>
+            <button id="debug-button" class="studio-button" type="button" aria-pressed="false">Ver sistema</button>
+          </div>
+          <div class="toolbar-group toolbar-group--secondary">
+            <button id="reference-button" class="studio-button studio-button--ghost" type="button">Objetivo visual</button>
+            <button id="reset-button" class="studio-button studio-button--ghost" type="button">Reiniciar</button>
+          </div>
+        </div>
+
+        <div class="scene-viewport">
+          <canvas
+            id="visual-canvas"
+            width="1200"
+            height="820"
+            tabindex="0"
+            aria-label="Interior isométrico detallado. Usa WASD para movimiento continuo, clic para caminar y E para sentarte."
+          ></canvas>
+          <div id="toast" class="scene-toast" role="status" aria-live="polite"></div>
+
+          <div class="scene-state" aria-live="polite">
+            <span class="scene-state__dot"></span>
+            <span><strong id="movement-status">En reposo</strong><small id="position-status">posición continua</small></span>
+          </div>
+
+          <div class="control-ribbon" aria-hidden="true">
+            <span><kbd>WASD</kbd> libre</span>
+            <span><kbd>clic</kbd> ruta</span>
+            <span><kbd>E</kbd> interactuar</span>
+          </div>
+        </div>
+
+        <footer class="contract-strip">
+          <p><strong id="layer-status">Habitación + 2 muebles + 1 actor</strong><span>La interfaz no participa de la física.</span></p>
+          <ul class="proof-flow" aria-label="Estado del contrato">
+            <li id="proof-nav"><i></i>Navegación invisible</li>
+            <li id="proof-motion"><i></i>Movimiento continuo</li>
+            <li id="proof-depth"><i></i>Delante y detrás</li>
+            <li id="proof-seat"><i></i>Asiento multicapa</li>
+          </ul>
+        </footer>
+      </section>
+
+      <p class="scope-note">Laboratorio visual únicamente. No reemplaza ni modifica el Café de la partida actual.</p>
+    </main>
+
+    <dialog id="reference-dialog" class="reference-dialog">
+      <div class="reference-dialog__header">
+        <div><p class="eyebrow">OBJETIVO VISUAL GENERADO</p><h2>La escena que guía esta prueba</h2></div>
+        <button id="reference-close" type="button" aria-label="Cerrar referencia">×</button>
+      </div>
+      <img src="/assets/generated/visual-contract-v1/reference-concept-v1.png" alt="Concepto objetivo del pequeño café biblioteca modular" />
+      <p>Es una referencia de composición. El runtime sigue usando habitación, sofá, mesa y actor como piezas independientes.</p>
+    </dialog>
+
+    <script type="module" src="/src/visual-contract-lab/main.ts"></script>
+  </body>
+</html>

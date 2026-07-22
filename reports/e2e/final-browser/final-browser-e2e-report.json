@@ -1,0 +1,1984 @@
+{
+  "schema": "syka.world.final-browser-e2e.v1",
+  "overall": "PASS",
+  "durationSeconds": 17.012,
+  "viewports": [
+    {
+      "viewport": "1008x548",
+      "status": "PASS",
+      "ready_seconds": 0.852,
+      "canvas": {
+        "logicalWidth": 828,
+        "logicalHeight": 450,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1008,
+          "height": 547.8125,
+          "right": 1008,
+          "bottom": 547.8125
+        },
+        "scaleX": 1.2173913043478262,
+        "scaleY": 1.2173611111111111,
+        "imageRendering": "pixelated",
+        "viewportCoverage": 0.999658,
+        "scaleError": 3e-05
+      },
+      "syka": {
+        "inspector": {
+          "title": "Syka",
+          "phase": "Yendo a Casa comunitaria",
+          "route": "23 tramos hasta Casa comunitaria",
+          "summary": "Siguiendo su rutina por la ciudad."
+        },
+        "renderedPath": {
+          "selectedAgentId": "syka",
+          "path": [
+            {
+              "x": 4,
+              "y": 7
+            },
+            {
+              "x": 5,
+              "y": 7
+            },
+            {
+              "x": 6,
+              "y": 7
+            },
+            {
+              "x": 7,
+              "y": 7
+            },
+            {
+              "x": 7,
+              "y": 8
+            },
+            {
+              "x": 7,
+              "y": 9
+            },
+            {
+              "x": 7,
+              "y": 10
+            },
+            {
+              "x": 7,
+              "y": 11
+            },
+            {
+              "x": 7,
+              "y": 12
+            },
+            {
+              "x": 7,
+              "y": 13
+            },
+            {
+              "x": 7,
+              "y": 14
+            },
+            {
+              "x": 7,
+              "y": 15
+            },
+            {
+              "x": 7,
+              "y": 16
+            },
+            {
+              "x": 7,
+              "y": 17
+            },
+            {
+              "x": 7,
+              "y": 18
+            },
+            {
+              "x": 7,
+              "y": 19
+            },
+            {
+              "x": 7,
+              "y": 20
+            },
+            {
+              "x": 8,
+              "y": 20
+            },
+            {
+              "x": 9,
+              "y": 20
+            },
+            {
+              "x": 10,
+              "y": 20
+            },
+            {
+              "x": 11,
+              "y": 20
+            },
+            {
+              "x": 12,
+              "y": 20
+            },
+            {
+              "x": 13,
+              "y": 20
+            },
+            {
+              "x": 14,
+              "y": 20
+            }
+          ],
+          "destinationBuildingId": "community-main",
+          "commandBufferLength": 405,
+          "graphicsVisible": true,
+          "graphicsAlpha": 1,
+          "renderFlags": 15
+        }
+      },
+      "buildings": [
+        {
+          "id": "home-syka",
+          "kind": "home",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 3
+          },
+          "occupiedTileCount": 12,
+          "calibrationFootprint": [
+            4,
+            3
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 814,
+            "y": 114,
+            "width": 92,
+            "height": 98,
+            "right": 906,
+            "bottom": 212
+          },
+          "logicalScreenBounds": {
+            "x": 232,
+            "y": 17,
+            "width": 92,
+            "height": 98
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 860,
+            "y": 212
+          },
+          "expectedOffset": [
+            -8,
+            -10
+          ],
+          "actualOffset": [
+            -8,
+            -10
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 852,
+              "y": 166
+            },
+            {
+              "x": 916,
+              "y": 198
+            },
+            {
+              "x": 868,
+              "y": 222
+            },
+            {
+              "x": 804,
+              "y": 190
+            }
+          ]
+        },
+        {
+          "id": "home-elen",
+          "kind": "home",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 3
+          },
+          "occupiedTileCount": 12,
+          "calibrationFootprint": [
+            4,
+            3
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 926,
+            "y": 170,
+            "width": 92,
+            "height": 98,
+            "right": 1018,
+            "bottom": 268
+          },
+          "logicalScreenBounds": {
+            "x": 344,
+            "y": 73,
+            "width": 92,
+            "height": 98
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 972,
+            "y": 268
+          },
+          "expectedOffset": [
+            -8,
+            -10
+          ],
+          "actualOffset": [
+            -8,
+            -10
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 964,
+              "y": 222
+            },
+            {
+              "x": 1028,
+              "y": 254
+            },
+            {
+              "x": 980,
+              "y": 278
+            },
+            {
+              "x": 916,
+              "y": 246
+            }
+          ]
+        },
+        {
+          "id": "home-astrelis",
+          "kind": "home",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 3
+          },
+          "occupiedTileCount": 12,
+          "calibrationFootprint": [
+            4,
+            3
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 1022,
+            "y": 218,
+            "width": 92,
+            "height": 98,
+            "right": 1114,
+            "bottom": 316
+          },
+          "logicalScreenBounds": {
+            "x": 440,
+            "y": 121,
+            "width": 92,
+            "height": 98
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 1068,
+            "y": 316
+          },
+          "expectedOffset": [
+            -8,
+            -10
+          ],
+          "actualOffset": [
+            -8,
+            -10
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 1060,
+              "y": 270
+            },
+            {
+              "x": 1124,
+              "y": 302
+            },
+            {
+              "x": 1076,
+              "y": 326
+            },
+            {
+              "x": 1012,
+              "y": 294
+            }
+          ]
+        },
+        {
+          "id": "home-zerny",
+          "kind": "home",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 3
+          },
+          "occupiedTileCount": 12,
+          "calibrationFootprint": [
+            4,
+            3
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 1134,
+            "y": 274,
+            "width": 92,
+            "height": 98,
+            "right": 1226,
+            "bottom": 372
+          },
+          "logicalScreenBounds": {
+            "x": 552,
+            "y": 177,
+            "width": 92,
+            "height": 98
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 1180,
+            "y": 372
+          },
+          "expectedOffset": [
+            -8,
+            -10
+          ],
+          "actualOffset": [
+            -8,
+            -10
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 1172,
+              "y": 326
+            },
+            {
+              "x": 1236,
+              "y": 358
+            },
+            {
+              "x": 1188,
+              "y": 382
+            },
+            {
+              "x": 1124,
+              "y": 350
+            }
+          ]
+        },
+        {
+          "id": "cafe-main",
+          "kind": "cafe",
+          "status": "complete",
+          "footprint": {
+            "width": 5,
+            "height": 4
+          },
+          "occupiedTileCount": 20,
+          "calibrationFootprint": [
+            5,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 718,
+            "y": 165,
+            "width": 118,
+            "height": 116,
+            "right": 836,
+            "bottom": 281
+          },
+          "logicalScreenBounds": {
+            "x": 136,
+            "y": 68,
+            "width": 118,
+            "height": 116
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 777,
+            "y": 281
+          },
+          "expectedOffset": [
+            -11,
+            -13
+          ],
+          "actualOffset": [
+            -11,
+            -13
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 772,
+              "y": 222
+            },
+            {
+              "x": 852,
+              "y": 262
+            },
+            {
+              "x": 788,
+              "y": 294
+            },
+            {
+              "x": 708,
+              "y": 254
+            }
+          ]
+        },
+        {
+          "id": "office-marketing",
+          "kind": "marketing-office",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 4
+          },
+          "occupiedTileCount": 16,
+          "calibrationFootprint": [
+            4,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 823,
+            "y": 217,
+            "width": 112,
+            "height": 110,
+            "right": 935,
+            "bottom": 327
+          },
+          "logicalScreenBounds": {
+            "x": 241,
+            "y": 120,
+            "width": 112,
+            "height": 110
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 879,
+            "y": 327
+          },
+          "expectedOffset": [
+            -5,
+            -15
+          ],
+          "actualOffset": [
+            -5,
+            -15
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 884,
+              "y": 278
+            },
+            {
+              "x": 948,
+              "y": 310
+            },
+            {
+              "x": 884,
+              "y": 342
+            },
+            {
+              "x": 820,
+              "y": 310
+            }
+          ]
+        },
+        {
+          "id": "office-commercial",
+          "kind": "commercial-office",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 4
+          },
+          "occupiedTileCount": 16,
+          "calibrationFootprint": [
+            4,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 924,
+            "y": 270,
+            "width": 108,
+            "height": 106,
+            "right": 1032,
+            "bottom": 376
+          },
+          "logicalScreenBounds": {
+            "x": 342,
+            "y": 173,
+            "width": 108,
+            "height": 106
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 978,
+            "y": 376
+          },
+          "expectedOffset": [
+            -2,
+            -14
+          ],
+          "actualOffset": [
+            -2,
+            -14
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 980,
+              "y": 326
+            },
+            {
+              "x": 1044,
+              "y": 358
+            },
+            {
+              "x": 980,
+              "y": 390
+            },
+            {
+              "x": 916,
+              "y": 358
+            }
+          ]
+        },
+        {
+          "id": "workshop-crm",
+          "kind": "crm-workshop",
+          "status": "complete",
+          "footprint": {
+            "width": 5,
+            "height": 4
+          },
+          "occupiedTileCount": 20,
+          "calibrationFootprint": [
+            5,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 1025,
+            "y": 322,
+            "width": 118,
+            "height": 106,
+            "right": 1143,
+            "bottom": 428
+          },
+          "logicalScreenBounds": {
+            "x": 443,
+            "y": 225,
+            "width": 118,
+            "height": 106
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 1084,
+            "y": 428
+          },
+          "expectedOffset": [
+            -8,
+            -18
+          ],
+          "actualOffset": [
+            -8,
+            -18
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 1076,
+              "y": 374
+            },
+            {
+              "x": 1156,
+              "y": 414
+            },
+            {
+              "x": 1092,
+              "y": 446
+            },
+            {
+              "x": 1012,
+              "y": 406
+            }
+          ]
+        },
+        {
+          "id": "community-main",
+          "kind": "community-hall",
+          "status": "complete",
+          "footprint": {
+            "width": 5,
+            "height": 4
+          },
+          "occupiedTileCount": 20,
+          "calibrationFootprint": [
+            5,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 786.5,
+            "y": 298,
+            "width": 117,
+            "height": 108,
+            "right": 903.5,
+            "bottom": 406
+          },
+          "logicalScreenBounds": {
+            "x": 204.5,
+            "y": 201,
+            "width": 117,
+            "height": 108
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 845,
+            "y": 406
+          },
+          "expectedOffset": [
+            -7,
+            -16
+          ],
+          "actualOffset": [
+            -7,
+            -16
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 836,
+              "y": 350
+            },
+            {
+              "x": 916,
+              "y": 390
+            },
+            {
+              "x": 852,
+              "y": 422
+            },
+            {
+              "x": 772,
+              "y": 382
+            }
+          ]
+        }
+      ],
+      "building_issues": [],
+      "framing": {
+        "initialCameraCenter": {
+          "x": 14,
+          "y": 8
+        },
+        "selectedCameraCenter": {
+          "x": 14,
+          "y": 8
+        },
+        "cameraCenterUnchanged": true,
+        "initialMinimumVisibleRatio": 1,
+        "selectedMinimumVisibleRatio": 1
+      },
+      "interior": {
+        "logicalViewport": {
+          "width": 828,
+          "height": 450
+        },
+        "canvasLogical": {
+          "width": 828,
+          "height": 450
+        },
+        "room": {
+          "x": 77,
+          "y": 71,
+          "width": 674,
+          "height": 337,
+          "right": 751,
+          "bottom": 408
+        },
+        "roomSprite": {
+          "x": 77,
+          "y": 71,
+          "width": 674,
+          "height": 337
+        },
+        "roomCenteredXError": 0,
+        "roomInsideViewport": true,
+        "hotspots": [
+          {
+            "id": "library",
+            "label": "Biblioteca alta",
+            "description": "Libros, notas y un rincón tranquilo para leer o investigar.",
+            "zone": {
+              "x": 494.88,
+              "y": 84.48,
+              "width": 242.64,
+              "height": 90.99000000000001
+            },
+            "sample": {
+              "x": 616.2,
+              "y": 129.97500000000002
+            },
+            "interactive": true,
+            "cueAlpha": 0,
+            "cueBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "zoneAreaRatio": 0.09720000000000001,
+            "cueAreaRatio": 0,
+            "insideRoom": true
+          },
+          {
+            "id": "fireplace",
+            "label": "Junto a la chimenea",
+            "description": "El corazón cálido de la cafetería durante la tarde y la noche.",
+            "zone": {
+              "x": 528.58,
+              "y": 175.47,
+              "width": 134.8,
+              "height": 90.99000000000001
+            },
+            "sample": {
+              "x": 595.98,
+              "y": 189.1185
+            },
+            "interactive": true,
+            "cueAlpha": 0,
+            "cueBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "zoneAreaRatio": 0.05400000000000001,
+            "cueAreaRatio": 0,
+            "insideRoom": true
+          },
+          {
+            "id": "counter",
+            "label": "Barra del café",
+            "description": "Café, vajilla y una cocina lista desde el primer día.",
+            "zone": {
+              "x": 90.48,
+              "y": 121.55,
+              "width": 202.2,
+              "height": 192.08999999999997
+            },
+            "sample": {
+              "x": 191.57999999999998,
+              "y": 198.386
+            },
+            "interactive": true,
+            "cueAlpha": 0,
+            "cueBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "zoneAreaRatio": 0.17099999999999996,
+            "cueAreaRatio": 0,
+            "insideRoom": true
+          },
+          {
+            "id": "tables",
+            "label": "Mesa junto al fuego",
+            "description": "Un espacio para reunirse, descansar y observar la ciudad.",
+            "zone": {
+              "x": 285.94,
+              "y": 219.28,
+              "width": 417.88,
+              "height": 161.76
+            },
+            "sample": {
+              "x": 494.88,
+              "y": 324.424
+            },
+            "interactive": true,
+            "cueAlpha": 0,
+            "cueBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "zoneAreaRatio": 0.2976,
+            "cueAreaRatio": 0,
+            "insideRoom": true
+          }
+        ],
+        "giantDomOverlays": [],
+        "interactions": [
+          {
+            "id": "library",
+            "sampleScreen": {
+              "x": 750.16,
+              "y": 158.23
+            },
+            "cue": {
+              "active": 1,
+              "visibleCount": 1
+            },
+            "inspector": "CAFÉ BIBLIOTECA\nBiblioteca alta\nAcciones\n\nLibros, notas y un rincón tranquilo para leer o investigar.\n\nLeer\nVer decoración"
+          },
+          {
+            "id": "fireplace",
+            "sampleScreen": {
+              "x": 725.54,
+              "y": 230.23
+            },
+            "cue": {
+              "active": 1,
+              "visibleCount": 1
+            },
+            "inspector": "CAFÉ BIBLIOTECA\nJunto a la chimenea\nAcciones\n\nEl corazón cálido de la cafetería durante la tarde y la noche.\n\nAcercarse al fuego\nVer decoración"
+          },
+          {
+            "id": "counter",
+            "sampleScreen": {
+              "x": 233.23,
+              "y": 241.51
+            },
+            "cue": {
+              "active": 1,
+              "visibleCount": 1
+            },
+            "inspector": "CAFÉ BIBLIOTECA\nBarra del café\nAcciones\n\nCafé, vajilla y una cocina lista desde el primer día.\n\nServirse un café\nVer decoración"
+          },
+          {
+            "id": "tables",
+            "sampleScreen": {
+              "x": 602.46,
+              "y": 394.94
+            },
+            "cue": {
+              "active": 1,
+              "visibleCount": 1
+            },
+            "inspector": "CAFÉ BIBLIOTECA\nMesa junto al fuego\nAcciones\n\nUn espacio para reunirse, descansar y observar la ciudad.\n\nSentarse\nVer decoración"
+          }
+        ]
+      },
+      "performance": {
+        "city": {
+          "actualFps": 53.25,
+          "frameMilliseconds": 16.66,
+          "activeScenes": [
+            "city"
+          ],
+          "displayObjects": 898,
+          "imageObjects": 837,
+          "textureCount": 12,
+          "renderer": "webgl",
+          "rendererDrawCount": 94,
+          "heapUsedBytes": 56800000
+        },
+        "interior": {
+          "actualFps": 52.51,
+          "frameMilliseconds": 16.67,
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "displayObjects": 13,
+          "imageObjects": 6,
+          "textureCount": 18,
+          "renderer": "webgl",
+          "rendererDrawCount": 12,
+          "heapUsedBytes": 56800000
+        }
+      },
+      "requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=0",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=15",
+          "has_body": false
+        }
+      ],
+      "console": [],
+      "ignored_driver_console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x6c3400792200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x6c3400792200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x6c3400792200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x6c3400792200]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        }
+      ],
+      "page_errors": [],
+      "failed_responses": [],
+      "screenshots": [
+        "reports/e2e/final-browser/screenshots/city-syka-path-1008x548.png",
+        "reports/e2e/final-browser/screenshots/cafe-interior-hotspot-1008x548.png"
+      ],
+      "error": null,
+      "traceback": null
+    },
+    {
+      "viewport": "1440x900",
+      "status": "PASS",
+      "ready_seconds": 0.75,
+      "canvas": {
+        "logicalWidth": 720,
+        "logicalHeight": 450,
+        "css": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 900,
+          "right": 1440,
+          "bottom": 900
+        },
+        "scaleX": 2,
+        "scaleY": 2,
+        "imageRendering": "pixelated",
+        "viewportCoverage": 1.0,
+        "scaleError": 0
+      },
+      "syka": {
+        "inspector": {
+          "title": "Syka",
+          "phase": "Yendo a Casa comunitaria",
+          "route": "23 tramos hasta Casa comunitaria",
+          "summary": "Siguiendo su rutina por la ciudad."
+        },
+        "renderedPath": {
+          "selectedAgentId": "syka",
+          "path": [
+            {
+              "x": 4,
+              "y": 7
+            },
+            {
+              "x": 5,
+              "y": 7
+            },
+            {
+              "x": 6,
+              "y": 7
+            },
+            {
+              "x": 7,
+              "y": 7
+            },
+            {
+              "x": 7,
+              "y": 8
+            },
+            {
+              "x": 7,
+              "y": 9
+            },
+            {
+              "x": 7,
+              "y": 10
+            },
+            {
+              "x": 7,
+              "y": 11
+            },
+            {
+              "x": 7,
+              "y": 12
+            },
+            {
+              "x": 7,
+              "y": 13
+            },
+            {
+              "x": 7,
+              "y": 14
+            },
+            {
+              "x": 7,
+              "y": 15
+            },
+            {
+              "x": 7,
+              "y": 16
+            },
+            {
+              "x": 7,
+              "y": 17
+            },
+            {
+              "x": 7,
+              "y": 18
+            },
+            {
+              "x": 7,
+              "y": 19
+            },
+            {
+              "x": 7,
+              "y": 20
+            },
+            {
+              "x": 8,
+              "y": 20
+            },
+            {
+              "x": 9,
+              "y": 20
+            },
+            {
+              "x": 10,
+              "y": 20
+            },
+            {
+              "x": 11,
+              "y": 20
+            },
+            {
+              "x": 12,
+              "y": 20
+            },
+            {
+              "x": 13,
+              "y": 20
+            },
+            {
+              "x": 14,
+              "y": 20
+            }
+          ],
+          "destinationBuildingId": "community-main",
+          "commandBufferLength": 405,
+          "graphicsVisible": true,
+          "graphicsAlpha": 1,
+          "renderFlags": 15
+        }
+      },
+      "buildings": [
+        {
+          "id": "home-syka",
+          "kind": "home",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 3
+          },
+          "occupiedTileCount": 12,
+          "calibrationFootprint": [
+            4,
+            3
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 814,
+            "y": 114,
+            "width": 92,
+            "height": 98,
+            "right": 906,
+            "bottom": 212
+          },
+          "logicalScreenBounds": {
+            "x": 178,
+            "y": 17,
+            "width": 92,
+            "height": 98
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 860,
+            "y": 212
+          },
+          "expectedOffset": [
+            -8,
+            -10
+          ],
+          "actualOffset": [
+            -8,
+            -10
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 852,
+              "y": 166
+            },
+            {
+              "x": 916,
+              "y": 198
+            },
+            {
+              "x": 868,
+              "y": 222
+            },
+            {
+              "x": 804,
+              "y": 190
+            }
+          ]
+        },
+        {
+          "id": "home-elen",
+          "kind": "home",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 3
+          },
+          "occupiedTileCount": 12,
+          "calibrationFootprint": [
+            4,
+            3
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 926,
+            "y": 170,
+            "width": 92,
+            "height": 98,
+            "right": 1018,
+            "bottom": 268
+          },
+          "logicalScreenBounds": {
+            "x": 290,
+            "y": 73,
+            "width": 92,
+            "height": 98
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 972,
+            "y": 268
+          },
+          "expectedOffset": [
+            -8,
+            -10
+          ],
+          "actualOffset": [
+            -8,
+            -10
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 964,
+              "y": 222
+            },
+            {
+              "x": 1028,
+              "y": 254
+            },
+            {
+              "x": 980,
+              "y": 278
+            },
+            {
+              "x": 916,
+              "y": 246
+            }
+          ]
+        },
+        {
+          "id": "home-astrelis",
+          "kind": "home",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 3
+          },
+          "occupiedTileCount": 12,
+          "calibrationFootprint": [
+            4,
+            3
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 1022,
+            "y": 218,
+            "width": 92,
+            "height": 98,
+            "right": 1114,
+            "bottom": 316
+          },
+          "logicalScreenBounds": {
+            "x": 386,
+            "y": 121,
+            "width": 92,
+            "height": 98
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 1068,
+            "y": 316
+          },
+          "expectedOffset": [
+            -8,
+            -10
+          ],
+          "actualOffset": [
+            -8,
+            -10
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 1060,
+              "y": 270
+            },
+            {
+              "x": 1124,
+              "y": 302
+            },
+            {
+              "x": 1076,
+              "y": 326
+            },
+            {
+              "x": 1012,
+              "y": 294
+            }
+          ]
+        },
+        {
+          "id": "home-zerny",
+          "kind": "home",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 3
+          },
+          "occupiedTileCount": 12,
+          "calibrationFootprint": [
+            4,
+            3
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 1134,
+            "y": 274,
+            "width": 92,
+            "height": 98,
+            "right": 1226,
+            "bottom": 372
+          },
+          "logicalScreenBounds": {
+            "x": 498,
+            "y": 177,
+            "width": 92,
+            "height": 98
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 1180,
+            "y": 372
+          },
+          "expectedOffset": [
+            -8,
+            -10
+          ],
+          "actualOffset": [
+            -8,
+            -10
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 1172,
+              "y": 326
+            },
+            {
+              "x": 1236,
+              "y": 358
+            },
+            {
+              "x": 1188,
+              "y": 382
+            },
+            {
+              "x": 1124,
+              "y": 350
+            }
+          ]
+        },
+        {
+          "id": "cafe-main",
+          "kind": "cafe",
+          "status": "complete",
+          "footprint": {
+            "width": 5,
+            "height": 4
+          },
+          "occupiedTileCount": 20,
+          "calibrationFootprint": [
+            5,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 718,
+            "y": 165,
+            "width": 118,
+            "height": 116,
+            "right": 836,
+            "bottom": 281
+          },
+          "logicalScreenBounds": {
+            "x": 82,
+            "y": 68,
+            "width": 118,
+            "height": 116
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 777,
+            "y": 281
+          },
+          "expectedOffset": [
+            -11,
+            -13
+          ],
+          "actualOffset": [
+            -11,
+            -13
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 772,
+              "y": 222
+            },
+            {
+              "x": 852,
+              "y": 262
+            },
+            {
+              "x": 788,
+              "y": 294
+            },
+            {
+              "x": 708,
+              "y": 254
+            }
+          ]
+        },
+        {
+          "id": "office-marketing",
+          "kind": "marketing-office",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 4
+          },
+          "occupiedTileCount": 16,
+          "calibrationFootprint": [
+            4,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 823,
+            "y": 217,
+            "width": 112,
+            "height": 110,
+            "right": 935,
+            "bottom": 327
+          },
+          "logicalScreenBounds": {
+            "x": 187,
+            "y": 120,
+            "width": 112,
+            "height": 110
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 879,
+            "y": 327
+          },
+          "expectedOffset": [
+            -5,
+            -15
+          ],
+          "actualOffset": [
+            -5,
+            -15
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 884,
+              "y": 278
+            },
+            {
+              "x": 948,
+              "y": 310
+            },
+            {
+              "x": 884,
+              "y": 342
+            },
+            {
+              "x": 820,
+              "y": 310
+            }
+          ]
+        },
+        {
+          "id": "office-commercial",
+          "kind": "commercial-office",
+          "status": "complete",
+          "footprint": {
+            "width": 4,
+            "height": 4
+          },
+          "occupiedTileCount": 16,
+          "calibrationFootprint": [
+            4,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 924,
+            "y": 270,
+            "width": 108,
+            "height": 106,
+            "right": 1032,
+            "bottom": 376
+          },
+          "logicalScreenBounds": {
+            "x": 288,
+            "y": 173,
+            "width": 108,
+            "height": 106
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 978,
+            "y": 376
+          },
+          "expectedOffset": [
+            -2,
+            -14
+          ],
+          "actualOffset": [
+            -2,
+            -14
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 980,
+              "y": 326
+            },
+            {
+              "x": 1044,
+              "y": 358
+            },
+            {
+              "x": 980,
+              "y": 390
+            },
+            {
+              "x": 916,
+              "y": 358
+            }
+          ]
+        },
+        {
+          "id": "workshop-crm",
+          "kind": "crm-workshop",
+          "status": "complete",
+          "footprint": {
+            "width": 5,
+            "height": 4
+          },
+          "occupiedTileCount": 20,
+          "calibrationFootprint": [
+            5,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 1025,
+            "y": 322,
+            "width": 118,
+            "height": 106,
+            "right": 1143,
+            "bottom": 428
+          },
+          "logicalScreenBounds": {
+            "x": 389,
+            "y": 225,
+            "width": 118,
+            "height": 106
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 1084,
+            "y": 428
+          },
+          "expectedOffset": [
+            -8,
+            -18
+          ],
+          "actualOffset": [
+            -8,
+            -18
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 1076,
+              "y": 374
+            },
+            {
+              "x": 1156,
+              "y": 414
+            },
+            {
+              "x": 1092,
+              "y": 446
+            },
+            {
+              "x": 1012,
+              "y": 406
+            }
+          ]
+        },
+        {
+          "id": "community-main",
+          "kind": "community-hall",
+          "status": "complete",
+          "footprint": {
+            "width": 5,
+            "height": 4
+          },
+          "occupiedTileCount": 20,
+          "calibrationFootprint": [
+            5,
+            4
+          ],
+          "roadOverlapCount": 0,
+          "missingTileCount": 0,
+          "accessTileIsRoad": true,
+          "spriteBounds": {
+            "x": 786.5,
+            "y": 298,
+            "width": 117,
+            "height": 108,
+            "right": 903.5,
+            "bottom": 406
+          },
+          "logicalScreenBounds": {
+            "x": 150.5,
+            "y": 201,
+            "width": 117,
+            "height": 108
+          },
+          "defaultViewportVisibleRatio": 1,
+          "spriteAnchor": {
+            "x": 845,
+            "y": 406
+          },
+          "expectedOffset": [
+            -7,
+            -16
+          ],
+          "actualOffset": [
+            -7,
+            -16
+          ],
+          "offsetError": 0,
+          "bottomPivotError": 0,
+          "anchorInsideFootprint": true,
+          "footprintDiamond": [
+            {
+              "x": 836,
+              "y": 350
+            },
+            {
+              "x": 916,
+              "y": 390
+            },
+            {
+              "x": 852,
+              "y": 422
+            },
+            {
+              "x": 772,
+              "y": 382
+            }
+          ]
+        }
+      ],
+      "building_issues": [],
+      "framing": {
+        "initialCameraCenter": {
+          "x": 14,
+          "y": 8
+        },
+        "selectedCameraCenter": {
+          "x": 14,
+          "y": 8
+        },
+        "cameraCenterUnchanged": true,
+        "initialMinimumVisibleRatio": 1,
+        "selectedMinimumVisibleRatio": 1
+      },
+      "interior": {
+        "logicalViewport": {
+          "width": 720,
+          "height": 450
+        },
+        "canvasLogical": {
+          "width": 720,
+          "height": 450
+        },
+        "room": {
+          "x": 66,
+          "y": 92,
+          "width": 588,
+          "height": 294,
+          "right": 654,
+          "bottom": 386
+        },
+        "roomSprite": {
+          "x": 66,
+          "y": 92,
+          "width": 588,
+          "height": 294
+        },
+        "roomCenteredXError": 0,
+        "roomInsideViewport": true,
+        "hotspots": [
+          {
+            "id": "library",
+            "label": "Biblioteca alta",
+            "description": "Libros, notas y un rincón tranquilo para leer o investigar.",
+            "zone": {
+              "x": 430.56,
+              "y": 103.76,
+              "width": 211.67999999999998,
+              "height": 79.38000000000001
+            },
+            "sample": {
+              "x": 536.4,
+              "y": 143.45000000000002
+            },
+            "interactive": true,
+            "cueAlpha": 0,
+            "cueBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "zoneAreaRatio": 0.0972,
+            "cueAreaRatio": 0,
+            "insideRoom": true
+          },
+          {
+            "id": "fireplace",
+            "label": "Junto a la chimenea",
+            "description": "El corazón cálido de la cafetería durante la tarde y la noche.",
+            "zone": {
+              "x": 459.96000000000004,
+              "y": 183.14,
+              "width": 117.60000000000001,
+              "height": 79.38000000000001
+            },
+            "sample": {
+              "x": 518.76,
+              "y": 195.047
+            },
+            "interactive": true,
+            "cueAlpha": 0,
+            "cueBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "zoneAreaRatio": 0.054000000000000006,
+            "cueAreaRatio": 0,
+            "insideRoom": true
+          },
+          {
+            "id": "counter",
+            "label": "Barra del café",
+            "description": "Café, vajilla y una cocina lista desde el primer día.",
+            "zone": {
+              "x": 77.76,
+              "y": 136.1,
+              "width": 176.4,
+              "height": 167.57999999999998
+            },
+            "sample": {
+              "x": 165.96,
+              "y": 203.132
+            },
+            "interactive": true,
+            "cueAlpha": 0,
+            "cueBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "zoneAreaRatio": 0.17099999999999999,
+            "cueAreaRatio": 0,
+            "insideRoom": true
+          },
+          {
+            "id": "tables",
+            "label": "Mesa junto al fuego",
+            "description": "Un espacio para reunirse, descansar y observar la ciudad.",
+            "zone": {
+              "x": 248.28,
+              "y": 221.36,
+              "width": 364.56,
+              "height": 141.12
+            },
+            "sample": {
+              "x": 430.56,
+              "y": 313.088
+            },
+            "interactive": true,
+            "cueAlpha": 0,
+            "cueBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "zoneAreaRatio": 0.29760000000000003,
+            "cueAreaRatio": 0,
+            "insideRoom": true
+          }
+        ],
+        "giantDomOverlays": [],
+        "interactions": [
+          {
+            "id": "library",
+            "sampleScreen": {
+              "x": 1072.8,
+              "y": 286.9
+            },
+            "cue": {
+              "active": 1,
+              "visibleCount": 1
+            },
+            "inspector": "CAFÉ BIBLIOTECA\nBiblioteca alta\nAcciones\n\nLibros, notas y un rincón tranquilo para leer o investigar.\n\nLeer\nVer decoración"
+          },
+          {
+            "id": "fireplace",
+            "sampleScreen": {
+              "x": 1037.52,
+              "y": 390.09
+            },
+            "cue": {
+              "active": 1,
+              "visibleCount": 1
+            },
+            "inspector": "CAFÉ BIBLIOTECA\nJunto a la chimenea\nAcciones\n\nEl corazón cálido de la cafetería durante la tarde y la noche.\n\nAcercarse al fuego\nVer decoración"
+          },
+          {
+            "id": "counter",
+            "sampleScreen": {
+              "x": 331.92,
+              "y": 406.26
+            },
+            "cue": {
+              "active": 1,
+              "visibleCount": 1
+            },
+            "inspector": "CAFÉ BIBLIOTECA\nBarra del café\nAcciones\n\nCafé, vajilla y una cocina lista desde el primer día.\n\nServirse un café\nVer decoración"
+          },
+          {
+            "id": "tables",
+            "sampleScreen": {
+              "x": 861.12,
+              "y": 626.18
+            },
+            "cue": {
+              "active": 1,
+              "visibleCount": 1
+            },
+            "inspector": "CAFÉ BIBLIOTECA\nMesa junto al fuego\nAcciones\n\nUn espacio para reunirse, descansar y observar la ciudad.\n\nSentarse\nVer decoración"
+          }
+        ]
+      },
+      "performance": {
+        "city": {
+          "actualFps": 52.66,
+          "frameMilliseconds": 18.34,
+          "activeScenes": [
+            "city"
+          ],
+          "displayObjects": 898,
+          "imageObjects": 837,
+          "textureCount": 12,
+          "renderer": "webgl",
+          "rendererDrawCount": 93,
+          "heapUsedBytes": 60300000
+        },
+        "interior": {
+          "actualFps": 51.25,
+          "frameMilliseconds": 16.67,
+          "activeScenes": [
+            "cafe-interior"
+          ],
+          "displayObjects": 13,
+          "imageObjects": 6,
+          "textureCount": 18,
+          "renderer": "webgl",
+          "rendererDrawCount": 12,
+          "heapUsedBytes": 60300000
+        }
+      },
+      "requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=0",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=15",
+          "has_body": false
+        }
+      ],
+      "console": [],
+      "ignored_driver_console": [],
+      "page_errors": [],
+      "failed_responses": [],
+      "screenshots": [
+        "reports/e2e/final-browser/screenshots/city-syka-path-1440x900.png",
+        "reports/e2e/final-browser/screenshots/cafe-interior-hotspot-1440x900.png"
+      ],
+      "error": null,
+      "traceback": null
+    }
+  ]
+}

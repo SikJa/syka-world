@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "viewport": "1440x900",
+      "canvasCount": 1,
+      "pageErrors": [],
+      "screenshot": "F:\\Coding Proyects\\Syka World Game\\reports\\e2e\\city-base\\city-base-1440x900.png",
+      "transit": {
+        "id": "milo-niebla",
+        "name": "Milo Niebla",
+        "direction": "arriving",
+        "tile": {
+          "x": 0,
+          "y": 17
+        },
+        "destination": {
+          "x": 4,
+          "y": 14
+        },
+        "pathLength": 8,
+        "minuteOfDay": 1050
+      },
+      "npcViews": [
+        {
+          "id": "alma-rios",
+          "x": 716.5,
+          "y": 266.25,
+          "targetX": 740,
+          "targetY": 278,
+          "alpha": 1,
+          "depth": 1841.1132054250713,
+          "frame": "cafe-npc-alma-rios-walking",
+          "displayWidth": 22,
+          "displayHeight": 29
+        },
+        {
+          "id": "milo-niebla",
+          "x": 671.04,
+          "y": 262.02,
+          "targetX": 724,
+          "targetY": 270,
+          "alpha": 1,
+          "depth": 1788.1997164203183,
+          "frame": "cafe-npc-milo-niebla-walking",
+          "displayWidth": 22,
+          "displayHeight": 29
+        }
+      ]
+    },
+    {
+      "viewport": "1008x548",
+      "canvasCount": 1,
+      "pageErrors": [],
+      "screenshot": "F:\\Coding Proyects\\Syka World Game\\reports\\e2e\\city-base\\city-base-1008x548.png",
+      "transit": null,
+      "npcViews": null
+    },
+    {
+      "viewport": "640x720",
+      "canvasCount": 1,
+      "pageErrors": [],
+      "screenshot": "F:\\Coding Proyects\\Syka World Game\\reports\\e2e\\city-base\\city-base-640x720.png",
+      "transit": null,
+      "npcViews": null
+    }
+  ]
+}

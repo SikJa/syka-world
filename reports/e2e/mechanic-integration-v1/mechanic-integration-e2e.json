@@ -1,0 +1,982 @@
+{
+  "schema": "syka.world.mechanic-integration-e2e.v1",
+  "overall": "PASS",
+  "durationSeconds": 62.771,
+  "baseUrl": "http://127.0.0.1:5187/",
+  "constraints": {
+    "placementsViaPhysicalUiAndCanvas": true,
+    "qaMethodsAllowed": [
+      "setPeriod",
+      "advanceMinutes",
+      "addLumenes"
+    ],
+    "bridgePolicy": "GET-only; no commands/tasks"
+  },
+  "primary": {
+    "status": "PASS",
+    "durationSeconds": 48.735,
+    "readySeconds": 3.232,
+    "flows": [
+      {
+        "id": "01",
+        "title": "Nueva partida con vida ambiental",
+        "status": "PASS",
+        "durationSeconds": 3.308,
+        "details": {
+          "distinctPositionsByAgent": {
+            "default": 9,
+            "elen": 9,
+            "astrelis": 10,
+            "zerny": 12
+          },
+          "evidence": "reports/e2e/mechanic-integration-v1/screenshots/01-nueva-partida-agentes-1440x900.png"
+        }
+      },
+      {
+        "id": "02",
+        "title": "Preview explica árbol, limpieza y conector",
+        "status": "PASS",
+        "durationSeconds": 2.489,
+        "details": {
+          "candidate": {
+            "origin": {
+              "x": 4,
+              "y": 0
+            },
+            "screen": {
+              "x": 784,
+              "y": 138
+            },
+            "preview": {
+              "definitionId": "cafe-library",
+              "origin": {
+                "x": 4,
+                "y": 0
+              },
+              "orientation": "north",
+              "valid": true,
+              "occupiedTiles": [
+                {
+                  "x": 4,
+                  "y": 0
+                },
+                {
+                  "x": 5,
+                  "y": 0
+                },
+                {
+                  "x": 6,
+                  "y": 0
+                },
+                {
+                  "x": 7,
+                  "y": 0
+                },
+                {
+                  "x": 8,
+                  "y": 0
+                },
+                {
+                  "x": 4,
+                  "y": 1
+                },
+                {
+                  "x": 5,
+                  "y": 1
+                },
+                {
+                  "x": 6,
+                  "y": 1
+                },
+                {
+                  "x": 7,
+                  "y": 1
+                },
+                {
+                  "x": 8,
+                  "y": 1
+                },
+                {
+                  "x": 4,
+                  "y": 2
+                },
+                {
+                  "x": 5,
+                  "y": 2
+                },
+                {
+                  "x": 6,
+                  "y": 2
+                },
+                {
+                  "x": 7,
+                  "y": 2
+                },
+                {
+                  "x": 8,
+                  "y": 2
+                },
+                {
+                  "x": 4,
+                  "y": 3
+                },
+                {
+                  "x": 5,
+                  "y": 3
+                },
+                {
+                  "x": 6,
+                  "y": 3
+                },
+                {
+                  "x": 7,
+                  "y": 3
+                },
+                {
+                  "x": 8,
+                  "y": 3
+                }
+              ],
+              "accessTile": {
+                "x": 6,
+                "y": 4
+              },
+              "footprintWidth": 5,
+              "footprintHeight": 4,
+              "roadTiles": [
+                {
+                  "x": 6,
+                  "y": 4
+                },
+                {
+                  "x": 6,
+                  "y": 5
+                },
+                {
+                  "x": 6,
+                  "y": 6
+                },
+                {
+                  "x": 6,
+                  "y": 7
+                }
+              ],
+              "connectorPath": [
+                {
+                  "x": 6,
+                  "y": 4
+                },
+                {
+                  "x": 6,
+                  "y": 5
+                },
+                {
+                  "x": 6,
+                  "y": 6
+                },
+                {
+                  "x": 6,
+                  "y": 7
+                },
+                {
+                  "x": 6,
+                  "y": 8
+                }
+              ],
+              "removedObjectIds": [
+                "seeded-1",
+                "seeded-2",
+                "seeded-6",
+                "seeded-8",
+                "seeded-9",
+                "seeded-15"
+              ],
+              "costs": {
+                "building": 240,
+                "road": 12,
+                "cleanup": 14,
+                "total": 266
+              },
+              "affordable": true,
+              "errors": []
+            },
+            "removedDefinitions": [
+              "hedge-short",
+              "tree-round",
+              "tree-narrow",
+              "shrub-flowering",
+              "hedge-short",
+              "tree-narrow"
+            ],
+            "removedTreeCount": 3,
+            "distanceToCenter": 376
+          },
+          "receipt": "PLAN LISTO\nCafé Biblioteca\nEdificio\n240 Lúmenes\nCamino\n12 Lúmenes\nRetiro\n14 Lúmenes\nTotal\n266 Lúmenes\n\n4 tramos de camino · 6 objetos a retirar · click para confirmar",
+          "evidence": "reports/e2e/mechanic-integration-v1/screenshots/02-preview-arbol-y-conector-1440x900.png"
+        }
+      },
+      {
+        "id": "03",
+        "title": "Colocación física y carretera automática",
+        "status": "PASS",
+        "durationSeconds": 2.404,
+        "details": {
+          "cafeId": "building-2",
+          "status": "foundation",
+          "evidence": "reports/e2e/mechanic-integration-v1/screenshots/03-cafe-en-obra-con-camino-1440x900.png"
+        }
+      },
+      {
+        "id": "04",
+        "title": "Aceleración real y binding dinámico",
+        "status": "PASS",
+        "durationSeconds": 2.898,
+        "details": {
+          "status": "complete",
+          "townXp": 100,
+          "level1RenderObjects": 2,
+          "evidence": "reports/e2e/mechanic-integration-v1/screenshots/04-cafe-completo-nivel-1-1440x900.png"
+        }
+      },
+      {
+        "id": "05",
+        "title": "Orden local Ir al Café y entrada sin teletransporte",
+        "status": "PASS",
+        "durationSeconds": 2.994,
+        "details": {
+          "routeSamples": 20,
+          "distinctExteriorPositions": 7,
+          "arrival": {
+            "kind": "interior",
+            "buildingId": "building-2",
+            "anchorId": "counter",
+            "action": "serve-coffee"
+          }
+        }
+      },
+      {
+        "id": "06",
+        "title": "Agente visible, anchor y acción interior",
+        "status": "PASS",
+        "durationSeconds": 3.918,
+        "details": {
+          "interiorLocation": {
+            "kind": "interior",
+            "buildingId": "building-2",
+            "anchorId": "library-chair",
+            "action": "read"
+          },
+          "returnedLocation": {
+            "kind": "exterior",
+            "tile": {
+              "x": 6,
+              "y": 4
+            }
+          },
+          "evidence": "reports/e2e/mechanic-integration-v1/screenshots/05-agente-leyendo-interior-1440x900.png"
+        }
+      },
+      {
+        "id": "07",
+        "title": "Catálogo Exterior: cinco compras físicas",
+        "status": "PASS",
+        "durationSeconds": 6.458,
+        "details": {
+          "placed": [
+            {
+              "definitionId": "wildflowers",
+              "instanceId": "object-32",
+              "hostTile": {
+                "x": 16,
+                "y": 11
+              }
+            },
+            {
+              "definitionId": "shrub-round",
+              "instanceId": "object-33",
+              "hostTile": {
+                "x": 13,
+                "y": 15
+              }
+            },
+            {
+              "definitionId": "tree-round",
+              "instanceId": "object-34",
+              "hostTile": {
+                "x": 13,
+                "y": 4
+              }
+            },
+            {
+              "definitionId": "bench",
+              "instanceId": "object-35",
+              "hostTile": {
+                "x": 1,
+                "y": 1
+              }
+            },
+            {
+              "definitionId": "streetlamp",
+              "instanceId": "object-36",
+              "hostTile": {
+                "x": 11,
+                "y": 9
+              }
+            }
+          ],
+          "evidence": [
+            "reports/e2e/mechanic-integration-v1/screenshots/07-catalogo-exterior-colocado-1440x900.png",
+            "reports/e2e/mechanic-integration-v1/screenshots/07b-catalogo-exterior-abierto-precios-1440x900.png"
+          ]
+        }
+      },
+      {
+        "id": "08",
+        "title": "Iluminación por familia: día, tarde y noche",
+        "status": "PASS",
+        "durationSeconds": 5.818,
+        "details": {
+          "maxAlpha": {
+            "day": 0,
+            "twilight": 0.28111200000000003,
+            "night": 0.5304000000000001
+          },
+          "maxPoolPixels": 32,
+          "evidence": {
+            "day": "reports/e2e/mechanic-integration-v1/screenshots/08-farola-dia-1200-1440x900.png",
+            "twilight": "reports/e2e/mechanic-integration-v1/screenshots/09-farola-atardecer-1830-1440x900.png",
+            "night": "reports/e2e/mechanic-integration-v1/screenshots/10-farola-noche-2200-1440x900.png"
+          }
+        }
+      },
+      {
+        "id": "09",
+        "title": "Mejora del Café con cambio visual real",
+        "status": "PASS",
+        "durationSeconds": 4.835,
+        "details": {
+          "beforeVariant": "cafe-library",
+          "afterVariant": "cafe-reading-loft",
+          "renderObjects": {
+            "before": 2,
+            "after": 6
+          },
+          "evidence": [
+            "reports/e2e/mechanic-integration-v1/screenshots/11-cafe-nivel-1-antes-upgrade-1440x900.png",
+            "reports/e2e/mechanic-integration-v1/screenshots/12-cafe-nivel-2-despues-upgrade-1440x900.png"
+          ]
+        }
+      },
+      {
+        "id": "10",
+        "title": "Retiro de Exterior y reembolso",
+        "status": "PASS",
+        "durationSeconds": 1.641,
+        "details": {
+          "removed": {
+            "definitionId": "streetlamp",
+            "instanceId": "object-36",
+            "hostTile": {
+              "x": 11,
+              "y": 9
+            }
+          },
+          "refund": 12,
+          "idempotentBalance": 3844,
+          "physicalSelection": {
+            "x": 725.1199999999999,
+            "y": 369.44000000000005
+          }
+        }
+      },
+      {
+        "id": "11",
+        "title": "Guardar y recargar el circuito completo",
+        "status": "PASS",
+        "durationSeconds": 8.543,
+        "details": {
+          "signature": {
+            "cafe": {
+              "id": "building-2",
+              "status": "complete",
+              "level": 2,
+              "visualVariant": "cafe-reading-loft",
+              "installedUpgrades": [
+                "cafe-reading-loft"
+              ]
+            },
+            "roads": [
+              "0,0",
+              "0,1",
+              "0,10",
+              "0,11",
+              "0,12",
+              "0,13",
+              "0,14",
+              "0,15",
+              "0,16",
+              "0,17",
+              "0,18",
+              "0,19",
+              "0,2",
+              "0,3",
+              "0,4",
+              "0,5",
+              "0,6",
+              "0,7",
+              "0,8",
+              "0,9",
+              "1,8",
+              "10,8",
+              "11,8",
+              "12,8",
+              "13,8",
+              "14,8",
+              "15,8",
+              "16,8",
+              "17,8",
+              "18,8",
+              "19,8",
+              "2,8",
+              "20,8",
+              "21,8",
+              "22,8",
+              "23,8",
+              "3,8",
+              "4,8",
+              "5,8",
+              "6,4",
+              "6,5",
+              "6,6",
+              "6,7",
+              "6,8",
+              "7,8",
+              "8,8",
+              "9,8"
+            ],
+            "objects": [
+              [
+                "object-32",
+                "wildflowers",
+                16,
+                11,
+                "player"
+              ],
+              [
+                "object-33",
+                "shrub-round",
+                13,
+                15,
+                "player"
+              ],
+              [
+                "object-34",
+                "tree-round",
+                13,
+                4,
+                "player"
+              ],
+              [
+                "object-35",
+                "bench",
+                1,
+                1,
+                "player"
+              ],
+              [
+                "seeded-10",
+                "shrub-round",
+                16,
+                3,
+                "seeded"
+              ],
+              [
+                "seeded-11",
+                "shrub-round",
+                5,
+                4,
+                "seeded"
+              ],
+              [
+                "seeded-12",
+                "hedge-short",
+                22,
+                4,
+                "seeded"
+              ],
+              [
+                "seeded-13",
+                "tree-round",
+                16,
+                5,
+                "seeded"
+              ],
+              [
+                "seeded-14",
+                "hedge-short",
+                1,
+                6,
+                "seeded"
+              ],
+              [
+                "seeded-16",
+                "hedge-short",
+                10,
+                6,
+                "seeded"
+              ],
+              [
+                "seeded-17",
+                "streetlamp",
+                11,
+                7,
+                "seeded"
+              ],
+              [
+                "seeded-18",
+                "tree-narrow",
+                14,
+                7,
+                "seeded"
+              ],
+              [
+                "seeded-19",
+                "streetlamp",
+                1,
+                11,
+                "seeded"
+              ],
+              [
+                "seeded-20",
+                "hedge-short",
+                4,
+                11,
+                "seeded"
+              ],
+              [
+                "seeded-21",
+                "shrub-flowering",
+                9,
+                11,
+                "seeded"
+              ],
+              [
+                "seeded-22",
+                "tree-narrow",
+                12,
+                11,
+                "seeded"
+              ],
+              [
+                "seeded-23",
+                "tree-round",
+                20,
+                11,
+                "seeded"
+              ],
+              [
+                "seeded-24",
+                "shrub-round",
+                1,
+                12,
+                "seeded"
+              ],
+              [
+                "seeded-25",
+                "tree-narrow",
+                13,
+                12,
+                "seeded"
+              ],
+              [
+                "seeded-26",
+                "shrub-flowering",
+                9,
+                13,
+                "seeded"
+              ],
+              [
+                "seeded-27",
+                "shrub-flowering",
+                16,
+                14,
+                "seeded"
+              ],
+              [
+                "seeded-28",
+                "shrub-round",
+                20,
+                15,
+                "seeded"
+              ],
+              [
+                "seeded-29",
+                "hedge-short",
+                3,
+                16,
+                "seeded"
+              ],
+              [
+                "seeded-3",
+                "tree-narrow",
+                10,
+                0,
+                "seeded"
+              ],
+              [
+                "seeded-30",
+                "hedge-short",
+                6,
+                16,
+                "seeded"
+              ],
+              [
+                "seeded-31",
+                "shrub-flowering",
+                8,
+                16,
+                "seeded"
+              ],
+              [
+                "seeded-32",
+                "shrub-flowering",
+                16,
+                16,
+                "seeded"
+              ],
+              [
+                "seeded-33",
+                "shrub-flowering",
+                1,
+                17,
+                "seeded"
+              ],
+              [
+                "seeded-34",
+                "hedge-short",
+                9,
+                17,
+                "seeded"
+              ],
+              [
+                "seeded-35",
+                "hedge-short",
+                5,
+                18,
+                "seeded"
+              ],
+              [
+                "seeded-36",
+                "shrub-flowering",
+                8,
+                18,
+                "seeded"
+              ],
+              [
+                "seeded-37",
+                "shrub-flowering",
+                9,
+                19,
+                "seeded"
+              ],
+              [
+                "seeded-4",
+                "hedge-short",
+                11,
+                0,
+                "seeded"
+              ],
+              [
+                "seeded-5",
+                "tree-narrow",
+                16,
+                0,
+                "seeded"
+              ],
+              [
+                "seeded-7",
+                "shrub-round",
+                20,
+                1,
+                "seeded"
+              ]
+            ],
+            "agents": [
+              [
+                "astrelis",
+                "{\"destinationBuildingId\": \"\", \"kind\": \"transit\", \"tile\": {\"x\": 0, \"y\": 14}}",
+                ""
+              ],
+              [
+                "default",
+                "{\"action\": \"serve-coffee\", \"anchorId\": \"counter\", \"buildingId\": \"building-2\", \"kind\": \"interior\"}",
+                "building-2"
+              ],
+              [
+                "elen",
+                "{\"destinationBuildingId\": \"\", \"kind\": \"transit\", \"tile\": {\"x\": 13, \"y\": 8}}",
+                ""
+              ],
+              [
+                "zerny",
+                "{\"destinationBuildingId\": \"\", \"kind\": \"transit\", \"tile\": {\"x\": 6, \"y\": 8}}",
+                ""
+              ]
+            ],
+            "balance": 3844,
+            "townXp": 128,
+            "townLevel": 2
+          },
+          "interiorLocation": {
+            "kind": "interior",
+            "buildingId": "building-2",
+            "anchorId": "counter",
+            "action": "serve-coffee"
+          },
+          "evidence": "reports/e2e/mechanic-integration-v1/screenshots/13-save-reload-restaurado-1440x900.png"
+        }
+      }
+    ],
+    "screenshots": [
+      "reports/e2e/mechanic-integration-v1/screenshots/01-nueva-partida-agentes-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/02-preview-arbol-y-conector-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/03-cafe-en-obra-con-camino-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/04-cafe-completo-nivel-1-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/05-agente-leyendo-interior-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/07-catalogo-exterior-colocado-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/07b-catalogo-exterior-abierto-precios-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/08-farola-dia-1200-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/09-farola-atardecer-1830-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/10-farola-noche-2200-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/11-cafe-nivel-1-antes-upgrade-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/12-cafe-nivel-2-despues-upgrade-1440x900.png",
+      "reports/e2e/mechanic-integration-v1/screenshots/13-save-reload-restaurado-1440x900.png"
+    ],
+    "physicalPlacements": [
+      {
+        "kind": "preview-only",
+        "definitionId": "cafe-library",
+        "origin": {
+          "x": 4,
+          "y": 0
+        },
+        "input": "UI card + canvas hover + Cancel button"
+      },
+      {
+        "kind": "building",
+        "definitionId": "cafe-library",
+        "instanceId": "building-2",
+        "origin": {
+          "x": 4,
+          "y": 0
+        },
+        "input": "UI card click + canvas click"
+      },
+      {
+        "kind": "exterior",
+        "definitionId": "wildflowers",
+        "instanceId": "object-32",
+        "hostTile": {
+          "x": 16,
+          "y": 11
+        },
+        "input": "Exterior UI card click + canvas click"
+      },
+      {
+        "kind": "exterior",
+        "definitionId": "shrub-round",
+        "instanceId": "object-33",
+        "hostTile": {
+          "x": 13,
+          "y": 15
+        },
+        "input": "Exterior UI card click + canvas click"
+      },
+      {
+        "kind": "exterior",
+        "definitionId": "tree-round",
+        "instanceId": "object-34",
+        "hostTile": {
+          "x": 13,
+          "y": 4
+        },
+        "input": "Exterior UI card click + canvas click"
+      },
+      {
+        "kind": "exterior",
+        "definitionId": "bench",
+        "instanceId": "object-35",
+        "hostTile": {
+          "x": 1,
+          "y": 1
+        },
+        "input": "Exterior UI card click + canvas click"
+      },
+      {
+        "kind": "exterior",
+        "definitionId": "streetlamp",
+        "instanceId": "object-36",
+        "hostTile": {
+          "x": 11,
+          "y": 9
+        },
+        "input": "Exterior UI card click + canvas click"
+      }
+    ],
+    "bridgeRequests": [
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5187/bridge/api/world/state",
+        "hasBody": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5187/bridge/api/world/events?wait=0",
+        "hasBody": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5187/bridge/api/world/state",
+        "hasBody": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5187/bridge/api/world/events?wait=15",
+        "hasBody": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5187/bridge/api/world/state",
+        "hasBody": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5187/bridge/api/world/events?wait=0",
+        "hasBody": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5187/bridge/api/world/state",
+        "hasBody": false
+      },
+      {
+        "method": "GET",
+        "url": "http://127.0.0.1:5187/bridge/api/world/events?wait=15",
+        "hasBody": false
+      }
+    ],
+    "console": [],
+    "pageErrors": [],
+    "failedResponses": [],
+    "error": null,
+    "traceback": null
+  },
+  "responsive": [
+    {
+      "viewport": "1008x548",
+      "status": "PASS",
+      "canvas": {
+        "logicalWidth": 828,
+        "logicalHeight": 450,
+        "cssWidth": 1008,
+        "cssHeight": 547.8125,
+        "left": 0,
+        "top": 0,
+        "right": 1008,
+        "bottom": 547.8125,
+        "scaleX": 1.2173913043478262,
+        "scaleY": 1.2173611111111111,
+        "imageRendering": "pixelated",
+        "bodyScrollWidth": 1008,
+        "bodyScrollHeight": 548,
+        "viewportCoverage": 0.999658
+      },
+      "mode": "showcase",
+      "buildings": 9,
+      "agents": 4,
+      "screenshots": [
+        "reports/e2e/mechanic-integration-v1/screenshots/14-muestra-responsive-1008x548.png"
+      ],
+      "bridgeRequests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5187/bridge/api/world/state",
+          "hasBody": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5187/bridge/api/world/events?wait=0",
+          "hasBody": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5187/bridge/api/world/state",
+          "hasBody": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5187/bridge/api/world/events?wait=15",
+          "hasBody": false
+        }
+      ],
+      "console": [],
+      "pageErrors": [],
+      "failedResponses": [],
+      "error": null,
+      "traceback": null
+    },
+    {
+      "viewport": "2560x1080",
+      "status": "PASS",
+      "canvas": {
+        "logicalWidth": 1066,
+        "logicalHeight": 450,
+        "cssWidth": 2558.390625,
+        "cssHeight": 1080,
+        "left": 0,
+        "top": 0,
+        "right": 2558.390625,
+        "bottom": 1080,
+        "scaleX": 2.3999912054409007,
+        "scaleY": 2.4,
+        "imageRendering": "pixelated",
+        "bodyScrollWidth": 2560,
+        "bodyScrollHeight": 1080,
+        "viewportCoverage": 0.999371
+      },
+      "mode": "showcase",
+      "buildings": 9,
+      "agents": 4,
+      "screenshots": [
+        "reports/e2e/mechanic-integration-v1/screenshots/14-muestra-responsive-2560x1080.png"
+      ],
+      "bridgeRequests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5187/bridge/api/world/state",
+          "hasBody": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5187/bridge/api/world/events?wait=0",
+          "hasBody": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5187/bridge/api/world/state",
+          "hasBody": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5187/bridge/api/world/events?wait=15",
+          "hasBody": false
+        }
+      ],
+      "console": [],
+      "pageErrors": [],
+      "failedResponses": [],
+      "error": null,
+      "traceback": null
+    }
+  ]
+}

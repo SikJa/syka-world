@@ -1,0 +1,590 @@
+{
+  "schema": "syka.world.visual-road-clearance.v1",
+  "status": "PASS",
+  "durationSeconds": 13.307,
+  "alphaThreshold": 48,
+  "requiredMaskDistance": 2,
+  "groundContactBand": 40,
+  "groundEnvelopeThickness": 3,
+  "groundComponentBottomTolerance": 12,
+  "buildings": [
+    {
+      "id": "home-syka",
+      "kind": "home",
+      "spriteBounds": {
+        "x": 814,
+        "y": 114,
+        "width": 92,
+        "height": 98
+      },
+      "opaqueBuildingPixels": 6234,
+      "groundContactPixels": 256,
+      "groundContactBand": 40,
+      "envelopeThickness": 3,
+      "componentBottomTolerance": 12,
+      "alphaComponentCount": 1,
+      "groundedComponentCount": 1,
+      "excludedComponents": [],
+      "unfilteredContactPixels": 256,
+      "unfilteredMaskDistancePixels": 3,
+      "componentFilterChangedDistance": false,
+      "maskDistancePixels": 3,
+      "visibleGapPixels": 2,
+      "overlap": false,
+      "touching": false,
+      "nearestRoadSegments": [
+        {
+          "tile": "3,7",
+          "count": 28
+        },
+        {
+          "tile": "2,7",
+          "count": 5
+        }
+      ],
+      "nearestPair": {
+        "building": {
+          "x": 836,
+          "y": 202
+        },
+        "road": {
+          "x": 833,
+          "y": 205
+        }
+      },
+      "grassGapPath": [
+        {
+          "x": 835,
+          "y": 203,
+          "grass": true
+        },
+        {
+          "x": 834,
+          "y": 204,
+          "grass": true
+        }
+      ],
+      "grassGapVerified": true,
+      "pass": true
+    },
+    {
+      "id": "home-elen",
+      "kind": "home",
+      "spriteBounds": {
+        "x": 926,
+        "y": 170,
+        "width": 92,
+        "height": 98
+      },
+      "opaqueBuildingPixels": 6234,
+      "groundContactPixels": 256,
+      "groundContactBand": 40,
+      "envelopeThickness": 3,
+      "componentBottomTolerance": 12,
+      "alphaComponentCount": 1,
+      "groundedComponentCount": 1,
+      "excludedComponents": [],
+      "unfilteredContactPixels": 256,
+      "unfilteredMaskDistancePixels": 3,
+      "componentFilterChangedDistance": false,
+      "maskDistancePixels": 3,
+      "visibleGapPixels": 2,
+      "overlap": false,
+      "touching": false,
+      "nearestRoadSegments": [
+        {
+          "tile": "10,7",
+          "count": 28
+        },
+        {
+          "tile": "9,7",
+          "count": 5
+        }
+      ],
+      "nearestPair": {
+        "building": {
+          "x": 948,
+          "y": 258
+        },
+        "road": {
+          "x": 945,
+          "y": 261
+        }
+      },
+      "grassGapPath": [
+        {
+          "x": 947,
+          "y": 259,
+          "grass": true
+        },
+        {
+          "x": 946,
+          "y": 260,
+          "grass": true
+        }
+      ],
+      "grassGapVerified": true,
+      "pass": true
+    },
+    {
+      "id": "home-astrelis",
+      "kind": "home",
+      "spriteBounds": {
+        "x": 1022,
+        "y": 218,
+        "width": 92,
+        "height": 98
+      },
+      "opaqueBuildingPixels": 6234,
+      "groundContactPixels": 256,
+      "groundContactBand": 40,
+      "envelopeThickness": 3,
+      "componentBottomTolerance": 12,
+      "alphaComponentCount": 1,
+      "groundedComponentCount": 1,
+      "excludedComponents": [],
+      "unfilteredContactPixels": 256,
+      "unfilteredMaskDistancePixels": 3,
+      "componentFilterChangedDistance": false,
+      "maskDistancePixels": 3,
+      "visibleGapPixels": 2,
+      "overlap": false,
+      "touching": false,
+      "nearestRoadSegments": [
+        {
+          "tile": "16,7",
+          "count": 28
+        },
+        {
+          "tile": "15,7",
+          "count": 5
+        }
+      ],
+      "nearestPair": {
+        "building": {
+          "x": 1044,
+          "y": 306
+        },
+        "road": {
+          "x": 1041,
+          "y": 309
+        }
+      },
+      "grassGapPath": [
+        {
+          "x": 1043,
+          "y": 307,
+          "grass": true
+        },
+        {
+          "x": 1042,
+          "y": 308,
+          "grass": true
+        }
+      ],
+      "grassGapVerified": true,
+      "pass": true
+    },
+    {
+      "id": "home-zerny",
+      "kind": "home",
+      "spriteBounds": {
+        "x": 1134,
+        "y": 274,
+        "width": 92,
+        "height": 98
+      },
+      "opaqueBuildingPixels": 6234,
+      "groundContactPixels": 256,
+      "groundContactBand": 40,
+      "envelopeThickness": 3,
+      "componentBottomTolerance": 12,
+      "alphaComponentCount": 1,
+      "groundedComponentCount": 1,
+      "excludedComponents": [],
+      "unfilteredContactPixels": 256,
+      "unfilteredMaskDistancePixels": 3,
+      "componentFilterChangedDistance": false,
+      "maskDistancePixels": 3,
+      "visibleGapPixels": 2,
+      "overlap": false,
+      "touching": false,
+      "nearestRoadSegments": [
+        {
+          "tile": "23,7",
+          "count": 28
+        },
+        {
+          "tile": "22,7",
+          "count": 5
+        }
+      ],
+      "nearestPair": {
+        "building": {
+          "x": 1156,
+          "y": 362
+        },
+        "road": {
+          "x": 1153,
+          "y": 365
+        }
+      },
+      "grassGapPath": [
+        {
+          "x": 1155,
+          "y": 363,
+          "grass": true
+        },
+        {
+          "x": 1154,
+          "y": 364,
+          "grass": true
+        }
+      ],
+      "grassGapVerified": true,
+      "pass": true
+    },
+    {
+      "id": "cafe-main",
+      "kind": "cafe",
+      "spriteBounds": {
+        "x": 718,
+        "y": 165,
+        "width": 118,
+        "height": 116
+      },
+      "opaqueBuildingPixels": 8482,
+      "groundContactPixels": 324,
+      "groundContactBand": 40,
+      "envelopeThickness": 3,
+      "componentBottomTolerance": 12,
+      "alphaComponentCount": 1,
+      "groundedComponentCount": 1,
+      "excludedComponents": [],
+      "unfilteredContactPixels": 324,
+      "unfilteredMaskDistancePixels": 5,
+      "componentFilterChangedDistance": false,
+      "maskDistancePixels": 5,
+      "visibleGapPixels": 4,
+      "overlap": false,
+      "touching": false,
+      "nearestRoadSegments": [
+        {
+          "tile": "3,14",
+          "count": 13
+        },
+        {
+          "tile": "2,14",
+          "count": 1
+        }
+      ],
+      "nearestPair": {
+        "building": {
+          "x": 727,
+          "y": 256
+        },
+        "road": {
+          "x": 722,
+          "y": 261
+        }
+      },
+      "grassGapPath": [
+        {
+          "x": 726,
+          "y": 257,
+          "grass": true
+        },
+        {
+          "x": 725,
+          "y": 258,
+          "grass": true
+        },
+        {
+          "x": 724,
+          "y": 259,
+          "grass": true
+        },
+        {
+          "x": 723,
+          "y": 260,
+          "grass": true
+        }
+      ],
+      "grassGapVerified": true,
+      "pass": true
+    },
+    {
+      "id": "office-marketing",
+      "kind": "marketing-office",
+      "spriteBounds": {
+        "x": 823,
+        "y": 217,
+        "width": 112,
+        "height": 110
+      },
+      "opaqueBuildingPixels": 8091,
+      "groundContactPixels": 300,
+      "groundContactBand": 40,
+      "envelopeThickness": 3,
+      "componentBottomTolerance": 12,
+      "alphaComponentCount": 2,
+      "groundedComponentCount": 1,
+      "excludedComponents": [
+        {
+          "pixelCount": 46,
+          "minY": 287,
+          "maxY": 292
+        }
+      ],
+      "unfilteredContactPixels": 324,
+      "unfilteredMaskDistancePixels": 0,
+      "componentFilterChangedDistance": true,
+      "maskDistancePixels": 4,
+      "visibleGapPixels": 3,
+      "overlap": false,
+      "touching": false,
+      "nearestRoadSegments": [
+        {
+          "tile": "10,14",
+          "count": 4
+        }
+      ],
+      "nearestPair": {
+        "building": {
+          "x": 842,
+          "y": 315
+        },
+        "road": {
+          "x": 838,
+          "y": 319
+        }
+      },
+      "grassGapPath": [
+        {
+          "x": 841,
+          "y": 316,
+          "grass": true
+        },
+        {
+          "x": 840,
+          "y": 317,
+          "grass": true
+        },
+        {
+          "x": 839,
+          "y": 318,
+          "grass": true
+        }
+      ],
+      "grassGapVerified": true,
+      "pass": true
+    },
+    {
+      "id": "office-commercial",
+      "kind": "commercial-office",
+      "spriteBounds": {
+        "x": 924,
+        "y": 270,
+        "width": 108,
+        "height": 106
+      },
+      "opaqueBuildingPixels": 7027,
+      "groundContactPixels": 318,
+      "groundContactBand": 40,
+      "envelopeThickness": 3,
+      "componentBottomTolerance": 12,
+      "alphaComponentCount": 1,
+      "groundedComponentCount": 1,
+      "excludedComponents": [],
+      "unfilteredContactPixels": 318,
+      "unfilteredMaskDistancePixels": 2,
+      "componentFilterChangedDistance": false,
+      "maskDistancePixels": 2,
+      "visibleGapPixels": 1,
+      "overlap": false,
+      "touching": false,
+      "nearestRoadSegments": [
+        {
+          "tile": "19,11",
+          "count": 7
+        },
+        {
+          "tile": "19,10",
+          "count": 6
+        }
+      ],
+      "nearestPair": {
+        "building": {
+          "x": 1019,
+          "y": 367
+        },
+        "road": {
+          "x": 1021,
+          "y": 369
+        }
+      },
+      "grassGapPath": [
+        {
+          "x": 1020,
+          "y": 368,
+          "grass": true
+        }
+      ],
+      "grassGapVerified": true,
+      "pass": true
+    },
+    {
+      "id": "workshop-crm",
+      "kind": "crm-workshop",
+      "spriteBounds": {
+        "x": 1025,
+        "y": 322,
+        "width": 118,
+        "height": 106
+      },
+      "opaqueBuildingPixels": 6278,
+      "groundContactPixels": 333,
+      "groundContactBand": 40,
+      "envelopeThickness": 3,
+      "componentBottomTolerance": 12,
+      "alphaComponentCount": 1,
+      "groundedComponentCount": 1,
+      "excludedComponents": [],
+      "unfilteredContactPixels": 333,
+      "unfilteredMaskDistancePixels": 2,
+      "componentFilterChangedDistance": false,
+      "maskDistancePixels": 2,
+      "visibleGapPixels": 1,
+      "overlap": false,
+      "touching": false,
+      "nearestRoadSegments": [
+        {
+          "tile": "22,14",
+          "count": 23
+        }
+      ],
+      "nearestPair": {
+        "building": {
+          "x": 1032,
+          "y": 413
+        },
+        "road": {
+          "x": 1030,
+          "y": 415
+        }
+      },
+      "grassGapPath": [
+        {
+          "x": 1031,
+          "y": 414,
+          "grass": true
+        }
+      ],
+      "grassGapVerified": true,
+      "pass": true
+    },
+    {
+      "id": "community-main",
+      "kind": "community-hall",
+      "spriteBounds": {
+        "x": 787,
+        "y": 298,
+        "width": 117,
+        "height": 108
+      },
+      "opaqueBuildingPixels": 6890,
+      "groundContactPixels": 344,
+      "groundContactBand": 40,
+      "envelopeThickness": 3,
+      "componentBottomTolerance": 12,
+      "alphaComponentCount": 1,
+      "groundedComponentCount": 1,
+      "excludedComponents": [],
+      "unfilteredContactPixels": 344,
+      "unfilteredMaskDistancePixels": 2,
+      "componentFilterChangedDistance": false,
+      "maskDistancePixels": 2,
+      "visibleGapPixels": 1,
+      "overlap": false,
+      "touching": false,
+      "nearestRoadSegments": [
+        {
+          "tile": "13,20",
+          "count": 4
+        },
+        {
+          "tile": "14,20",
+          "count": 1
+        }
+      ],
+      "nearestPair": {
+        "building": {
+          "x": 796,
+          "y": 391
+        },
+        "road": {
+          "x": 794,
+          "y": 393
+        }
+      },
+      "grassGapPath": [
+        {
+          "x": 795,
+          "y": 392,
+          "grass": true
+        }
+      ],
+      "grassGapVerified": true,
+      "pass": true
+    }
+  ],
+  "worst_building_id": "community-main",
+  "evidence_building_id": "cafe-main",
+  "screenshot": "reports/e2e/visual-road-clearance/screenshots/road-clearance-cafe-main.png",
+  "workshop_screenshot": "reports/e2e/visual-road-clearance/screenshots/road-clearance-workshop-crm.png",
+  "bridge_requests": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/state",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=0",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/state",
+      "has_body": false
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=15",
+      "has_body": false
+    }
+  ],
+  "console": [],
+  "ignored_driver_console": [
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x30bc006e3f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x30bc006e3f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x30bc006e3f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x30bc006e3f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    }
+  ],
+  "page_errors": [],
+  "failed_responses": [],
+  "error": null,
+  "traceback": null
+}

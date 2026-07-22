@@ -1,0 +1,34 @@
+{
+  "schema": "syka.world.alpha-agents.v1",
+  "status": "provisional-placeholders-not-approved-avatars",
+  "file": "agents-sheet-v1.png",
+  "chromaSource": "agents-sheet-v1-chroma.png",
+  "size": [512, 512],
+  "grid": { "columns": 8, "rows": 4, "frameSize": [64, 128] },
+  "rows": ["syka", "elen", "astrelis", "zerny"],
+  "columns": ["idle", "thinking", "using-tool", "waiting", "done", "interrupted", "error", "offline"],
+  "frameNamePattern": "agent-{row}-{column}",
+  "origin": [0.5, 1.0],
+  "runtimeDraw": [12, 24],
+  "basePoseContract": {
+    "idle": { "sourcePose": "idle", "transform": "none" },
+    "thinking": { "sourcePose": "working", "transform": "none; provisional reuse" },
+    "using-tool": { "sourcePose": "working", "transform": "none" },
+    "waiting": { "sourcePose": "idle", "transform": "none; provisional reuse" },
+    "done": { "sourcePose": "walkA", "transform": "brightness 1.08; provisional celebratory reuse" },
+    "interrupted": { "sourcePose": "walkB", "transform": "saturation 0.78" },
+    "error": { "sourcePose": "idle", "transform": "28 percent coral mix" },
+    "offline": { "sourcePose": "idle", "transform": "72 percent grayscale; runtime also applies alpha 0.48" }
+  },
+  "sourceRows": [
+    { "id": "syka", "file": "agents-syka-row-v1.png", "normalizedHeight": 118, "basePoseCrops": { "idle": [225, 247, 147, 374], "walkA": [592, 247, 208, 385], "walkB": [981, 246, 205, 378], "working": [1396, 254, 166, 367] } },
+    { "id": "elen", "file": "agents-elen-row-v1.png", "normalizedHeight": 120, "basePoseCrops": { "idle": [154, 182, 160, 490], "walkA": [580, 188, 189, 486], "walkB": [989, 189, 192, 488], "working": [1409, 187, 214, 486] } },
+    { "id": "astrelis", "file": "agents-astrelis-row-v1.png", "normalizedHeight": 58, "basePoseCrops": { "idle": [236, 331, 184, 252], "walkA": [507, 314, 285, 274], "walkB": [935, 326, 280, 272], "working": [1363, 355, 248, 251] } },
+    { "id": "zerny", "file": "agents-zerny-row-v1.png", "normalizedHeight": 88, "basePoseCrops": { "idle": [201, 281, 182, 275], "walkA": [567, 284, 206, 272], "walkB": [962, 288, 217, 268], "working": [1368, 294, 188, 262] } }
+  ],
+  "notes": [
+    "Syka remains deliberately species-neutral.",
+    "Elen, Astrelis and Zerny preserve identity cues but are not final approved avatars.",
+    "The source rows retain the requested idle, walkA, walkB and working poses; the runtime atlas maps them to the current eight-state CityScene contract without geometric deformation."
+  ]
+}

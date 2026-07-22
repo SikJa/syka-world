@@ -1,0 +1,34 @@
+{
+  "schema": "syka.world.characters.v1",
+  "characters": [
+    {
+      "character_id": "syka",
+      "display_name": "Syka",
+      "profile_id": "default",
+      "home": "syka-home",
+      "workplace": "central-office"
+    },
+    {
+      "character_id": "elen",
+      "display_name": "Elen",
+      "profile_id": "elen",
+      "home": "elen-home",
+      "workplace": "marketing-studio"
+    },
+    {
+      "character_id": "astrelis",
+      "display_name": "Astrelis",
+      "profile_id": "astrelis",
+      "home": "astrelis-home",
+      "workplace": "commercial-office"
+    },
+    {
+      "character_id": "zerny",
+      "display_name": "Zerny",
+      "profile_id": "zerny",
+      "home": "zerny-home",
+      "workplace": "crm-workshop"
+    }
+  ]
+}
+

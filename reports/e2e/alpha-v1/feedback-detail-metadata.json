@@ -1,0 +1,26 @@
+{
+  "target_center": {
+    "x": 12,
+    "y": 14
+  },
+  "visited_centers": [
+    {
+      "x": 12,
+      "y": 10
+    },
+    {
+      "x": 12,
+      "y": 14
+    }
+  ],
+  "final_camera": {
+    "center": {
+      "x": 12,
+      "y": 14
+    },
+    "zoom": 2,
+    "scene": "city"
+  },
+  "period": "twilight",
+  "evidence": "reports/e2e/alpha-v1/screenshots/feedback-crossing-lamp-bench-grass-z200.png"
+}

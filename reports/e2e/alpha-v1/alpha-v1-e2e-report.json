@@ -1,0 +1,925 @@
+{
+  "schema": "syka.world.e2e-report.v1",
+  "overall": "PASS",
+  "duration_seconds": 42.351,
+  "flows": [
+    {
+      "id": "01",
+      "title": "Abrir modo muestra",
+      "status": "PASS",
+      "duration_seconds": 0.458,
+      "details": {
+        "mode": "showcase",
+        "buildings": 9,
+        "agents": [
+          "default",
+          "elen",
+          "astrelis",
+          "zerny"
+        ],
+        "bridge_mode": "online",
+        "evidence": "reports/e2e/alpha-v1/screenshots/01-showcase-1440x900.png"
+      }
+    },
+    {
+      "id": "02",
+      "title": "Pan y zoom sin rotación",
+      "status": "PASS",
+      "duration_seconds": 1.07,
+      "details": {
+        "before": {
+          "center": {
+            "x": 12,
+            "y": 10
+          },
+          "zoom": 1,
+          "scene": "city"
+        },
+        "after": {
+          "center": {
+            "x": 9,
+            "y": 10
+          },
+          "zoom": 1.5,
+          "scene": "city"
+        },
+        "rotation_available": false
+      }
+    },
+    {
+      "id": "03",
+      "title": "Día, atardecer y noche",
+      "status": "PASS",
+      "duration_seconds": 8.374,
+      "details": {
+        "periods": [
+          {
+            "period": "day",
+            "minute": 600,
+            "evidence": "reports/e2e/alpha-v1/screenshots/03-day-1440x900.png"
+          },
+          {
+            "period": "twilight",
+            "minute": 1110,
+            "evidence": "reports/e2e/alpha-v1/screenshots/03-twilight-1440x900.png"
+          },
+          {
+            "period": "night",
+            "minute": 1320,
+            "evidence": "reports/e2e/alpha-v1/screenshots/03-night-1440x900.png"
+          }
+        ],
+        "zoom_evidence": [
+          "reports/e2e/alpha-v1/screenshots/03-city-twilight-z100-agents-visible.png",
+          "reports/e2e/alpha-v1/screenshots/03-city-twilight-z150-agents-visible.png",
+          "reports/e2e/alpha-v1/screenshots/03-city-twilight-z200-agents-visible.png"
+        ],
+        "agent_toggle_evidence": {
+          "visible": "reports/e2e/alpha-v1/screenshots/03-city-twilight-z200-agents-visible.png",
+          "hidden": "reports/e2e/alpha-v1/screenshots/03-city-twilight-z200-agents-hidden.png"
+        },
+        "evidence": [
+          "reports/e2e/alpha-v1/screenshots/03-city-twilight-z100-agents-visible.png",
+          "reports/e2e/alpha-v1/screenshots/03-city-twilight-z150-agents-visible.png",
+          "reports/e2e/alpha-v1/screenshots/03-city-twilight-z200-agents-visible.png",
+          "reports/e2e/alpha-v1/screenshots/03-city-twilight-z200-agents-hidden.png"
+        ]
+      }
+    },
+    {
+      "id": "04",
+      "title": "Seleccionar cafetería",
+      "status": "PASS",
+      "duration_seconds": 0.391,
+      "details": {
+        "building_id": "cafe-main",
+        "status": "complete",
+        "inspector_visible": true
+      }
+    },
+    {
+      "id": "05",
+      "title": "Entrar al interior",
+      "status": "PASS",
+      "duration_seconds": 1.074,
+      "details": {
+        "building_id": "cafe-main",
+        "camera": {
+          "center": {
+            "x": 4,
+            "y": 13
+          },
+          "zoom": 2,
+          "scene": "interior",
+          "interiorBuildingId": "cafe-main",
+          "cityViewBeforeInterior": {
+            "center": {
+              "x": 9,
+              "y": 10
+            },
+            "zoom": 2
+          }
+        },
+        "evidence": "reports/e2e/alpha-v1/screenshots/05-cafe-interior-1440x900.png"
+      }
+    },
+    {
+      "id": "06",
+      "title": "Comprar decoración opcional",
+      "status": "PASS",
+      "duration_seconds": 0.897,
+      "details": {
+        "slot_id": "decor-window",
+        "furniture_id": "fern",
+        "balance_before": 1015,
+        "balance_after": 1006,
+        "evidence": "reports/e2e/alpha-v1/screenshots/06-cafe-decor-installed.png"
+      }
+    },
+    {
+      "id": "07",
+      "title": "Volver conservando cámara",
+      "status": "PASS",
+      "duration_seconds": 1.296,
+      "details": {
+        "before": {
+          "center": {
+            "x": 9,
+            "y": 10
+          },
+          "zoom": 2
+        },
+        "after": {
+          "center": {
+            "x": 9,
+            "y": 10
+          },
+          "zoom": 2,
+          "scene": "city"
+        },
+        "evidence": "reports/e2e/alpha-v1/screenshots/07-returned-city.png"
+      }
+    },
+    {
+      "id": "08",
+      "title": "Iniciar nueva partida",
+      "status": "PASS",
+      "duration_seconds": 0.306,
+      "details": {
+        "mode": "progressive",
+        "balance": 420,
+        "buildings": [
+          "home-syka"
+        ],
+        "evidence": "reports/e2e/alpha-v1/screenshots/08-progressive-start.png"
+      }
+    },
+    {
+      "id": "09",
+      "title": "Comprar y colocar cafetería",
+      "status": "PASS",
+      "duration_seconds": 0.334,
+      "details": {
+        "building_id": "building-2",
+        "origin": {
+          "x": 8,
+          "y": 4
+        },
+        "orientation": "north",
+        "status": "foundation",
+        "balance_before": 420,
+        "balance_after": 180,
+        "evidence": "reports/e2e/alpha-v1/screenshots/09-cafe-foundation.png"
+      }
+    },
+    {
+      "id": "10",
+      "title": "Construcción completa e interior",
+      "status": "PASS",
+      "duration_seconds": 2.032,
+      "details": {
+        "building_id": "building-2",
+        "stages": [
+          "foundation",
+          "framing",
+          "complete"
+        ],
+        "default_furniture": [
+          "bookcase",
+          "cafe-counter",
+          "fireplace",
+          "oak-table",
+          "reading-chair",
+          "warm-lamp"
+        ],
+        "evidence": [
+          "reports/e2e/alpha-v1/screenshots/10-cafe-framing.png",
+          "reports/e2e/alpha-v1/screenshots/10-completed-cafe-interior.png"
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "title": "Guardar, recargar y conservar estado",
+      "status": "PASS",
+      "duration_seconds": 16.025,
+      "details": {
+        "save_schema": "syka.world.save.v1",
+        "signature_before": {
+          "mode": "progressive",
+          "balance": 182,
+          "clock": {
+            "day": 1,
+            "minuteOfDay": 841,
+            "totalMinutes": 361,
+            "speed": 0
+          },
+          "camera": {
+            "center": {
+              "x": 12,
+              "y": 10
+            },
+            "zoom": 1,
+            "scene": "city"
+          },
+          "buildings": [
+            {
+              "id": "home-syka",
+              "definitionId": "home-cozy",
+              "status": "complete",
+              "level": 1,
+              "origin": {
+                "x": 2,
+                "y": 5
+              },
+              "orientation": "north"
+            },
+            {
+              "id": "building-2",
+              "definitionId": "cafe-library",
+              "status": "complete",
+              "level": 1,
+              "origin": {
+                "x": 8,
+                "y": 4
+              },
+              "orientation": "north"
+            }
+          ],
+          "unlocked_sectors": [
+            "meadow-core"
+          ],
+          "interiors": [
+            {
+              "buildingId": "home-syka",
+              "furniture": [
+                [
+                  "light-main",
+                  "warm-lamp"
+                ],
+                [
+                  "seat-main",
+                  "reading-chair"
+                ],
+                [
+                  "table-main",
+                  "oak-table"
+                ]
+              ]
+            },
+            {
+              "buildingId": "building-2",
+              "furniture": [
+                [
+                  "books-west",
+                  "bookcase"
+                ],
+                [
+                  "chair-fire",
+                  "reading-chair"
+                ],
+                [
+                  "counter",
+                  "cafe-counter"
+                ],
+                [
+                  "fireplace",
+                  "fireplace"
+                ],
+                [
+                  "lamp-counter",
+                  "warm-lamp"
+                ],
+                [
+                  "table-window",
+                  "oak-table"
+                ]
+              ]
+            }
+          ]
+        },
+        "signature_after": {
+          "mode": "progressive",
+          "balance": 182,
+          "clock": {
+            "day": 1,
+            "minuteOfDay": 841,
+            "totalMinutes": 361,
+            "speed": 0
+          },
+          "camera": {
+            "center": {
+              "x": 12,
+              "y": 10
+            },
+            "zoom": 1,
+            "scene": "city"
+          },
+          "buildings": [
+            {
+              "id": "home-syka",
+              "definitionId": "home-cozy",
+              "status": "complete",
+              "level": 1,
+              "origin": {
+                "x": 2,
+                "y": 5
+              },
+              "orientation": "north"
+            },
+            {
+              "id": "building-2",
+              "definitionId": "cafe-library",
+              "status": "complete",
+              "level": 1,
+              "origin": {
+                "x": 8,
+                "y": 4
+              },
+              "orientation": "north"
+            }
+          ],
+          "unlocked_sectors": [
+            "meadow-core"
+          ],
+          "interiors": [
+            {
+              "buildingId": "home-syka",
+              "furniture": [
+                [
+                  "light-main",
+                  "warm-lamp"
+                ],
+                [
+                  "seat-main",
+                  "reading-chair"
+                ],
+                [
+                  "table-main",
+                  "oak-table"
+                ]
+              ]
+            },
+            {
+              "buildingId": "building-2",
+              "furniture": [
+                [
+                  "books-west",
+                  "bookcase"
+                ],
+                [
+                  "chair-fire",
+                  "reading-chair"
+                ],
+                [
+                  "counter",
+                  "cafe-counter"
+                ],
+                [
+                  "fireplace",
+                  "fireplace"
+                ],
+                [
+                  "lamp-counter",
+                  "warm-lamp"
+                ],
+                [
+                  "table-window",
+                  "oak-table"
+                ]
+              ]
+            }
+          ]
+        },
+        "ready_seconds": 0.477,
+        "evidence": "reports/e2e/alpha-v1/screenshots/11-after-reload.png"
+      }
+    },
+    {
+      "id": "12",
+      "title": "Secuencia completa de estados",
+      "status": "PASS",
+      "duration_seconds": 1.356,
+      "details": {
+        "observed": [
+          {
+            "event_id": "qa-event-001",
+            "event": "activity.started",
+            "expected": "thinking",
+            "activity": "thinking",
+            "presence": "online",
+            "active_sessions": 1
+          },
+          {
+            "event_id": "qa-event-002",
+            "event": "tool.started",
+            "expected": "using-tool",
+            "activity": "using-tool",
+            "presence": "online",
+            "active_sessions": 1
+          },
+          {
+            "event_id": "qa-event-003",
+            "event": "activity.waiting",
+            "expected": "waiting",
+            "activity": "waiting",
+            "presence": "online",
+            "active_sessions": 1
+          },
+          {
+            "event_id": "qa-event-004",
+            "event": "activity.resumed",
+            "expected": "using-tool",
+            "activity": "using-tool",
+            "presence": "online",
+            "active_sessions": 1
+          },
+          {
+            "event_id": "qa-event-005",
+            "event": "tool.finished",
+            "expected": "thinking",
+            "activity": "thinking",
+            "presence": "online",
+            "active_sessions": 1
+          },
+          {
+            "event_id": "qa-event-006",
+            "event": "activity.completed",
+            "expected": "done",
+            "activity": "done",
+            "presence": "online",
+            "active_sessions": 0
+          },
+          {
+            "event_id": "qa-event-007",
+            "event": "activity.settled",
+            "expected": "idle",
+            "activity": "idle",
+            "presence": "online",
+            "active_sessions": 0
+          },
+          {
+            "event_id": "qa-event-008",
+            "event": "activity.started",
+            "expected": "thinking",
+            "activity": "thinking",
+            "presence": "online",
+            "active_sessions": 1
+          },
+          {
+            "event_id": "qa-event-009",
+            "event": "activity.interrupted",
+            "expected": "interrupted",
+            "activity": "interrupted",
+            "presence": "online",
+            "active_sessions": 0
+          },
+          {
+            "event_id": "qa-event-010",
+            "event": "activity.settled",
+            "expected": "idle",
+            "activity": "idle",
+            "presence": "online",
+            "active_sessions": 0
+          },
+          {
+            "event_id": "qa-event-011",
+            "event": "activity.started",
+            "expected": "thinking",
+            "activity": "thinking",
+            "presence": "online",
+            "active_sessions": 1
+          },
+          {
+            "event_id": "qa-event-012",
+            "event": "activity.failed",
+            "expected": "error",
+            "activity": "error",
+            "presence": "online",
+            "active_sessions": 0
+          },
+          {
+            "event_id": "qa-event-013",
+            "event": "activity.settled",
+            "expected": "idle",
+            "activity": "idle",
+            "presence": "online",
+            "active_sessions": 0
+          },
+          {
+            "event_id": "qa-event-014",
+            "event": "profile.offline",
+            "expected": "offline",
+            "activity": "offline",
+            "presence": "offline",
+            "active_sessions": 0
+          },
+          {
+            "event_id": "qa-event-015",
+            "event": "profile.online",
+            "expected": "idle",
+            "activity": "idle",
+            "presence": "online",
+            "active_sessions": 0
+          }
+        ],
+        "reward": 5,
+        "network_methods": [
+          "GET"
+        ]
+      }
+    },
+    {
+      "id": "13",
+      "title": "Bridge controlado: desconectar y reconectar",
+      "status": "PASS",
+      "duration_seconds": 0.561,
+      "details": {
+        "connected_initial": "online",
+        "disconnected_fallback": "simulated",
+        "reconnected": "online",
+        "request_count": 26,
+        "methods": [
+          "GET"
+        ]
+      }
+    },
+    {
+      "id": "14",
+      "title": "Bridge real GET-only",
+      "status": "PASS",
+      "duration_seconds": 3.676,
+      "details": {
+        "mode": "online",
+        "source": "bridge",
+        "ready_seconds": 0.63,
+        "methods": [
+          "GET"
+        ],
+        "request_count": 4,
+        "agents": [
+          {
+            "profile_id": "default",
+            "status": "idle",
+            "presence": "online",
+            "active_session_count": 0
+          },
+          {
+            "profile_id": "elen",
+            "status": "idle",
+            "presence": "online",
+            "active_session_count": 0
+          },
+          {
+            "profile_id": "astrelis",
+            "status": "idle",
+            "presence": "online",
+            "active_session_count": 0
+          },
+          {
+            "profile_id": "zerny",
+            "status": "idle",
+            "presence": "online",
+            "active_session_count": 0
+          }
+        ],
+        "tasks_started": 0
+      }
+    }
+  ],
+  "metrics": {
+    "cold_ready_seconds_controlled": 0.624,
+    "feedback_visual_evidence": "reports/e2e/alpha-v1/screenshots/03-city-twilight-z200-agents-visible.png",
+    "warm_reload_ready_seconds": 0.477,
+    "runtime_after_reload": {
+      "actualFps": 60.31,
+      "frameMilliseconds": 16.67,
+      "activeScenes": [
+        "city"
+      ],
+      "displayObjects": 538,
+      "imageObjects": 529,
+      "textureCount": 11,
+      "renderer": "webgl",
+      "rendererDrawCount": 13,
+      "heapUsedBytes": 60300000,
+      "samples": [
+        {
+          "actualFps": 60.06,
+          "frameMilliseconds": 16.67,
+          "activeScenes": [
+            "city"
+          ],
+          "displayObjects": 538,
+          "imageObjects": 529,
+          "textureCount": 11,
+          "renderer": "webgl",
+          "rendererDrawCount": 13,
+          "heapUsedBytes": 60300000
+        },
+        {
+          "actualFps": 60.06,
+          "frameMilliseconds": 16.66,
+          "activeScenes": [
+            "city"
+          ],
+          "displayObjects": 538,
+          "imageObjects": 529,
+          "textureCount": 11,
+          "renderer": "webgl",
+          "rendererDrawCount": 13,
+          "heapUsedBytes": 60300000
+        },
+        {
+          "actualFps": 60.29,
+          "frameMilliseconds": 16.67,
+          "activeScenes": [
+            "city"
+          ],
+          "displayObjects": 538,
+          "imageObjects": 529,
+          "textureCount": 11,
+          "renderer": "webgl",
+          "rendererDrawCount": 13,
+          "heapUsedBytes": 60300000
+        },
+        {
+          "actualFps": 60.29,
+          "frameMilliseconds": 16.67,
+          "activeScenes": [
+            "city"
+          ],
+          "displayObjects": 538,
+          "imageObjects": 529,
+          "textureCount": 11,
+          "renderer": "webgl",
+          "rendererDrawCount": 13,
+          "heapUsedBytes": 60300000
+        },
+        {
+          "actualFps": 60.22,
+          "frameMilliseconds": 16.67,
+          "activeScenes": [
+            "city"
+          ],
+          "displayObjects": 538,
+          "imageObjects": 529,
+          "textureCount": 11,
+          "renderer": "webgl",
+          "rendererDrawCount": 13,
+          "heapUsedBytes": 60300000
+        }
+      ],
+      "actualFpsMedian": 60.22,
+      "actualFpsP10": 60.06,
+      "frameMillisecondsMedian": 16.67,
+      "browserRafFps": 60.44
+    },
+    "small_viewport": {
+      "width": 1008,
+      "height": 548,
+      "canvas_width": 876.8,
+      "canvas_height": 548,
+      "canvas_ratio": 1.6,
+      "canvas_visible": true,
+      "ui_visible": true,
+      "evidence": "reports/e2e/alpha-v1/screenshots/responsive-1008x548.png"
+    },
+    "browser_hygiene": {
+      "page_errors": [],
+      "console_errors": [],
+      "failed_asset_responses": []
+    }
+  },
+  "quality_gates": [
+    {
+      "name": "Higiene del navegador",
+      "status": "PASS",
+      "details": "Sin page errors, console errors inesperados ni assets HTTP fallidos."
+    },
+    {
+      "name": "Rendimiento alpha",
+      "status": "PASS",
+      "details": "mediana 60.22 FPS Phaser, p10 60.06, 60.44 FPS RAF, mediana 16.67 ms/frame y carga cálida product-ready en 0.477 s."
+    }
+  ],
+  "notes": [],
+  "audits": {
+    "controlled": {
+      "console": [
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x5ecc00117f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x5ecc00117f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x5ecc00117f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+        },
+        {
+          "type": "warning",
+          "text": "[.WebGL-0x5ecc00117f00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+        }
+      ],
+      "page_errors": [],
+      "bridge_requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=0",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=0",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-001&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-002&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-003&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-004&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-005&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-006&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-007&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-008&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-009&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-010&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-011&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-012&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-013&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-014&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-015&wait=15",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=0",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=15",
+          "has_body": false
+        }
+      ],
+      "failed_responses": [
+        {
+          "status": 503,
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=qa-event-015&wait=15"
+        }
+      ]
+    },
+    "real": {
+      "console": [],
+      "page_errors": [],
+      "bridge_requests": [
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?wait=0",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/state",
+          "has_body": false
+        },
+        {
+          "method": "GET",
+          "url": "http://127.0.0.1:5173/bridge/api/world/events?after=bridge-3a51dbd3-8a18-4db6-96af-44328c89dfd8&wait=15",
+          "has_body": false
+        }
+      ],
+      "failed_responses": []
+    }
+  }
+}

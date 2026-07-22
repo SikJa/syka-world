@@ -1,0 +1,13 @@
+{
+  "schema": "syka.world.alpha-cafe-interior.v1",
+  "status": "provisional-integration-candidate",
+  "file": "cafe-interior-v1.png",
+  "chromaSource": "cafe-interior-v1-chroma.png",
+  "size": [1774, 887],
+  "alphaBbox": [75, 9, 1622, 843],
+  "tightCropWith2pxMatte": [73, 7, 1626, 847],
+  "origin": [0.5, 0.5],
+  "currentRuntimeDraw": [588, 294],
+  "content": ["service counter", "back kitchen", "four table groups", "library wall", "ladder", "fireplace lounge", "plants", "tableware", "twilight city visible through windows"],
+  "constraints": ["no characters", "no black void", "fully furnished by default", "optional decor remains optional"]
+}

@@ -1,0 +1,81 @@
+{
+  "bench": {
+    "item": {
+      "frame": "bench",
+      "hostTile": {
+        "x": 4,
+        "y": 21
+      },
+      "position": {
+        "x": 4,
+        "y": 20.84
+      }
+    },
+    "candidates": [
+      {
+        "frame": "bench",
+        "hostTile": {
+          "x": 28,
+          "y": 22
+        },
+        "position": {
+          "x": 27.84,
+          "y": 22
+        }
+      },
+      {
+        "frame": "bench",
+        "hostTile": {
+          "x": 28,
+          "y": 0
+        },
+        "position": {
+          "x": 27.84,
+          "y": 0
+        }
+      },
+      {
+        "frame": "bench",
+        "hostTile": {
+          "x": 1,
+          "y": 16
+        },
+        "position": {
+          "x": 0.84,
+          "y": 16
+        }
+      },
+      {
+        "frame": "bench",
+        "hostTile": {
+          "x": 4,
+          "y": 21
+        },
+        "position": {
+          "x": 4,
+          "y": 20.84
+        }
+      }
+    ],
+    "mapSize": {
+      "width": 30,
+      "height": 24
+    },
+    "focus": {
+      "ok": true
+    },
+    "zoom": {
+      "ok": true
+    }
+  },
+  "final_camera": {
+    "center": {
+      "x": 4,
+      "y": 21
+    },
+    "zoom": 2,
+    "scene": "city"
+  },
+  "period": "twilight",
+  "evidence": "reports/e2e/alpha-v1/screenshots/feedback-bench-grass-z200.png"
+}

@@ -1,0 +1,54 @@
+{
+  "select": {
+    "ok": true
+  },
+  "before": {
+    "center": {
+      "x": 9,
+      "y": 10
+    },
+    "zoom": 1.5,
+    "scene": "city"
+  },
+  "dom": {
+    "connected": true,
+    "disabled": false,
+    "pointerEvents": "auto",
+    "rect": {
+      "x": 1204,
+      "y": 206.5,
+      "width": 206,
+      "height": 34
+    },
+    "hitTag": "BUTTON",
+    "hitClass": "alpha-button alpha-button--primary",
+    "hitText": "Entrar al Café Biblioteca"
+  },
+  "after_playwright_click": {
+    "center": {
+      "x": 4,
+      "y": 13
+    },
+    "zoom": 2,
+    "scene": "interior",
+    "interiorBuildingId": "cafe-main",
+    "cityViewBeforeInterior": {
+      "center": {
+        "x": 9,
+        "y": 10
+      },
+      "zoom": 1.5
+    }
+  },
+  "toasts_after_playwright": [
+    "Entraste al Café Biblioteca."
+  ],
+  "button_count_after": 0,
+  "inspector_after": "INTERIOR AMUEBLADO\nCafé Biblioteca\nAdentro\n\nTodo lo esencial ya está listo. Estos rincones opcionales son sólo para darle tu toque.\n\nHelecho\nDecor window\n9 Lúmenes\nLámpara cálida\nDecor window\n10 Lúmenes\nHelecho\nDecor books\n9 Lúmenes\nTablero comunitario\nDecor books\n15 Lúmenes\nVolver a la ciudad",
+  "body_scene_flags": {
+    "qaScene": "interior",
+    "interiorApi": true,
+    "loadingHidden": true
+  },
+  "page_errors": []
+}

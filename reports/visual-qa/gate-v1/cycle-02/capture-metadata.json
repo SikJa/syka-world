@@ -1,0 +1,87 @@
+{
+  "capturedAt": "2026-07-16T16:33:34.037889+00:00",
+  "url": "http://127.0.0.1:5173",
+  "browser": "chromium",
+  "browserVersion": "145.0.7632.6",
+  "viewportCssPixels": {
+    "width": 1440,
+    "height": 900
+  },
+  "devicePixelRatio": 1,
+  "canvasLogicalPixels": {
+    "width": 720,
+    "height": 450
+  },
+  "cycle": 2,
+  "captures": [
+    {
+      "file": "twilight-z100-1440x900.png",
+      "zoom": 1,
+      "hour": 19.25,
+      "ready": true,
+      "camera": {
+        "scrollX": 540,
+        "scrollY": 20
+      }
+    },
+    {
+      "file": "twilight-z150-1440x900.png",
+      "zoom": 1.5,
+      "hour": 19.25,
+      "ready": true,
+      "camera": {
+        "scrollX": 540,
+        "scrollY": 20
+      }
+    },
+    {
+      "file": "twilight-z200-1440x900.png",
+      "zoom": 2,
+      "hour": 19.25,
+      "ready": true,
+      "camera": {
+        "scrollX": 540,
+        "scrollY": 20
+      }
+    },
+    {
+      "file": "night-z100-1440x900.png",
+      "zoom": 1,
+      "hour": 22,
+      "ready": true,
+      "camera": {
+        "scrollX": 540,
+        "scrollY": 20
+      }
+    },
+    {
+      "file": "night-z150-1440x900.png",
+      "zoom": 1.5,
+      "hour": 22,
+      "ready": true,
+      "camera": {
+        "scrollX": 540,
+        "scrollY": 20
+      }
+    },
+    {
+      "file": "night-z200-1440x900.png",
+      "zoom": 2,
+      "hour": 22,
+      "ready": true,
+      "camera": {
+        "scrollX": 540,
+        "scrollY": 20
+      }
+    }
+  ],
+  "panFinalState": {
+    "zoom": 1.5,
+    "hour": 19.25,
+    "ready": true,
+    "camera": {
+      "scrollX": 508,
+      "scrollY": 4
+    }
+  }
+}

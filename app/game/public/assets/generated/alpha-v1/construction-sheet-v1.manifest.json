@@ -1,0 +1,16 @@
+{
+  "schema": "syka.world.alpha-construction.v1",
+  "status": "provisional-integration-candidate",
+  "file": "construction-sheet-v1.png",
+  "chromaSource": "construction-sheet-v1-chroma.png",
+  "generatedAlphaSource": "construction-sheet-v1-source.png",
+  "generatedChromaSource": "construction-sheet-v1-source-chroma.png",
+  "size": [1536, 512],
+  "grid": { "columns": 3, "rows": 1, "frameSize": [512, 512] },
+  "origin": [0.5, 1.0],
+  "frames": [
+    { "id": "foundation", "frameName": "construction-foundation", "frame": [0, 0, 512, 512], "alphaBboxInFrame": [6, 138, 500, 368], "internalPlacement": [4, 136, 504, 372], "pivotInFrame": [256, 512], "sourceCrop": [91, 206, 551, 387] },
+    { "id": "framing", "frameName": "construction-framing", "frame": [512, 0, 512, 512], "alphaBboxInFrame": [6, 68, 500, 438], "internalPlacement": [4, 66, 504, 442], "pivotInFrame": [256, 512], "sourceCrop": [750, 111, 595, 497] },
+    { "id": "finishing", "frameName": "construction-finishing", "frame": [1024, 0, 512, 512], "alphaBboxInFrame": [6, 68, 500, 438], "internalPlacement": [4, 66, 504, 442], "pivotInFrame": [256, 512], "sourceCrop": [1451, 111, 603, 504] }
+  ]
+}

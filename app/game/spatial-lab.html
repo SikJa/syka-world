@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#17292c" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2216%22 fill=%22%23b77a4a%22/><text x=%2232%22 y=%2241%22 text-anchor=%22middle%22 font-size=%2224%22 fill=%22white%22>SW</text></svg>" />
+    <meta
+      name="description"
+      content="Laboratorio aislado de entidades, colisiones y profundidad para los interiores de Syka World."
+    />
+    <title>Syka World · Spatial Proof</title>
+  </head>
+  <body>
+    <main id="spatial-lab" class="lab-shell">
+      <header class="lab-header">
+        <div class="lab-brand">
+          <span class="lab-brand__mark" aria-hidden="true">SW</span>
+          <div>
+            <p class="eyebrow">PROTOTIPO AISLADO · NO AFECTA LA PARTIDA</p>
+            <h1>Café Entity Lab</h1>
+          </div>
+        </div>
+        <div class="lab-verdict" aria-live="polite">
+          <span class="pulse-dot"></span>
+          <span><strong>Prueba espacial v1</strong><small id="runtime-status">Cargando entidades…</small></span>
+        </div>
+      </header>
+
+      <section class="lab-layout">
+        <div class="stage-column">
+          <div class="stage-toolbar" aria-label="Controles del laboratorio">
+            <button id="possess-button" class="action-button action-button--primary" type="button">
+              Soltar a Elen
+            </button>
+            <button id="route-button" class="action-button" type="button">Ejecutar ruta de prueba</button>
+            <button id="debug-button" class="action-button" type="button" aria-pressed="false">
+              Ver geometría
+            </button>
+            <button id="reset-button" class="action-button action-button--quiet" type="button">Reiniciar</button>
+          </div>
+
+          <div class="stage-frame" id="stage-frame">
+            <canvas
+              id="spatial-canvas"
+              width="1200"
+              height="820"
+              tabindex="0"
+              aria-label="Cafetería isométrica interactiva. Usa WASD o haz clic en el suelo para mover a Elen."
+            ></canvas>
+            <div id="toast" class="stage-toast" role="status" aria-live="polite"></div>
+            <div class="stage-legend" aria-hidden="true">
+              <span><i class="legend-dot legend-dot--actor"></i>Elen</span>
+              <span><i class="legend-dot legend-dot--solid"></i>Objeto sólido</span>
+              <span><i class="legend-dot legend-dot--anchor"></i>Interacción</span>
+            </div>
+          </div>
+
+          <div class="control-hint">
+            <div><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>movimiento continuo</span></div>
+            <div><kbd>clic</kbd><span>caminar con ruta</span></div>
+            <div><kbd>E</kbd><span>interactuar cerca</span></div>
+          </div>
+        </div>
+
+        <aside class="proof-panel" aria-label="Inspector espacial">
+          <div class="proof-panel__intro">
+            <p class="eyebrow">QUÉ ESTAMOS PROBANDO</p>
+            <h2>No es una foto con zonas dibujadas.</h2>
+            <p>
+              Cada mueble existe como una entidad independiente con textura, huella, profundidad y puntos de interacción.
+            </p>
+          </div>
+
+          <dl class="telemetry-grid">
+            <div><dt>Posición continua</dt><dd id="actor-position">—</dd></div>
+            <div><dt>Profundidad</dt><dd id="actor-depth">—</dd></div>
+            <div><dt>Estado</dt><dd id="actor-state">—</dd></div>
+            <div><dt>Colisiones evitadas</dt><dd id="collision-count">0</dd></div>
+          </dl>
+
+          <div class="entity-stack">
+            <div class="entity-stack__title">
+              <span>Entidades cargadas</span><strong id="entity-count">0</strong>
+            </div>
+            <ul id="entity-list"></ul>
+          </div>
+
+          <div class="proof-checklist">
+            <p class="eyebrow">CRITERIO DE ÉXITO</p>
+            <label><input id="check-motion" type="checkbox" disabled /> Movimiento sin saltos de casilla</label>
+            <label><input id="check-collision" type="checkbox" disabled /> No atraviesa muebles</label>
+            <label><input id="check-depth" type="checkbox" disabled /> Pasa delante y detrás</label>
+            <label><input id="check-style" type="checkbox" disabled /> Conserva detalle visual</label>
+          </div>
+        </aside>
+      </section>
+    </main>
+    <script type="module" src="/src/spatial-lab/main.ts"></script>
+  </body>
+</html>

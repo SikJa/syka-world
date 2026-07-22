@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#dfe9c2" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%2358745c' d='M5 25V12l11-8 11 8v13z'/%3E%3Cpath fill='%23f0dba9' d='M9 15h14v10H9z'/%3E%3Cpath fill='%23d56a4c' d='M14 18h4v7h-4z'/%3E%3C/svg%3E" />
+    <title>Syka World — Visual Lab</title>
+  </head>
+  <body>
+    <main id="app">
+      <canvas id="world" aria-label="Laboratorio tridimensional de Syka World"></canvas>
+
+      <header class="masthead">
+        <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+        <div>
+          <p class="eyebrow">prototipo aislado · v0.1</p>
+          <h1>Syka World</h1>
+        </div>
+      </header>
+
+      <section class="world-clock" aria-label="Reloj del mundo">
+        <span id="period">mañana</span>
+        <strong id="clock">08:15</strong>
+        <button id="time-toggle" class="round-button" aria-label="Pausar el tiempo">Ⅱ</button>
+      </section>
+
+      <aside id="inspector" class="inspector" aria-live="polite">
+        <button id="close-inspector" class="close-button" aria-label="Cerrar inspección">×</button>
+        <p id="inspect-kicker" class="eyebrow">habitante</p>
+        <h2 id="inspect-name">Syka</h2>
+        <div class="state-line"><span id="state-dot"></span><strong id="inspect-state">Vida libre</strong></div>
+        <p id="inspect-summary">Recorriendo la plaza y observando la ciudad.</p>
+        <dl>
+          <div><dt>Lugar</dt><dd id="inspect-place">Plaza central</dd></div>
+          <div><dt>Fuente</dt><dd id="inspect-source">Simulación local</dd></div>
+          <div><dt>Sesiones</dt><dd id="inspect-sessions">0 activas</dd></div>
+        </dl>
+      </aside>
+
+      <nav class="dock" aria-label="Controles del laboratorio">
+        <button id="explore-button" class="dock-item active"><span class="dock-icon">⌖</span><span>Explorar</span></button>
+        <button id="sequence-button" class="dock-item"><span class="dock-icon">▶</span><span>Secuencia</span></button>
+        <button id="data-button" class="dock-item"><span class="dock-icon">⌁</span><span id="data-label">Simulado</span></button>
+        <button id="reset-button" class="dock-item"><span class="dock-icon">↺</span><span>Recentrar</span></button>
+      </nav>
+
+      <section class="legend" aria-label="Leyenda de habitantes">
+        <button data-agent="syka"><i style="--agent:#d56a4c"></i>Syka</button>
+        <button data-agent="elen"><i style="--agent:#e3a5a8"></i>Elen</button>
+        <button data-agent="astrelis"><i style="--agent:#4f6570"></i>Astrelis</button>
+        <button data-agent="zerny"><i style="--agent:#db765c"></i>Zerny</button>
+      </section>
+
+      <div id="toast" class="toast" role="status"></div>
+      <div class="lab-note">LAB · no es el frontend final <span id="perf">— fps</span></div>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
