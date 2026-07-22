@@ -196,6 +196,7 @@ describe("AlphaRuntime", () => {
         "placeBuilding",
         "placeWorldObject",
         "planBuildingPlacement",
+        "previewFurniturePlacement",
         "releaseLocalControl",
         "removeWorldObject",
         "reset",
