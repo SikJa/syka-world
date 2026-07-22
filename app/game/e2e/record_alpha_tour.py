@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
@@ -20,6 +21,7 @@ VIDEO_TARGET = REPO_ROOT / "reports" / "e2e" / "alpha-v1" / "syka-world-alpha-to
 
 
 def main() -> None:
+    base_url = os.environ.get("SYKA_E2E_BASE_URL", BASE_URL)
     VIDEO_TARGET.parent.mkdir(parents=True, exist_ok=True)
     recording_dir = VIDEO_TARGET.parent / ".recording"
     recording_dir.mkdir(parents=True, exist_ok=True)
@@ -34,9 +36,9 @@ def main() -> None:
         bridge = ControlledBridge()
         context.route("**/bridge/api/world/**", bridge.handler)
         page = context.new_page()
-        wait_ready(page, f"{BASE_URL}?qa=1")
+        wait_ready(page, f"{base_url}?qa=1")
 
-        page.get_by_role("button", name="Pausar el tiempo").click()
+        page.get_by_role("button", name="Pause time").click()
         page.wait_for_function("() => window.__SYKA_ALPHA_QA__.getSnapshot().game.clock.speed === 0")
         qa_call(page, "setPeriod", "twilight")
         page.wait_for_timeout(1_500)
@@ -62,9 +64,9 @@ def main() -> None:
             if building["kind"] == "cafe" and building["status"] == "complete"
         )
         qa_call(page, "selectBuilding", cafe["id"])
-        page.get_by_role("button", name="Entrar al Café Biblioteca").wait_for(timeout=5_000)
+        page.get_by_role("button", name="Enter Cafe Library").wait_for(timeout=5_000)
         page.wait_for_timeout(1_000)
-        page.get_by_role("button", name="Entrar al Café Biblioteca").click()
+        page.get_by_role("button", name="Enter Cafe Library").click()
         page.wait_for_function(
             "() => window.__SYKA_ALPHA_QA__.getSnapshot().game.camera.scene === 'interior'",
             timeout=10_000,
@@ -77,7 +79,7 @@ def main() -> None:
             optional_decor.click()
             page.wait_for_timeout(1_600)
 
-        page.get_by_role("button", name="Volver a la ciudad").first.click()
+        page.get_by_role("button", name="Back to town").first.click()
         page.wait_for_function(
             "() => window.__SYKA_ALPHA_QA__.getSnapshot().game.camera.scene === 'city'",
             timeout=10_000,

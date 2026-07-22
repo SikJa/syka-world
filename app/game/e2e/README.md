@@ -102,6 +102,10 @@ python <path-to-webapp-testing>\scripts\with_server.py `
 
 El resultado queda en `reports/e2e/alpha-v1/syka-world-alpha-tour.webm`.
 
+Si `5173` ya está ocupado por otro proyecto, el grabador acepta una URL
+alternativa mediante `SYKA_E2E_BASE_URL`. Por ejemplo, usar Vite en `5188` y
+definir `SYKA_E2E_BASE_URL=http://127.0.0.1:5188/` antes de ejecutar el runner.
+
 Las dos comprobaciones visuales enfocadas del feedback se regeneran con
 `e2e\capture_feedback_detail.py` (cruce y farolas) y
 `e2e\capture_bench_detail.py` (banco aislado). Ambos runners usan el mismo

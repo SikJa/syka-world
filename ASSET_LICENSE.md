@@ -1,6 +1,6 @@
 # Visual asset license
 
-Unless a file-specific provenance record says otherwise, original visual assets created for Syka World under `app/game/public/assets/generated/` and `Asset/NPCs/` are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
+Unless a file-specific provenance record says otherwise, original visual assets created for Syka World under `app/game/public/assets/generated/`, `Asset/NPCs/` and `docs/media/` are licensed under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 
 Attribution may be given as: **Syka World contributors, 2026**.
 

@@ -176,6 +176,15 @@ El laboratorio valida la arquitectura mínima, no el arte definitivo ni la migra
 
 ## Siguiente etapa recomendada
 
+### Presentation media — 2026-07-21
+
+- Nueva portada `docs/media/syka-world-future-vision-hero-v1.png`, generada a partir de las cuatro referencias visuales aprobadas y rotulada explícitamente como concept art, no gameplay.
+- Recorrido fresco del alpha grabado desde el build local: ciudad al atardecer, entrada al Café Biblioteca y regreso. El master verificable queda en `reports/e2e/alpha-v1/syka-world-alpha-tour.webm`; la presentación usa MP4 y GIF derivados bajo `docs/media/`.
+- Dos frames del mismo recorrido documentan ciudad e interior actuales; el README separa evidencia jugable de visión futura.
+- Las cuatro maquetas aprobadas de `research/visual-concepts/approved-direction-v1/` ahora aparecen en el README con una explicación concreta del futuro buscado.
+- El runner `record_alpha_tour.py` acepta `SYKA_E2E_BASE_URL`, necesario para no interferir con otro proyecto que ocupaba `5173`; Syka World fue validado en `5188` y ese puerto quedó cerrado al finalizar.
+- MP4 verificado: H.264, 1440×900, 15,92 s después de recortar la carga inicial. No se realizó commit ni push de estos cambios de presentación.
+
 - ampliar la superficie segura solamente con corredores visualmente calibrados y evidencia por corredor;
 - decidir si el Café final conserva esta solución raster + safe floor o migra por módulos al pipeline geometry-first;
 - Completar la traducción de `createAlphaUi.ts` al inglés;

@@ -1,5 +1,9 @@
 # Syka World
 
+![Syka World future vision: a living isometric neighborhood at twilight](docs/media/syka-world-future-vision-hero-v1.png)
+
+*Future vision concept art — this image communicates the intended atmosphere and density; it is not a gameplay screenshot.*
+
 Syka World is a cozy, fixed-camera, isometric 2.5D town where Hermes AI profiles become visible inhabitants with local routines and truthful visual reactions to real Hermes activity.
 
 > **Alpha status:** this is a playable, incomplete development snapshot published for OpenAI Build Week. Several systems and visual surfaces remain provisional.
@@ -9,6 +13,36 @@ The game observes Hermes through a passive, GET-only bridge. When a profile is i
 ```text
 Hermes → GET-only bridge → local simulation/state → isometric game
 ```
+
+## See the playable alpha
+
+[![Syka World alpha gameplay: city, Cafe Library and return to town](docs/media/syka-world-alpha-tour-preview-v1.gif)](docs/media/syka-world-alpha-tour-v1.mp4)
+
+*Freshly recorded gameplay from the current alpha. Click the preview to open the full MP4 tour.*
+
+| Current city | Current Cafe Library |
+|---|---|
+| ![Current playable Syka World city](docs/media/syka-world-alpha-city-v1.png) | ![Current playable Cafe Library interior](docs/media/syka-world-alpha-cafe-v1.png) |
+
+These are real captures from the repository build. They show the current visual baseline, including the working city, furnished cafe interior, camera controls and alpha UI.
+
+## Where Syka World is going
+
+The long-term direction is a denser, warmer and more personal world that players can shape around their own Hermes profiles:
+
+- each discovered profile becomes a persistent inhabitant with a home, workplace and recognizable daily life;
+- neighborhoods grow through connected buildings, gardens, public spaces and walkable streets;
+- real Hermes activity appears as privacy-safe visual states, while ambient routines remain deterministic and local;
+- interiors feel complete from the moment a building opens, with optional customization layered on top;
+- the town remains calm and readable: a place to understand activity at a glance, not another chat window.
+
+The following approved concept studies define that destination. **They are visual references, not screenshots of completed features.**
+
+| Twilight density and lighting | Main-street structure |
+|---|---|
+| ![Concept reference: dense twilight town](research/visual-concepts/approved-direction-v1/city-layout-a-twilight.png) | ![Concept reference: main street and flexible districts](research/visual-concepts/approved-direction-v1/city-layout-b-main-street.png) |
+| **Green micro-neighborhoods** | **Cafe Library interior quality** |
+| ![Concept reference: green districts and stream](research/visual-concepts/approved-direction-v1/city-layout-c-green-districts.png) | ![Concept reference: warm furnished Cafe Library](research/visual-concepts/approved-direction-v1/cafe-interior-library.png) |
 
 ## What the alpha includes
 
